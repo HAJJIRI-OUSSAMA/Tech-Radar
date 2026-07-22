@@ -1,43 +1,87 @@
-"""Phase 1, steps 1.1-1.3: collect -> dedupe -> pre-filter, then eyeball the candidates.
+"""Pipeline orchestrator.
 
-No LLM yet (that's step 1.4). The point of this run is to look at the raw candidate list
-with your own eyes and sanity-check the sources + pre-filter before spending any tokens.
+    python -m digest.run                 # full run: collect -> process -> score
+    python -m digest.run --no-llm        # steps 1.1-1.3 only, eyeball candidates, zero tokens
+    python -m digest.run --replay DATE   # re-score an archived night after a rubric change
+    python -m digest.run --limit 30      # cap candidates (cheap while iterating on the prompt)
 
-    python -m digest.run
+Delivery (Telegram, step 1.5) is not wired yet — output goes to the terminal.
 """
 from __future__ import annotations
 
-import json
+import argparse
 import logging
 from collections import Counter
 
 from dotenv import load_dotenv
 
+from . import archive
 from .collect import collect_all
 from .process import dedupe, prefilter
+from .score import MAX_DIGEST, THRESHOLD, model_name, score, select
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
+log = logging.getLogger("digest.run")
 load_dotenv()
 
 
-def main() -> None:
-    raw = collect_all()
-    deduped = dedupe(raw)
-    candidates = prefilter(deduped)
-
-    print(f"\nraw={len(raw)}  deduped={len(deduped)}  candidates={len(candidates)}")
-    by_source = Counter(s for c in candidates for s in c["sources"])
-    print("by source:", dict(by_source))
-    multi = [c for c in candidates if len(c["sources"]) > 1]
-    print(f"multi-source clusters: {len(multi)}\n")
-
+def show_candidates(candidates: list[dict]) -> None:
+    by_source = Counter(s.split(":", 1)[0] for c in candidates for s in c["sources"])
+    multi = sum(1 for c in candidates if len(c["sources"]) > 1)
+    print(f"\ncandidates={len(candidates)}  multi-source={multi}  by_source={dict(by_source)}\n")
     for c in candidates[:40]:
         kinds = "+".join(sorted({s.split(":", 1)[0] for s in c["sources"]}))
         print(f"[{c['engagement']:>5}] {kinds:<18} {c['title'][:80]}")
 
-    with open("candidates.json", "w") as f:
-        json.dump(candidates, f, indent=2, default=str, ensure_ascii=False)
-    print(f"\nwrote candidates.json ({len(candidates)} items)")
+
+def show_digest(selected: list[dict]) -> None:
+    if not selected:
+        print("\n=== nothing major today ===")
+        print("Correct output on a slow evening. Never pad to hit a count.\n")
+        return
+    print(f"\n=== digest: {len(selected)} item(s) ===\n")
+    for s in selected:
+        kinds = "+".join(sorted({x.split(':', 1)[0] for x in s["sources"]}))
+        print(f"[{s['score']:>2}/10] {s['action'].upper():<6} {s['category']}")
+        print(f"        {s['title'][:90]}")
+        print(f"        why: {s['why']}")
+        print(f"        {kinds} | {s['url'][:80]}\n")
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--no-llm", action="store_true", help="stop after pre-filter, spend no tokens")
+    ap.add_argument("--replay", metavar="YYYY-MM-DD", help="re-score an archived candidate set")
+    ap.add_argument("--limit", type=int, help="cap candidates before scoring")
+    ap.add_argument("--threshold", type=int, default=THRESHOLD)
+    ap.add_argument("--tag", help="archive suffix, e.g. --tag ultra (keeps A/B runs separate)")
+    ap.add_argument("--no-archive", action="store_true")
+    args = ap.parse_args()
+
+    if args.replay:
+        candidates = archive.replay(args.replay)
+        log.info("replaying %d candidates from %s", len(candidates), args.replay)
+    else:
+        raw = collect_all()
+        deduped = dedupe(raw)
+        candidates = prefilter(deduped)
+        log.info("raw=%d deduped=%d candidates=%d", len(raw), len(deduped), len(candidates))
+
+    if args.limit:
+        candidates = candidates[:args.limit]
+
+    show_candidates(candidates)
+
+    if args.no_llm:
+        print("--no-llm: stopping before the scoring call.")
+        return
+
+    scored, raws = score(candidates)
+    selected = select(scored, threshold=args.threshold, cap=MAX_DIGEST)
+    show_digest(selected)
+
+    if not args.no_archive:
+        archive.save(candidates, scored, selected, raws, model_name(), tag=args.tag)
 
 
 if __name__ == "__main__":
