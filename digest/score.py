@@ -40,6 +40,7 @@ TIMEOUT = 300          # a 550B reasoning pass over 25 items is not fast
 THRESHOLD = 7          # only items scoring >= 7 ever reach me (04_RUBRIC.md)
 MAX_DIGEST = 7         # hard cap on digest length
 VALID_ACTIONS = {"learn", "aware", "skip"}
+VALID_CATEGORIES = {"ai", "backend", "frontend", "devops", "security", "testing"}
 
 SYSTEM_PROMPT = """You are a senior staff engineer acting as a STRICT tech-significance
 filter for ONE specific developer.
@@ -55,6 +56,18 @@ Score each item 1-10 on durable significance:
   5-6  Useful but incremental
   1-4  Noise: minor release, opinion, rehash, pure marketing/funding
 
+ANCHORS — calibrate against these:
+  10  React or Postgres ships something that changes how you write code daily
+   9  A new primitive in your stack: Supabase/Vercel/Node feature you would adopt
+   8  Security disclosure in a dependency you likely run; major framework release
+   7  Notable tool with real adoption, adjacent to your work
+   5  A model release you would only read about
+   3  Industry news, lawsuits, funding, regulation, opinion
+   1  Off-topic: hardware, retrocomputing, science, politics
+
+Regulation and legal news about tech is NOT a tech shift. Score it 3 or below
+unless it forces a code change in this developer's stack.
+
 PENALIZE: clickbait, "X is dead" takes, listicles, funding with no tech.
 REWARD: new capabilities/primitives, security-critical disclosures,
         tools showing fast real adoption, things touching the profile.
@@ -63,9 +76,24 @@ Each input item has: id, title, src (sources that carried it), eng (engagement),
 age_h (hours since publication). Multiple sources carrying the same story is a
 STRONG positive signal of significance.
 
+CALIBRATION: out of ~100 items on a normal day, expect 0-5 to score >= 7.
+Most items are 1-4. Reserve 9-10 for things still relevant in a year.
+
+Items sourced only from "rss" are vendor changelogs with no crowd signal, so they
+carry no "eng" field. Judge them on substance alone. A release note changing an API
+this developer uses outranks a popular discussion thread.
+
+BALANCE: this developer ships React/TypeScript/Node/Supabase daily. Do NOT fill the
+digest with AI news. A change to their actual runtime stack outranks a model release.
+
+"learn" = requires sitting down: new primitive, breaking change, something to adopt.
+"aware" = worth knowing happened, but no action needed.
+
 Return ONLY a JSON array, one object per input item, no prose, no markdown fences:
   {"id":int, "score":int, "category":str, "why":str(<=18 words),
    "action":"learn"|"aware"|"skip"}
+"category" MUST be exactly one of: ai, backend, frontend, devops, security, testing.
+Use the single best fit. Never invent a category.
 Use "learn"/"aware" ONLY for score >= 7; everything else "skip".
 Keep "why" short and personal ("simplifies your Supabase stack"), not generic.
 You MUST return exactly one object for every input id."""
@@ -115,13 +143,17 @@ def to_payload(candidates: list[dict], now: datetime | None = None) -> list[dict
     out = []
     for i, c in enumerate(candidates):
         kinds = sorted({s.split(":", 1)[0] for s in c["sources"]})
-        out.append({
+        item = {
             "id": i,
             "title": c["title"][:180],
             "src": "+".join(kinds),
-            "eng": c["engagement"],
             "age_h": round((now - c["published_at"]).total_seconds() / 3600),
-        })
+        }
+        # Vendor feeds have no crowd signal. Sending eng:0 reads as "nobody cares"
+        # and buries changelogs — the best source for "did my actual stack change".
+        if kinds != ["rss"]:
+            item["eng"] = c["engagement"]
+        out.append(item)
     return out
 
 
@@ -173,8 +205,9 @@ def extract_json_array(text: str) -> list[dict]:
 
 
 def validate(rows: list[dict], valid_ids: set[int]) -> dict[int, dict]:
-    """Coerce and drop garbage. A malformed row must never crash the run, and the
-    model must never smuggle a low score past the threshold with action='learn'."""
+    """Coerce and drop garbage. A malformed row must never crash the run, the model must
+    never smuggle a low score past the threshold with action='learn', and categories must
+    stay a fixed enum so per-category mute/toggles are possible in phase 4."""
     clean: dict[int, dict] = {}
     for row in rows:
         try:
@@ -187,9 +220,13 @@ def validate(rows: list[dict], valid_ids: set[int]) -> dict[int, dict]:
                 action = "skip"
             if score < THRESHOLD:          # enforce the rubric rule ourselves
                 action = "skip"
+            category = str(row.get("category") or "").lower().strip()
+            if category not in VALID_CATEGORIES:
+                log.warning("model invented category %r, coercing to 'other'", category)
+                category = "other"
             clean[rid] = {
                 "score": score,
-                "category": str(row.get("category") or "unknown")[:40],
+                "category": category,
                 "why": str(row.get("why") or "")[:200],
                 "action": action,
             }
@@ -230,7 +267,7 @@ def score_batch(client, batch: list[dict]) -> tuple[dict[int, dict], str]:
                     {"role": "system", "content": SYSTEM_PROMPT},
                     {"role": "user", "content": user_msg},
                 ],
-                temperature=0.2,       # near-deterministic: same input -> same digest
+                temperature=0,       
                 max_tokens=MAX_TOKENS,
                 extra_body=extra_body(),
             )
@@ -277,6 +314,7 @@ def score(candidates: list[dict], client=None) -> tuple[list[dict], list[str]]:
         batch_results, raw = score_batch(client, batch)
         results.update(batch_results)
         raws.append(raw)
+        time.sleep(2)
 
     unscored = {"score": 0, "category": "unscored", "why": "", "action": "skip"}
     scored = [{**c, **results.get(pid, unscored)} for pid, c in by_id.items()]

@@ -15,7 +15,7 @@ from collections import Counter
 
 from dotenv import load_dotenv
 
-from . import archive
+from . import archive, notify
 from .collect import collect_all
 from .process import dedupe, prefilter
 from .score import MAX_DIGEST, THRESHOLD, model_name, score, select
@@ -55,6 +55,9 @@ def main() -> None:
     ap.add_argument("--limit", type=int, help="cap candidates before scoring")
     ap.add_argument("--threshold", type=int, default=THRESHOLD)
     ap.add_argument("--tag", help="archive suffix, e.g. --tag ultra (keeps A/B runs separate)")
+    ap.add_argument("--send", action="store_true", help="deliver to Telegram")
+    ap.add_argument("--dry-run", action="store_true",
+                    help="print the Telegram message instead of sending it")
     ap.add_argument("--no-archive", action="store_true")
     args = ap.parse_args()
 
@@ -77,11 +80,35 @@ def main() -> None:
         return
 
     scored, raws = score(candidates)
+
+    # A quiet evening and a dead scorer look identical downstream. Never let a scoring
+    # failure masquerade as "nothing major today" — that is the one bug that would go
+    # unnoticed for weeks once this runs unattended.
+    if candidates and not any(s["score"] > 0 for s in scored):
+        reason = f"scoring failed: 0/{len(candidates)} candidates scored"
+        log.error("SCORING FAILED: 0/%d items scored. This is NOT a quiet day.",
+                  len(candidates))
+        if not args.no_archive:
+            archive.save(candidates, scored, [], raws, model_name(), tag=args.tag)
+        if args.send or args.dry_run:
+            notify.send_failure(reason, dry_run=args.dry_run)
+        raise SystemExit(1)
+
+    scored_count = sum(1 for s in scored if s["score"] > 0)
+    if scored_count < len(candidates) * 0.9:
+        log.warning("PARTIAL: only %d/%d candidates scored — digest may be missing items",
+                    scored_count, len(candidates))
+
     selected = select(scored, threshold=args.threshold, cap=MAX_DIGEST)
     show_digest(selected)
 
+    # Archive BEFORE delivering: a Telegram outage must not cost you the run's data,
+    # which is the tuning ledger and the Actions keepalive.
     if not args.no_archive:
         archive.save(candidates, scored, selected, raws, model_name(), tag=args.tag)
+
+    if args.send or args.dry_run:
+        notify.send_digest(selected, dry_run=args.dry_run)
 
 
 if __name__ == "__main__":

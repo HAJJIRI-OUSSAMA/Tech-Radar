@@ -55,16 +55,30 @@ def save(
         "candidates": candidates,
         "raw_responses": raws,
     }
-    with path.open("w") as f:
+    with path.open("w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2, default=_serialize, ensure_ascii=False)
     log.info("archived run to %s", path)
     return path
 
 
 def replay(run_date: str) -> list[dict]:
-    """Reload a past night's candidates to re-score them after a rubric change."""
+    """Reload a past night's candidates to re-score them after a rubric change.
+
+    Accepts a bare date ("2026-07-22") or a tagged stem ("2026-07-22-ultra"). A bare
+    date falls back to the first tagged file for that day, since tagged runs are the
+    common case and save() writes them by default.
+    """
     path = ARCHIVE_DIR / f"{run_date}.json"
-    with path.open() as f:
+    if not path.exists():
+        matches = sorted(ARCHIVE_DIR.glob(f"{run_date}*.json"))
+        if not matches:
+            raise FileNotFoundError(
+                f"no archive for {run_date}. Available: "
+                f"{[p.stem for p in sorted(ARCHIVE_DIR.glob('*.json'))]}"
+            )
+        path = matches[0]
+        log.info("replaying %s", path.name)
+    with path.open(encoding="utf-8") as f:
         data = json.load(f)
     for c in data["candidates"]:
         c["published_at"] = datetime.fromisoformat(c["published_at"])
