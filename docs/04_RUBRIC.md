@@ -66,7 +66,7 @@ You MUST return exactly one object for every input id.
 ## Rules of thumb
 
 - Only items scoring **≥ 7** ever reach me. Everything else is `skip`.
-- Cross-source agreement (same story on HN + GitHub + Lobsters) is a strong positive prior.
+- Cross-source agreement (same story on HN + Lobsters + RSS) is a strong positive prior.
 - Keep `why` short and personal ("simplifies your Supabase stack"), not generic ("this is important").
 - On a slow evening, sending nothing is the correct output — never pad to hit a count.
 
@@ -92,4 +92,4 @@ Start with counts + categories. Only reach for embeddings if plain weighting sto
 --- nightly log (does the digest earn a daily slot?) ---
 
 - 2026-07-24 — 3 items. Postgres LISTEN/NOTIFY (keeper), Vercel WAF (keeper), Stinkpot (marginal). wanted it? yes.
--
+- 2026-07-28 — 4 items. keeper: Scriptc (Vercel TS-to-native, scored 9 — first real 9). filler: PGSimCity, Chrome ARM64. mixed: AI Gateway regional. wanted it? yes
