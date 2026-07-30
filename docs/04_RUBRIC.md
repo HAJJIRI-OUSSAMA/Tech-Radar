@@ -93,3 +93,5 @@ Start with counts + categories. Only reach for embeddings if plain weighting sto
 
 - 2026-07-24 — 3 items. Postgres LISTEN/NOTIFY (keeper), Vercel WAF (keeper), Stinkpot (marginal). wanted it? yes.
 - 2026-07-28 — 4 items. keeper: Scriptc (Vercel TS-to-native, scored 9 — first real 9). filler: PGSimCity, Chrome ARM64. mixed: AI Gateway regional. wanted it? yes
+- 2026-07-29 — 4 items. keepers: NPM/GitHub Actions supply chain (8), Vercel Connect Custom Envs (8).
+  solid: SQLite in Production (7), Vercel Sandbox forking (7). multi-source=7, cap not hit. wanted it? yes
