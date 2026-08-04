@@ -7,9 +7,11 @@ from digest import notify as N
 
 
 def _item(title="Vercel ships X", score=8, action="learn", category="devops",
-          sources=None, why="new primitive for your stack", url="https://v.com/x"):
+          sources=None, why="new primitive for your stack", url="https://v.com/x",
+          engagement=0):
     return {"title": title, "score": score, "action": action, "category": category,
-            "sources": sources or ["rss:Vercel"], "why": why, "url": url}
+            "sources": sources or ["rss:Vercel"], "why": why, "url": url,
+            "engagement": engagement}
 
 
 def test_digest_contains_core_fields():
@@ -47,9 +49,14 @@ def test_failure_message_is_distinct_from_quiet():
     assert "0/101" in f
 
 
-def test_cross_source_shown_collapsed():
-    text = N.format_digest([_item(sources=["hn", "lobsters", "rss:Vercel"])])
-    assert "hn+lobsters+rss" in text
+def test_source_label_shows_real_names_and_engagement():
+    # HN with engagement -> name + pts
+    assert "HN \u00b7 176 pts" in N.format_digest([_item(sources=["hn"], engagement=176)])
+    # rss-only has engagement 0 by design -> name, no pts
+    rss = N.format_digest([_item(sources=["rss:Vercel"], engagement=0)])
+    assert "Vercel" in rss and "pts" not in rss
+    # cross-source -> real names joined, single engagement suffix
+    assert "HN+Lobsters" in N.format_digest([_item(sources=["hn", "lobsters"], engagement=331)])
 
 
 def test_long_digest_truncated_below_telegram_limit():

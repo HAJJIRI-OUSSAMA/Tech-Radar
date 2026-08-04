@@ -41,6 +41,23 @@ def _esc(text: str) -> str:
     return html.escape(str(text), quote=False)
 
 
+_SOURCE_NAMES = {"hn": "HN", "lobsters": "Lobsters"}
+
+
+def _source_label(item: dict) -> str:
+    """Real source names + engagement, e.g. 'HN · 176 pts' or 'HN+Lobsters · 331 pts'.
+    RSS items have engagement 0 by design, so they show a name with no count."""
+    names = []
+    for s in item["sources"]:
+        prefix, _, rest = s.partition(":")
+        names.append(rest if rest else _SOURCE_NAMES.get(prefix, prefix))
+    label = "+".join(dict.fromkeys(names))  # dedupe, keep order
+    eng = item.get("engagement", 0)
+    if eng > 0:
+        label += f" \u00b7 {eng} pts"
+    return label
+
+
 def format_digest(selected: list[dict]) -> str:
     """Render the digest. Kept pure so it can be tested without touching the network."""
     if not selected:
@@ -53,7 +70,7 @@ def format_digest(selected: list[dict]) -> str:
         icon = ACTION_ICON.get(item["action"], "")
         title = _esc(item["title"])
         # Sources are more honest than a single 'source': cross-source agreement is signal.
-        kinds = "+".join(sorted({s.split(":", 1)[0] for s in item["sources"]}))
+        kinds = _source_label(item)        
         lines.append(
             f"{icon} <b>{item['score']}/10</b> \u00b7 <i>{_esc(item['category'])}</i>\n"
             f'<a href="{_esc(item["url"])}">{title}</a>\n'
