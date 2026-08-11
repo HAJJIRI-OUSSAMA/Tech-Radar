@@ -98,6 +98,8 @@ Start with counts + categories. Only reach for embeddings if plain weighting sto
 
 - 2026-08-04 — 7 items (cap hit). keeper: Octane (compiled React, 8 — your daily work).
   solid: SQLite CVEs, retries/eventual-consistency, Gateway API, Vercel scaling.
-  filler risk: Kill the Cookie Banner, Lambda SQS 10k. multi-source=11 (highest yet). wanted it? [your call]
+  filler risk: Kill the Cookie Banner, Lambda SQS 10k. multi-source=11 (highest yet). wanted it? yes
 
 - 2026-08-05 — 6 items. keeper: Keyv Shai-Hulud supply-chain attack (9, active npm compromise — real "act now"). solid: Vercel WAF GA, WebKit DNS leak, Next.js 16.3. filler risk: ISR deploy speedup, Container Registry sharing. multi-source=5. wanted it? yes
+
+- 2026-08-10 — 2 items. keeper: CDC into Postgres (8, direct Supabase relevance). marginal: Bun/Vercel entrypoint (7). multi-source=0 (Lobsters returned nothing). wanted it? yes
