@@ -103,3 +103,7 @@ Start with counts + categories. Only reach for embeddings if plain weighting sto
 - 2026-08-05 — 6 items. keeper: Keyv Shai-Hulud supply-chain attack (9, active npm compromise — real "act now"). solid: Vercel WAF GA, WebKit DNS leak, Next.js 16.3. filler risk: ISR deploy speedup, Container Registry sharing. multi-source=5. wanted it? yes
 
 - 2026-08-10 — 2 items. keeper: CDC into Postgres (8, direct Supabase relevance). marginal: Bun/Vercel entrypoint (7). multi-source=0 (Lobsters returned nothing). wanted it? yes
+
+- 2026-08-11 — 5 items. keepers: CDC into Postgres (8, repeat), Bun/Vercel entrypoint (8).
+  solid: Docker Sandboxes, GitHub Actions OIDC. filler: Vercel Sandbox managed images (7).
+  multi-source=4, lobsters back. wanted it? yes
