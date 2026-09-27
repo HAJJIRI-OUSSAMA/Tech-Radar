@@ -1,0 +1,2725 @@
+{
+  "run_at": "2026-09-27T13:02:17.455681+00:00",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "counts": {
+    "candidates": 100,
+    "scored": 100,
+    "selected": 5
+  },
+  "selected": [
+    {
+      "title": "Is your Postgres migration safe or not safe?",
+      "url": "https://safenotsafe.dev/",
+      "canonical_url": "https://safenotsafe.dev/",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 128,
+      "published_at": "2026-09-26T07:33:12+00:00",
+      "score": 8,
+      "category": "backend",
+      "why": "Postgres migration safety directly affects your Supabase stack",
+      "action": "learn"
+    },
+    {
+      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "url": "https://swarmtraces.org/",
+      "canonical_url": "https://swarmtraces.org/",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 724,
+      "published_at": "2026-09-25T21:09:27+00:00",
+      "score": 7,
+      "category": "security",
+      "why": "AI agent exploit on HF; relevant if you use their APIs",
+      "action": "aware"
+    },
+    {
+      "title": "Ollaya – Ollama for open-source, Jev-style decision models",
+      "url": "https://ollaya.dev/",
+      "canonical_url": "https://ollaya.dev/",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 597,
+      "published_at": "2026-09-25T18:33:50+00:00",
+      "score": 7,
+      "category": "ai",
+      "why": "Ollama extension for decision models, high adoption",
+      "action": "aware"
+    },
+    {
+      "title": "Push images to Vercel Container Registry from GitHub Actions",
+      "url": "https://vercel.com/changelog/vcr-login-github-action",
+      "canonical_url": "https://vercel.com/changelog/vcr-login-github-action",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T09:15:00+00:00",
+      "score": 7,
+      "category": "devops",
+      "why": "Simplifies your Vercel deploy pipeline",
+      "action": "learn"
+    },
+    {
+      "title": "Vercel Sandbox now supports memory observability",
+      "url": "https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability",
+      "canonical_url": "https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T00:00:00+00:00",
+      "score": 7,
+      "category": "devops",
+      "why": "Vercel Sandbox memory observability aids your Node debugging",
+      "action": "learn"
+    }
+  ],
+  "scored": [
+    {
+      "title": "Improving site performance by shipping more CSS",
+      "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+      "canonical_url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters",
+        "rss:GitHub"
+      ],
+      "engagement": 54,
+      "published_at": "2026-09-25T15:00:00+00:00",
+      "score": 6,
+      "category": "frontend",
+      "why": "CSS perf technique; incremental for React apps",
+      "action": "skip"
+    },
+    {
+      "title": "Go Concurrency Distilled",
+      "url": "https://antonz.org/go-concurrency-distilled/",
+      "canonical_url": "https://antonz.org/go-concurrency-distilled",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 262,
+      "published_at": "2026-09-26T07:14:01.590000-05:00",
+      "score": 3,
+      "category": "backend",
+      "why": "Go concurrency guide; not your Node/TS stack",
+      "action": "skip"
+    },
+    {
+      "title": "If we do not stop to help each other, what do we become?",
+      "url": "https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become/",
+      "canonical_url": "https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 187,
+      "published_at": "2026-09-26T06:02:48.079000-05:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Philosophical opinion piece; no technical content",
+      "action": "skip"
+    },
+    {
+      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "url": "https://swarmtraces.org/",
+      "canonical_url": "https://swarmtraces.org/",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 724,
+      "published_at": "2026-09-25T21:09:27+00:00",
+      "score": 7,
+      "category": "security",
+      "why": "AI agent exploit on HF; relevant if you use their APIs",
+      "action": "aware"
+    },
+    {
+      "title": "One Month Without AI",
+      "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+      "canonical_url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 176,
+      "published_at": "2026-09-26T10:08:21+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "Personal essay on avoiding AI; no actionable insight",
+      "action": "skip"
+    },
+    {
+      "title": "Secure AI agents with HashiCorp Boundary",
+      "url": "https://www.hashicorp.com/blog/secure-ai-agents-with-hashicorp-boundary",
+      "canonical_url": "https://hashicorp.com/blog/secure-ai-agents-with-hashicorp-boundary",
+      "source": "rss:HashiCorp",
+      "sources": [
+        "rss:HashiCorp"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-29T07:00:00+00:00",
+      "score": 6,
+      "category": "devops",
+      "why": "Boundary secures AI agent access; incremental for your stack",
+      "action": "skip"
+    },
+    {
+      "title": "OpenAI Feared \"Optics\" of what might appear on Hacker News",
+      "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+      "canonical_url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 331,
+      "published_at": "2026-09-27T06:19:33+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "OpenAI PR concern; no code impact",
+      "action": "skip"
+    },
+    {
+      "title": "Meta Blocks President Lula's Facebook Page, Campaign Ads 2 Weeks from Election",
+      "url": "https://www.reddit.com/r/worldnews/comments/1wr3id3/meta_blocks_president_lulas_facebook_page_and/",
+      "canonical_url": "https://reddit.com/r/worldnews/comments/1wr3id3/meta_blocks_president_lulas_facebook_page_and",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 255,
+      "published_at": "2026-09-27T08:44:04+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Meta political moderation; irrelevant to your work",
+      "action": "skip"
+    },
+    {
+      "title": "What is the size of Yemen? (2024)",
+      "url": "https://theborys.substack.com/p/what-is-the-size-of-yemen",
+      "canonical_url": "https://theborys.substack.com/p/what-is-the-size-of-yemen",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 197,
+      "published_at": "2026-09-27T02:40:26+00:00",
+      "score": 1,
+      "category": "testing",
+      "why": "Geography trivia; off-topic",
+      "action": "skip"
+    },
+    {
+      "title": "I'm the mom in that viral Giants clip. Let me tell you about my husband",
+      "url": "https://themomoftheyear.substack.com/p/im-the-mom-in-that-viral-giants-clip",
+      "canonical_url": "https://themomoftheyear.substack.com/p/im-the-mom-in-that-viral-giants-clip",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 525,
+      "published_at": "2026-09-26T16:12:18+00:00",
+      "score": 1,
+      "category": "frontend",
+      "why": "Viral video backstory; off-topic",
+      "action": "skip"
+    },
+    {
+      "title": "Breaking Up with Google Play: Why Conversations Is Now Free",
+      "url": "https://gultsch.de/posts/breaking-up-with-google-play/",
+      "canonical_url": "https://gultsch.de/posts/breaking-up-with-google-play",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 668,
+      "published_at": "2026-09-26T10:55:56+00:00",
+      "score": 3,
+      "category": "backend",
+      "why": "Google Play policy change, not your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
+      "url": "https://github.com/reladraw/reladraw",
+      "canonical_url": "https://github.com/reladraw/reladraw",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 333,
+      "published_at": "2026-09-26T17:10:40+00:00",
+      "score": 5,
+      "category": "devops",
+      "why": "Diagram language tool, optional for docs",
+      "action": "skip"
+    },
+    {
+      "title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+      "url": "https://arxiv.org/abs/2609.25021",
+      "canonical_url": "https://arxiv.org/abs/2609.25021",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 57,
+      "published_at": "2026-09-27T10:26:25+00:00",
+      "score": 4,
+      "category": "ai",
+      "why": "LLM chat template research, no action needed",
+      "action": "skip"
+    },
+    {
+      "title": "DeepSeek Elastic Compute (DSec)",
+      "url": "https://arxiv.org/abs/2609.22978",
+      "canonical_url": "https://arxiv.org/abs/2609.22978",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 271,
+      "published_at": "2026-09-26T18:22:41+00:00",
+      "score": 5,
+      "category": "ai",
+      "why": "DeepSeek compute offering, another AI API",
+      "action": "skip"
+    },
+    {
+      "title": "Japan moves to tighten rules for foreigners",
+      "url": "https://www.aljazeera.com/economy/2026/9/25/japan-moves-to-tighten-rules-for-foreigners-throwing-futures-into-doubt",
+      "canonical_url": "https://aljazeera.com/economy/2026/9/25/japan-moves-to-tighten-rules-for-foreigners-throwing-futures-into-doubt",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 177,
+      "published_at": "2026-09-26T17:43:11+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Japan immigration policy, off-topic",
+      "action": "skip"
+    },
+    {
+      "title": "Fifteen years later, the Apple Cards origin story",
+      "url": "https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story",
+      "canonical_url": "https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 411,
+      "published_at": "2026-09-26T09:13:41+00:00",
+      "score": 1,
+      "category": "frontend",
+      "why": "Retro history, no technical value",
+      "action": "skip"
+    },
+    {
+      "title": "OpenAI agents tried to bruteforce a UN website's API fields",
+      "url": "https://swarmcha.se/posts/openai-unctad",
+      "canonical_url": "https://swarmcha.se/posts/openai-unctad",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 77,
+      "published_at": "2026-09-27T01:08:07+00:00",
+      "score": 3,
+      "category": "security",
+      "why": "AI agent anecdote, not a vuln you patch",
+      "action": "skip"
+    },
+    {
+      "title": "Plunging test scores are a slow-moving catastrophe",
+      "url": "https://www.economist.com/leaders/2026/09/10/plunging-test-scores-are-a-slow-moving-catastrophe",
+      "canonical_url": "https://economist.com/leaders/2026/09/10/plunging-test-scores-are-a-slow-moving-catastrophe",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 193,
+      "published_at": "2026-09-26T15:24:08+00:00",
+      "score": 1,
+      "category": "testing",
+      "why": "Education policy, irrelevant to stack",
+      "action": "skip"
+    },
+    {
+      "title": "Drawgent: Coding agent on a live Excalidraw canvas",
+      "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+      "canonical_url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 162,
+      "published_at": "2026-09-26T15:56:34+00:00",
+      "score": 5,
+      "category": "ai",
+      "why": "Visual coding agent, early stage",
+      "action": "skip"
+    },
+    {
+      "title": "How to keep enjoying programming in a world of LLMs",
+      "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+      "canonical_url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 256,
+      "published_at": "2026-09-26T09:41:58+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "Opinion piece, no actionable shift",
+      "action": "skip"
+    },
+    {
+      "title": "Automattic has a new board after failed attempt to put CEO on leave",
+      "url": "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/",
+      "canonical_url": "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 140,
+      "published_at": "2026-09-26T15:40:27+00:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Corporate governance drama, no code impact",
+      "action": "skip"
+    },
+    {
+      "title": "The internet discovers TLA+. Now what?",
+      "url": "https://reasonable.io/blog/tla-tutorial/",
+      "canonical_url": "https://reasonable.io/blog/tla-tutorial",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 33,
+      "published_at": "2026-09-27T05:26:15+00:00",
+      "score": 6,
+      "category": "backend",
+      "why": "Formal methods buzz, not yet mainstream",
+      "action": "skip"
+    },
+    {
+      "title": "Banks and Credit Unions to Team Up Against Apple Pay Fees",
+      "url": "https://www.macrumors.com/2026/09/25/apple-pay-antitrust-lawsuit-advances/",
+      "canonical_url": "https://macrumors.com/2026/09/25/apple-pay-antitrust-lawsuit-advances",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 118,
+      "published_at": "2026-09-26T15:48:18+00:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Payment industry politics, no stack change",
+      "action": "skip"
+    },
+    {
+      "title": "Turning GLM-5.3-Flash into a Jev-like decision model",
+      "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
+      "canonical_url": "https://privatemode.ai/blog/system-one-from-glm-flash",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 105,
+      "published_at": "2026-09-26T15:49:04+00:00",
+      "score": 4,
+      "category": "ai",
+      "why": "Niche model distillation experiment",
+      "action": "skip"
+    },
+    {
+      "title": "We're gonna need a lot more mathematicians",
+      "url": "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/",
+      "canonical_url": "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 385,
+      "published_at": "2026-09-26T02:46:54+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "Opinion on AI hiring trends",
+      "action": "skip"
+    },
+    {
+      "title": "Reverse-engineering the Intel 8087's tangent algorithm: more than CORDIC",
+      "url": "https://www.righto.com/2026/09/8087-tangent-cordic.html",
+      "canonical_url": "https://righto.com/2026/09/8087-tangent-cordic.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 88,
+      "published_at": "2026-09-26T17:26:54+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Retro hardware analysis, not relevant to your stack",
+      "action": "skip"
+    },
+    {
+      "title": "OpenAI bots meddled with multiple US Government agency sites",
+      "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
+      "canonical_url": "https://bbc.com/news/articles/cw62jje658dlo",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 120,
+      "published_at": "2026-09-26T14:03:54+00:00",
+      "score": 3,
+      "category": "security",
+      "why": "OpenAI bot incident, not a vulnerability in your dependencies",
+      "action": "skip"
+    },
+    {
+      "title": "Jury finds Facebook liable for deceiving users in Cambridge Analytica case",
+      "url": "https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/",
+      "canonical_url": "https://cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 408,
+      "published_at": "2026-09-26T01:36:50+00:00",
+      "score": 2,
+      "category": "security",
+      "why": "Legal verdict, no code changes required for your stack",
+      "action": "skip"
+    },
+    {
+      "title": "This is a modern motherfucking website",
+      "url": "https://modernmotherfuckingwebsite.dreamstation.systems/",
+      "canonical_url": "https://modernmotherfuckingwebsite.dreamstation.systems/",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 40,
+      "published_at": "2026-09-26T19:04:56.068000-05:00",
+      "score": 4,
+      "category": "frontend",
+      "why": "Opinionated web design take, not a new primitive",
+      "action": "skip"
+    },
+    {
+      "title": "Valve Introduces Pyrowave Video Codec In Beta For Low Latency Streaming",
+      "url": "https://www.phoronix.com/news/Valve-Steam-Beta-Pyrowave",
+      "canonical_url": "https://phoronix.com/news/Valve-Steam-Beta-Pyrowave",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 26,
+      "published_at": "2026-09-26T22:41:44.295000-05:00",
+      "score": 3,
+      "category": "backend",
+      "why": "New video codec, not relevant to your React/Node/Supabase stack",
+      "action": "skip"
+    },
+    {
+      "title": "Floci: Locally emulating any cloud service",
+      "url": "https://floci.io",
+      "canonical_url": "https://floci.io/",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 182,
+      "published_at": "2026-09-26T08:31:02+00:00",
+      "score": 6,
+      "category": "devops",
+      "why": "Local cloud emulation for dev workflow",
+      "action": "skip"
+    },
+    {
+      "title": "Ollaya – Ollama for open-source, Jev-style decision models",
+      "url": "https://ollaya.dev/",
+      "canonical_url": "https://ollaya.dev/",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 597,
+      "published_at": "2026-09-25T18:33:50+00:00",
+      "score": 7,
+      "category": "ai",
+      "why": "Ollama extension for decision models, high adoption",
+      "action": "aware"
+    },
+    {
+      "title": "CEO of Mistral: AI is software. It can be controlled",
+      "url": "https://www.lemonde.fr/en/economy/article/2026/09/24/arthur-mensch-ceo-of-french-start-up-mistral-ai-ai-is-software-it-can-be-controlled_6757890_19.html",
+      "canonical_url": "https://lemonde.fr/en/economy/article/2026/09/24/arthur-mensch-ceo-of-french-start-up-mistral-ai-ai-is-software-it-can-be-controlled_6757890_19.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 94,
+      "published_at": "2026-09-26T12:52:04+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "CEO opinion piece, no technical shift",
+      "action": "skip"
+    },
+    {
+      "title": "Flip Fluid on Flip Dots",
+      "url": "https://mitxela.com/projects/flipflip",
+      "canonical_url": "https://mitxela.com/projects/flipflip",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 150,
+      "published_at": "2026-09-26T07:50:24+00:00",
+      "score": 1,
+      "category": "frontend",
+      "why": "Hardware flip-dot display demo, off-topic",
+      "action": "skip"
+    },
+    {
+      "title": "The Copilot+ PC brand is dead",
+      "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
+      "canonical_url": "https://windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 104,
+      "published_at": "2026-09-26T09:55:38+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "Marketing brand news, no code impact",
+      "action": "skip"
+    },
+    {
+      "title": "One Piece of Flock Camera Data Put This Innocent Woman in Jail for 13 Days",
+      "url": "https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide",
+      "canonical_url": "https://jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 250,
+      "published_at": "2026-09-26T00:59:02+00:00",
+      "score": 2,
+      "category": "security",
+      "why": "Surveillance news, not actionable for your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Is your Postgres migration safe or not safe?",
+      "url": "https://safenotsafe.dev/",
+      "canonical_url": "https://safenotsafe.dev/",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 128,
+      "published_at": "2026-09-26T07:33:12+00:00",
+      "score": 8,
+      "category": "backend",
+      "why": "Postgres migration safety directly affects your Supabase stack",
+      "action": "learn"
+    },
+    {
+      "title": "Rusty thoughts on \"Parse, don't validate\"",
+      "url": "https://eli.thegreenplace.net/2026/rusty-thoughts-on-parse-dont-validate/",
+      "canonical_url": "https://eli.thegreenplace.net/2026/rusty-thoughts-on-parse-dont-validate",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 29,
+      "published_at": "2026-09-26T15:45:24.308000-05:00",
+      "score": 5,
+      "category": "backend",
+      "why": "Parse don't validate concept, useful but not new",
+      "action": "skip"
+    },
+    {
+      "title": "What even is an OS now?",
+      "url": "https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now/",
+      "canonical_url": "https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 299,
+      "published_at": "2026-09-25T21:36:56+00:00",
+      "score": 3,
+      "category": "devops",
+      "why": "OS philosophy piece, no code impact",
+      "action": "skip"
+    },
+    {
+      "title": "A single function Jev-like wrapper for LLMs, including vision models",
+      "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
+      "canonical_url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 143,
+      "published_at": "2026-09-26T04:20:58+00:00",
+      "score": 5,
+      "category": "ai",
+      "why": "LLM wrapper library, incremental AI tooling",
+      "action": "skip"
+    },
+    {
+      "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+      "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+      "canonical_url": "https://cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 492,
+      "published_at": "2026-09-25T15:29:25+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "Legal ruling, no code impact",
+      "action": "skip"
+    },
+    {
+      "title": "CAPTCHAs don't prove you're human – they prove you're American (2017)",
+      "url": "https://shkspr.mobi/blog/2017/11/captchas-dont-prove-youre-human-they-prove-youre-american/",
+      "canonical_url": "https://shkspr.mobi/blog/2017/11/captchas-dont-prove-youre-human-they-prove-youre-american",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 88,
+      "published_at": "2026-09-26T08:27:19+00:00",
+      "score": 2,
+      "category": "security",
+      "why": "2017 opinion, no actionable change",
+      "action": "skip"
+    },
+    {
+      "title": "Excel now supports multiple values in a single cell",
+      "url": "https://techcommunity.microsoft.com/blog/microsoft365insiderblog/put-multiple-values-in-one-cell-with-lists-and-arrays-in-excel/4559395",
+      "canonical_url": "https://techcommunity.microsoft.com/blog/microsoft365insiderblog/put-multiple-values-in-one-cell-with-lists-and-arrays-in-excel/4559395",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 264,
+      "published_at": "2026-09-25T20:55:00+00:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Excel feature, irrelevant to stack",
+      "action": "skip"
+    },
+    {
+      "title": "An agent used DNS to reach an external chatbot",
+      "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+      "canonical_url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 116,
+      "published_at": "2026-09-26T04:14:11+00:00",
+      "score": 5,
+      "category": "security",
+      "why": "Security research, no immediate action",
+      "action": "skip"
+    },
+    {
+      "title": "How we learned to stop worrying and love campus surveillance",
+      "url": "https://fnl.mit.edu/how-we-learned-to-stop-worrying-and-love-campus-surveillance/",
+      "canonical_url": "https://fnl.mit.edu/how-we-learned-to-stop-worrying-and-love-campus-surveillance",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 258,
+      "published_at": "2026-09-25T19:56:57+00:00",
+      "score": 2,
+      "category": "security",
+      "why": "Opinion piece, no technical shift",
+      "action": "skip"
+    },
+    {
+      "title": "Ask HN: Who's still keeping a DOS machine up because the business depends on it?",
+      "url": "https://news.ycombinator.com/item?id=49848955",
+      "canonical_url": "https://news.ycombinator.com/item?id=49848955",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 257,
+      "published_at": "2026-09-25T19:37:55+00:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Retrocomputing discussion, not relevant to your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Infecting the Steam Link with NixOS",
+      "url": "https://feyor.sh/blog/infecting-the-steam-link-with-nixos/",
+      "canonical_url": "https://feyor.sh/blog/infecting-the-steam-link-with-nixos",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 40,
+      "published_at": "2026-09-26T08:45:59.865000-05:00",
+      "score": 4,
+      "category": "devops",
+      "why": "NixOS on niche hardware, not directly applicable",
+      "action": "skip"
+    },
+    {
+      "title": "AI Agents Push Humans Out of the Loop",
+      "url": "https://arxiv.org/abs/2608.23642",
+      "canonical_url": "https://arxiv.org/abs/2608.23642",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 22,
+      "published_at": "2026-09-26T14:21:56.883000-05:00",
+      "score": 3,
+      "category": "ai",
+      "why": "Opinion piece on AI agents, no actionable primitive",
+      "action": "skip"
+    },
+    {
+      "title": "PipePipe: NewPipe hard fork implementing SponsorBlock",
+      "url": "https://github.com/InfinityLoop1308/PipePipe",
+      "canonical_url": "https://github.com/InfinityLoop1308/PipePipe",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 442,
+      "published_at": "2026-09-25T10:55:40+00:00",
+      "score": 2,
+      "category": "frontend",
+      "why": "Android YouTube client fork, not your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Does Georgism work? Five years later",
+      "url": "https://www.astralcodexten.com/p/does-georgism-work-five-years-later",
+      "canonical_url": "https://astralcodexten.com/p/does-georgism-work-five-years-later",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 389,
+      "published_at": "2026-09-25T13:48:38+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Economic theory discussion, completely off-topic",
+      "action": "skip"
+    },
+    {
+      "title": "Deploying Guix images on Linode",
+      "url": "https://dthompson.us/posts/deploying-guix-images-on-linode.html",
+      "canonical_url": "https://dthompson.us/posts/deploying-guix-images-on-linode.html",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 11,
+      "published_at": "2026-09-26T19:10:18.481000-05:00",
+      "score": 4,
+      "category": "devops",
+      "why": "Guix deployment niche, not your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Gravity seems holographic. What does that mean for reality?",
+      "url": "https://www.quantamagazine.org/gravity-seems-holographic-what-does-that-mean-for-reality-20260925/",
+      "canonical_url": "https://quantamagazine.org/gravity-seems-holographic-what-does-that-mean-for-reality-20260925",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 286,
+      "published_at": "2026-09-25T15:31:02+00:00",
+      "score": 1,
+      "category": "ai",
+      "why": "Physics theory, zero relevance to coding",
+      "action": "skip"
+    },
+    {
+      "title": "ASML says it sold 'absolutely nothing' in Europe in 2026",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand",
+      "canonical_url": "https://tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 317,
+      "published_at": "2026-09-25T13:49:06+00:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Semiconductor sales news, no code impact",
+      "action": "skip"
+    },
+    {
+      "title": "Promising discoveries about the potential for life on one of Saturn’s icy moons",
+      "url": "https://www.fu-berlin.de/en/presse/informationen/fup/2026/fup_26_116-enceladus-cassini-mikroben-science-postberg/index.html",
+      "canonical_url": "https://fu-berlin.de/en/presse/informationen/fup/2026/fup_26_116-enceladus-cassini-mikroben-science-postberg/index.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 72,
+      "published_at": "2026-09-26T03:23:31+00:00",
+      "score": 1,
+      "category": "ai",
+      "why": "Space biology discovery, irrelevant to work",
+      "action": "skip"
+    },
+    {
+      "title": "Brazil Bans Online Betting",
+      "url": "https://www.reuters.com/world/americas/brazils-lula-bans-online-betting-operations-reelection-race-tightens-2026-09-25/",
+      "canonical_url": "https://reuters.com/world/americas/brazils-lula-bans-online-betting-operations-reelection-race-tightens-2026-09-25",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 88,
+      "published_at": "2026-09-26T00:08:00+00:00",
+      "score": 2,
+      "category": "security",
+      "why": "Gambling ban regulation, unlikely to affect you",
+      "action": "skip"
+    },
+    {
+      "title": "Alan Kay: Shannon gave us a way of dealing with noisy channels [video]",
+      "url": "https://www.youtube.com/watch?v=Cjntrqhn8pk",
+      "canonical_url": "https://youtube.com/watch?v=Cjntrqhn8pk",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 145,
+      "published_at": "2026-09-25T18:37:05+00:00",
+      "score": 3,
+      "category": "backend",
+      "why": "CS history video, no actionable impact",
+      "action": "skip"
+    },
+    {
+      "title": "Generate fonts where every LLM token is the same width",
+      "url": "https://ampdot.mesh.host/token-space-fonts.html",
+      "canonical_url": "https://ampdot.mesh.host/token-space-fonts.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 76,
+      "published_at": "2026-09-26T00:30:03+00:00",
+      "score": 4,
+      "category": "ai",
+      "why": "Niche font tool for token visualization",
+      "action": "skip"
+    },
+    {
+      "title": "Meta's Muse appears to use an OpenAI model labeled muse-special",
+      "url": "https://mouse.dev/blog/muse-special/",
+      "canonical_url": "https://mouse.dev/blog/muse-special",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 142,
+      "published_at": "2026-09-25T18:18:06+00:00",
+      "score": 2,
+      "category": "ai",
+      "why": "Unverified industry speculation, no code impact",
+      "action": "skip"
+    },
+    {
+      "title": "Too AI; Didn't Read",
+      "url": "https://www.tai-dr.com/",
+      "canonical_url": "https://tai-dr.com/",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 111,
+      "published_at": "2026-09-25T20:37:56+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "AI hype commentary, no technical substance",
+      "action": "skip"
+    },
+    {
+      "title": "The state of SIMD in Rust in 2026",
+      "url": "https://shnatsel.github.io/state-of-simd-rust-2026/",
+      "canonical_url": "https://shnatsel.github.io/state-of-simd-rust-2026",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 32,
+      "published_at": "2026-09-26T03:28:50.571000-05:00",
+      "score": 4,
+      "category": "backend",
+      "why": "Rust SIMD overview, not your stack",
+      "action": "skip"
+    },
+    {
+      "title": "How I changed teaching after AI managed to do all my homework assignments",
+      "url": "https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed",
+      "canonical_url": "https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 231,
+      "published_at": "2026-09-24T20:51:50+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "Opinion piece on AI in education, no stack impact",
+      "action": "skip"
+    },
+    {
+      "title": "The JavaScript Pun: tagged template literal",
+      "url": "https://shukla.io/blog/2026-09/pun.html",
+      "canonical_url": "https://shukla.io/blog/2026-09/pun.html",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 14,
+      "published_at": "2026-09-26T10:37:12.781000-05:00",
+      "score": 2,
+      "category": "frontend",
+      "why": "Explainer on ES2015 tagged templates, not new",
+      "action": "skip"
+    },
+    {
+      "title": "Teaching GPU programming in p5.js: now with compute shaders",
+      "url": "https://www.davepagurek.com/blog/p5-compute-shaders/",
+      "canonical_url": "https://davepagurek.com/blog/p5-compute-shaders",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 5,
+      "published_at": "2026-09-26T19:28:51.094000-05:00",
+      "score": 3,
+      "category": "frontend",
+      "why": "p5.js compute shaders niche, not your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Reverse-engineering the vintage Intel 8087's tangent algorithm: more than CORDIC",
+      "url": "http://www.righto.com/2026/09/8087-tangent-cordic.html",
+      "canonical_url": "http://righto.com/2026/09/8087-tangent-cordic.html",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 9,
+      "published_at": "2026-09-26T14:01:50.552000-05:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Retro CPU reverse-engineering, off-topic",
+      "action": "skip"
+    },
+    {
+      "title": "Typst makes big strides",
+      "url": "https://lwn.net/Articles/1092993/",
+      "canonical_url": "https://lwn.net/Articles/1092993",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 128,
+      "published_at": "2026-09-25T16:25:08+00:00",
+      "score": 4,
+      "category": "frontend",
+      "why": "Typst progress, but not a React/TS/Supabase shift",
+      "action": "skip"
+    },
+    {
+      "title": "A searchable library of forgotten public-domain film clips from 1915 onward",
+      "url": "https://www.movingimagearchive.com/",
+      "canonical_url": "https://movingimagearchive.com/",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 183,
+      "published_at": "2026-09-24T16:11:42+00:00",
+      "score": 1,
+      "category": "frontend",
+      "why": "Off-topic media archive, not relevant to stack",
+      "action": "skip"
+    },
+    {
+      "title": "Zelensky says Russia has widened attacks to hit Ukraine's data centres",
+      "url": "https://www.bbc.com/news/articles/c84gkwgk7d06o",
+      "canonical_url": "https://bbc.com/news/articles/c84gkwgk7d06o",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 99,
+      "published_at": "2026-09-25T18:56:36+00:00",
+      "score": 2,
+      "category": "security",
+      "why": "Geopolitical news, no code impact",
+      "action": "skip"
+    },
+    {
+      "title": "Yes, Claude can do nine loops",
+      "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+      "canonical_url": "https://anthropic.com/research/yes-claude-can-do-nine-loops",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 103,
+      "published_at": "2026-09-25T18:11:48+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "AI demo, no stack impact",
+      "action": "skip"
+    },
+    {
+      "title": "Bug: Border radius has infected VSCode editor",
+      "url": "https://github.com/microsoft/vscode/issues/338035",
+      "canonical_url": "https://github.com/microsoft/vscode/issues/338035",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 80,
+      "published_at": "2026-09-25T19:27:37+00:00",
+      "score": 3,
+      "category": "devops",
+      "why": "Minor VSCode UI bug, not actionable",
+      "action": "skip"
+    },
+    {
+      "title": "Supreme Court permits states to use SAVE database for citizenship checks",
+      "url": "https://cyberscoop.com/supreme-court-save-database-voter-citizenship/",
+      "canonical_url": "https://cyberscoop.com/supreme-court-save-database-voter-citizenship",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 78,
+      "published_at": "2026-09-25T19:28:30+00:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Legal ruling, no stack impact",
+      "action": "skip"
+    },
+    {
+      "title": "Suggestion to replace LibreOffice with Collabora as default on Fedora",
+      "url": "https://www.phoronix.com/news/Fedora-Discuss-Collabora-Office",
+      "canonical_url": "https://phoronix.com/news/Fedora-Discuss-Collabora-Office",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 16,
+      "published_at": "2026-09-26T04:13:15.170000-05:00",
+      "score": 2,
+      "category": "devops",
+      "why": "Fedora packaging change; irrelevant to your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Evolving programming languages in the AI era",
+      "url": "https://dashbit.co/blog/evolving-ai-era",
+      "canonical_url": "https://dashbit.co/blog/evolving-ai-era",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 113,
+      "published_at": "2026-09-25T02:34:39+00:00",
+      "score": 4,
+      "category": "ai",
+      "why": "Opinion piece on languages/AI; no actionable primitive",
+      "action": "skip"
+    },
+    {
+      "title": "Keep if clauses side-effect free",
+      "url": "https://www.teamten.com/lawrence/programming/keep-if-clauses-side-effect-free.html",
+      "canonical_url": "https://teamten.com/lawrence/programming/keep-if-clauses-side-effect-free.html",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 24,
+      "published_at": "2026-09-25T22:45:44.108000-05:00",
+      "score": 5,
+      "category": "frontend",
+      "why": "Good TS/React hygiene reminder; incremental only",
+      "action": "skip"
+    },
+    {
+      "title": "Exploding variance of means of exponentials: least-squares to the rescue",
+      "url": "https://francisbach.com/spectral_log_density_estimation/",
+      "canonical_url": "https://francisbach.com/spectral_log_density_estimation",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 39,
+      "published_at": "2026-09-25T22:48:52+00:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Academic stats paper; not applicable to your work",
+      "action": "skip"
+    },
+    {
+      "title": "Commodified Intelligence",
+      "url": "https://herecomesthemoon.net/2026/09/commodified-intelligence/",
+      "canonical_url": "https://herecomesthemoon.net/2026/09/commodified-intelligence",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 60,
+      "published_at": "2026-09-25T13:24:29.215000-05:00",
+      "score": 3,
+      "category": "ai",
+      "why": "AI economics essay; no code impact for you",
+      "action": "skip"
+    },
+    {
+      "title": "Amazon Transcribe adds customer-managed KMS keys for custom resources",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-transcribe/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-transcribe",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T19:19:00+00:00",
+      "score": 2,
+      "category": "security",
+      "why": "AWS Transcribe KMS feature; not your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Can we have reachability properties in TLA⁺?",
+      "url": "https://ahelwer.ca/post/2026-09-26-reachability/",
+      "canonical_url": "https://ahelwer.ca/post/2026-09-26-reachability",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 6,
+      "published_at": "2026-09-26T10:49:22.686000-05:00",
+      "score": 2,
+      "category": "backend",
+      "why": "TLA+ formal methods theory; academic",
+      "action": "skip"
+    },
+    {
+      "title": "Wrong, not broken",
+      "url": "https://aws.amazon.com/blogs/aws-insights/wrong-not-broken/",
+      "canonical_url": "https://aws.amazon.com/blogs/aws-insights/wrong-not-broken",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 5,
+      "published_at": "2026-09-26T12:08:06.946000-05:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Opinion piece on correctness; no code impact",
+      "action": "skip"
+    },
+    {
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "url": "https://openai.com/index/proaction",
+      "canonical_url": "https://openai.com/index/proaction",
+      "source": "rss:OpenAI",
+      "sources": [
+        "rss:OpenAI"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T19:00:00+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "Codex marketing case study; not a tool shift",
+      "action": "skip"
+    },
+    {
+      "title": "Amazon EC2 M8i and M8i-flex instances are now available in additional regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-m8i-m8i-flex-thf/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-m8i-m8i-flex-thf",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T18:40:00+00:00",
+      "score": 2,
+      "category": "devops",
+      "why": "EC2 instance region expansion; you use Vercel/Supabase",
+      "action": "skip"
+    },
+    {
+      "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-r8i-r8i-flex-thf/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-r8i-r8i-flex-thf",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T18:37:00+00:00",
+      "score": 2,
+      "category": "devops",
+      "why": "Just EC2 region expansion, no new primitive",
+      "action": "skip"
+    },
+    {
+      "title": "Amazon EC2 C8i and C8i-flex instances are now available in additional regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/c8i-c8i-flex-thf-september-2026/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/c8i-c8i-flex-thf-september-2026",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T18:09:00+00:00",
+      "score": 2,
+      "category": "devops",
+      "why": "Just EC2 region expansion, no new primitive",
+      "action": "skip"
+    },
+    {
+      "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
+      "canonical_url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
+      "source": "rss:GitHub",
+      "sources": [
+        "rss:GitHub"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T18:00:00+00:00",
+      "score": 2,
+      "category": "ai",
+      "why": "Beginner tutorial, not a capability shift",
+      "action": "skip"
+    },
+    {
+      "title": "AWS IAM outbound identity federation now supports interface VPC endpoints for OIDC discovery",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts-vpc-oidc/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts-vpc-oidc",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T17:54:00+00:00",
+      "score": 4,
+      "category": "security",
+      "why": "Niche AWS IAM VPC endpoint feature",
+      "action": "skip"
+    },
+    {
+      "title": "Tuning a Server for Benchmarking",
+      "url": "https://david.alvarezrosa.com/posts/tuning-a-server-for-benchmarking/",
+      "canonical_url": "https://david.alvarezrosa.com/posts/tuning-a-server-for-benchmarking",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 8,
+      "published_at": "2026-09-26T06:48:40.380000-05:00",
+      "score": 5,
+      "category": "backend",
+      "why": "General server tuning knowledge, incremental",
+      "action": "skip"
+    },
+    {
+      "title": "Biology might not be quantum, but its math is quantumlike",
+      "url": "https://www.quantamagazine.org/biology-might-not-be-quantum-but-its-math-is-quantumlike-20260923/",
+      "canonical_url": "https://quantamagazine.org/biology-might-not-be-quantum-but-its-math-is-quantumlike-20260923",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 84,
+      "published_at": "2026-09-25T02:11:07+00:00",
+      "score": 1,
+      "category": "ai",
+      "why": "Off-topic biology research",
+      "action": "skip"
+    },
+    {
+      "title": "AWS DataSync launches a monitoring dashboard for tracking task executions across your account",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/datasync-monitoring-dashboard",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/datasync-monitoring-dashboard",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T15:24:00+00:00",
+      "score": 3,
+      "category": "devops",
+      "why": "AWS DataSync not in your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Finally, A True Blue Rose Exists",
+      "url": "https://www.sciencenews.org/article/true-blue-rose-pigment-copigment",
+      "canonical_url": "https://sciencenews.org/article/true-blue-rose-pigment-copigment",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 30,
+      "published_at": "2026-09-25T20:44:38+00:00",
+      "score": 1,
+      "category": "ai",
+      "why": "Off-topic biology news",
+      "action": "skip"
+    },
+    {
+      "title": "Push images to Vercel Container Registry from GitHub Actions",
+      "url": "https://vercel.com/changelog/vcr-login-github-action",
+      "canonical_url": "https://vercel.com/changelog/vcr-login-github-action",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T09:15:00+00:00",
+      "score": 7,
+      "category": "devops",
+      "why": "Simplifies your Vercel deploy pipeline",
+      "action": "learn"
+    },
+    {
+      "title": "State of agent skills",
+      "url": "https://vercel.com/blog/state-of-agent-skills",
+      "canonical_url": "https://vercel.com/blog/state-of-agent-skills",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T06:00:00+00:00",
+      "score": 4,
+      "category": "ai",
+      "why": "AI opinion piece, no new primitive",
+      "action": "skip"
+    },
+    {
+      "title": "Pixel Canary is now available in stealth for free on AI Gateway",
+      "url": "https://vercel.com/changelog/pixel-canary-is-now-available-in-stealth-for-free-on-ai-gateway",
+      "canonical_url": "https://vercel.com/changelog/pixel-canary-is-now-available-in-stealth-for-free-on-ai-gateway",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T00:00:00+00:00",
+      "score": 4,
+      "category": "ai",
+      "why": "Cloudflare AI Gateway niche observability; not your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Vercel Sandbox now supports memory observability",
+      "url": "https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability",
+      "canonical_url": "https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T00:00:00+00:00",
+      "score": 7,
+      "category": "devops",
+      "why": "Vercel Sandbox memory observability aids your Node debugging",
+      "action": "learn"
+    },
+    {
+      "title": "AWS Elastic Disaster Recovery now supports AWS Graviton-based source servers",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/elastic-disaster-recovery-graviton/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/elastic-disaster-recovery-graviton",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T08:00:00+00:00",
+      "score": 3,
+      "category": "devops",
+      "why": "AWS DR Graviton support irrelevant to Vercel/Supabase stack",
+      "action": "skip"
+    },
+    {
+      "title": "AWS End User Messaging and Amazon SES now offer AI agent skills for the AWS MCP Server",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-messaging-ses-ai-skills-mcp-server/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-messaging-ses-ai-skills-mcp-server",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T07:00:00+00:00",
+      "score": 4,
+      "category": "ai",
+      "why": "AWS MCP integration; not your AI tooling path",
+      "action": "skip"
+    },
+    {
+      "title": "AWS End User Messaging now supports voice calling on WhatsApp",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-voice-calling-whatsapp",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-voice-calling-whatsapp",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T07:00:00+00:00",
+      "score": 2,
+      "category": "backend",
+      "why": "WhatsApp voice via AWS messaging; off-stack",
+      "action": "skip"
+    },
+    {
+      "title": "AWS Billing and Cost Management now provides billing context for your account through a new API",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-billing-and-cost-management-billing-context-api/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-billing-and-cost-management-billing-context-api",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T00:58:00+00:00",
+      "score": 3,
+      "category": "devops",
+      "why": "AWS billing API irrelevant to Supabase stack",
+      "action": "skip"
+    },
+    {
+      "title": "Amazon EventBridge relaunches event buses for enterprise scale",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/eventbridge-relaunches-custom-event-buses/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/eventbridge-relaunches-custom-event-buses",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-24T21:00:00+00:00",
+      "score": 4,
+      "category": "backend",
+      "why": "EventBridge changes don't affect your Node/Supabase events",
+      "action": "skip"
+    },
+    {
+      "title": "AWS Lambda durable functions are now available in AWS European Sovereign Cloud region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/durablefunctions-european-sovereign-cloud/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/durablefunctions-european-sovereign-cloud",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-24T18:29:00+00:00",
+      "score": 3,
+      "category": "backend",
+      "why": "Lambda durable functions in EU region not your runtime",
+      "action": "skip"
+    },
+    {
+      "title": "When chat is the wrong UI",
+      "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+      "canonical_url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui",
+      "source": "rss:GitHub",
+      "sources": [
+        "rss:GitHub"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-24T20:00:00+00:00",
+      "score": 2,
+      "category": "ai",
+      "why": "Opinion piece on chat UI, no actionable shift",
+      "action": "skip"
+    },
+    {
+      "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
+      "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
+      "canonical_url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent",
+      "source": "rss:GitHub",
+      "sources": [
+        "rss:GitHub"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-24T18:26:12+00:00",
+      "score": 5,
+      "category": "security",
+      "why": "GitHub fuzzing agent useful but incremental for security",
+      "action": "skip"
+    }
+  ],
+  "candidates": [
+    {
+      "title": "Improving site performance by shipping more CSS",
+      "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+      "canonical_url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters",
+        "rss:GitHub"
+      ],
+      "engagement": 54,
+      "published_at": "2026-09-25T15:00:00+00:00"
+    },
+    {
+      "title": "Go Concurrency Distilled",
+      "url": "https://antonz.org/go-concurrency-distilled/",
+      "canonical_url": "https://antonz.org/go-concurrency-distilled",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 262,
+      "published_at": "2026-09-26T07:14:01.590000-05:00"
+    },
+    {
+      "title": "If we do not stop to help each other, what do we become?",
+      "url": "https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become/",
+      "canonical_url": "https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 187,
+      "published_at": "2026-09-26T06:02:48.079000-05:00"
+    },
+    {
+      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "url": "https://swarmtraces.org/",
+      "canonical_url": "https://swarmtraces.org/",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 724,
+      "published_at": "2026-09-25T21:09:27+00:00"
+    },
+    {
+      "title": "One Month Without AI",
+      "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+      "canonical_url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 176,
+      "published_at": "2026-09-26T10:08:21+00:00"
+    },
+    {
+      "title": "Secure AI agents with HashiCorp Boundary",
+      "url": "https://www.hashicorp.com/blog/secure-ai-agents-with-hashicorp-boundary",
+      "canonical_url": "https://hashicorp.com/blog/secure-ai-agents-with-hashicorp-boundary",
+      "source": "rss:HashiCorp",
+      "sources": [
+        "rss:HashiCorp"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-29T07:00:00+00:00"
+    },
+    {
+      "title": "OpenAI Feared \"Optics\" of what might appear on Hacker News",
+      "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+      "canonical_url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 331,
+      "published_at": "2026-09-27T06:19:33+00:00"
+    },
+    {
+      "title": "Meta Blocks President Lula's Facebook Page, Campaign Ads 2 Weeks from Election",
+      "url": "https://www.reddit.com/r/worldnews/comments/1wr3id3/meta_blocks_president_lulas_facebook_page_and/",
+      "canonical_url": "https://reddit.com/r/worldnews/comments/1wr3id3/meta_blocks_president_lulas_facebook_page_and",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 255,
+      "published_at": "2026-09-27T08:44:04+00:00"
+    },
+    {
+      "title": "What is the size of Yemen? (2024)",
+      "url": "https://theborys.substack.com/p/what-is-the-size-of-yemen",
+      "canonical_url": "https://theborys.substack.com/p/what-is-the-size-of-yemen",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 197,
+      "published_at": "2026-09-27T02:40:26+00:00"
+    },
+    {
+      "title": "I'm the mom in that viral Giants clip. Let me tell you about my husband",
+      "url": "https://themomoftheyear.substack.com/p/im-the-mom-in-that-viral-giants-clip",
+      "canonical_url": "https://themomoftheyear.substack.com/p/im-the-mom-in-that-viral-giants-clip",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 525,
+      "published_at": "2026-09-26T16:12:18+00:00"
+    },
+    {
+      "title": "Breaking Up with Google Play: Why Conversations Is Now Free",
+      "url": "https://gultsch.de/posts/breaking-up-with-google-play/",
+      "canonical_url": "https://gultsch.de/posts/breaking-up-with-google-play",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 668,
+      "published_at": "2026-09-26T10:55:56+00:00"
+    },
+    {
+      "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
+      "url": "https://github.com/reladraw/reladraw",
+      "canonical_url": "https://github.com/reladraw/reladraw",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 333,
+      "published_at": "2026-09-26T17:10:40+00:00"
+    },
+    {
+      "title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+      "url": "https://arxiv.org/abs/2609.25021",
+      "canonical_url": "https://arxiv.org/abs/2609.25021",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 57,
+      "published_at": "2026-09-27T10:26:25+00:00"
+    },
+    {
+      "title": "DeepSeek Elastic Compute (DSec)",
+      "url": "https://arxiv.org/abs/2609.22978",
+      "canonical_url": "https://arxiv.org/abs/2609.22978",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 271,
+      "published_at": "2026-09-26T18:22:41+00:00"
+    },
+    {
+      "title": "Japan moves to tighten rules for foreigners",
+      "url": "https://www.aljazeera.com/economy/2026/9/25/japan-moves-to-tighten-rules-for-foreigners-throwing-futures-into-doubt",
+      "canonical_url": "https://aljazeera.com/economy/2026/9/25/japan-moves-to-tighten-rules-for-foreigners-throwing-futures-into-doubt",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 177,
+      "published_at": "2026-09-26T17:43:11+00:00"
+    },
+    {
+      "title": "Fifteen years later, the Apple Cards origin story",
+      "url": "https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story",
+      "canonical_url": "https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 411,
+      "published_at": "2026-09-26T09:13:41+00:00"
+    },
+    {
+      "title": "OpenAI agents tried to bruteforce a UN website's API fields",
+      "url": "https://swarmcha.se/posts/openai-unctad",
+      "canonical_url": "https://swarmcha.se/posts/openai-unctad",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 77,
+      "published_at": "2026-09-27T01:08:07+00:00"
+    },
+    {
+      "title": "Plunging test scores are a slow-moving catastrophe",
+      "url": "https://www.economist.com/leaders/2026/09/10/plunging-test-scores-are-a-slow-moving-catastrophe",
+      "canonical_url": "https://economist.com/leaders/2026/09/10/plunging-test-scores-are-a-slow-moving-catastrophe",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 193,
+      "published_at": "2026-09-26T15:24:08+00:00"
+    },
+    {
+      "title": "Drawgent: Coding agent on a live Excalidraw canvas",
+      "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+      "canonical_url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 162,
+      "published_at": "2026-09-26T15:56:34+00:00"
+    },
+    {
+      "title": "How to keep enjoying programming in a world of LLMs",
+      "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+      "canonical_url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 256,
+      "published_at": "2026-09-26T09:41:58+00:00"
+    },
+    {
+      "title": "Automattic has a new board after failed attempt to put CEO on leave",
+      "url": "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/",
+      "canonical_url": "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 140,
+      "published_at": "2026-09-26T15:40:27+00:00"
+    },
+    {
+      "title": "The internet discovers TLA+. Now what?",
+      "url": "https://reasonable.io/blog/tla-tutorial/",
+      "canonical_url": "https://reasonable.io/blog/tla-tutorial",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 33,
+      "published_at": "2026-09-27T05:26:15+00:00"
+    },
+    {
+      "title": "Banks and Credit Unions to Team Up Against Apple Pay Fees",
+      "url": "https://www.macrumors.com/2026/09/25/apple-pay-antitrust-lawsuit-advances/",
+      "canonical_url": "https://macrumors.com/2026/09/25/apple-pay-antitrust-lawsuit-advances",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 118,
+      "published_at": "2026-09-26T15:48:18+00:00"
+    },
+    {
+      "title": "Turning GLM-5.3-Flash into a Jev-like decision model",
+      "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
+      "canonical_url": "https://privatemode.ai/blog/system-one-from-glm-flash",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 105,
+      "published_at": "2026-09-26T15:49:04+00:00"
+    },
+    {
+      "title": "We're gonna need a lot more mathematicians",
+      "url": "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/",
+      "canonical_url": "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 385,
+      "published_at": "2026-09-26T02:46:54+00:00"
+    },
+    {
+      "title": "Reverse-engineering the Intel 8087's tangent algorithm: more than CORDIC",
+      "url": "https://www.righto.com/2026/09/8087-tangent-cordic.html",
+      "canonical_url": "https://righto.com/2026/09/8087-tangent-cordic.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 88,
+      "published_at": "2026-09-26T17:26:54+00:00"
+    },
+    {
+      "title": "OpenAI bots meddled with multiple US Government agency sites",
+      "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
+      "canonical_url": "https://bbc.com/news/articles/cw62jje658dlo",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 120,
+      "published_at": "2026-09-26T14:03:54+00:00"
+    },
+    {
+      "title": "Jury finds Facebook liable for deceiving users in Cambridge Analytica case",
+      "url": "https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/",
+      "canonical_url": "https://cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 408,
+      "published_at": "2026-09-26T01:36:50+00:00"
+    },
+    {
+      "title": "This is a modern motherfucking website",
+      "url": "https://modernmotherfuckingwebsite.dreamstation.systems/",
+      "canonical_url": "https://modernmotherfuckingwebsite.dreamstation.systems/",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 40,
+      "published_at": "2026-09-26T19:04:56.068000-05:00"
+    },
+    {
+      "title": "Valve Introduces Pyrowave Video Codec In Beta For Low Latency Streaming",
+      "url": "https://www.phoronix.com/news/Valve-Steam-Beta-Pyrowave",
+      "canonical_url": "https://phoronix.com/news/Valve-Steam-Beta-Pyrowave",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 26,
+      "published_at": "2026-09-26T22:41:44.295000-05:00"
+    },
+    {
+      "title": "Floci: Locally emulating any cloud service",
+      "url": "https://floci.io",
+      "canonical_url": "https://floci.io/",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 182,
+      "published_at": "2026-09-26T08:31:02+00:00"
+    },
+    {
+      "title": "Ollaya – Ollama for open-source, Jev-style decision models",
+      "url": "https://ollaya.dev/",
+      "canonical_url": "https://ollaya.dev/",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 597,
+      "published_at": "2026-09-25T18:33:50+00:00"
+    },
+    {
+      "title": "CEO of Mistral: AI is software. It can be controlled",
+      "url": "https://www.lemonde.fr/en/economy/article/2026/09/24/arthur-mensch-ceo-of-french-start-up-mistral-ai-ai-is-software-it-can-be-controlled_6757890_19.html",
+      "canonical_url": "https://lemonde.fr/en/economy/article/2026/09/24/arthur-mensch-ceo-of-french-start-up-mistral-ai-ai-is-software-it-can-be-controlled_6757890_19.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 94,
+      "published_at": "2026-09-26T12:52:04+00:00"
+    },
+    {
+      "title": "Flip Fluid on Flip Dots",
+      "url": "https://mitxela.com/projects/flipflip",
+      "canonical_url": "https://mitxela.com/projects/flipflip",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 150,
+      "published_at": "2026-09-26T07:50:24+00:00"
+    },
+    {
+      "title": "The Copilot+ PC brand is dead",
+      "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
+      "canonical_url": "https://windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 104,
+      "published_at": "2026-09-26T09:55:38+00:00"
+    },
+    {
+      "title": "One Piece of Flock Camera Data Put This Innocent Woman in Jail for 13 Days",
+      "url": "https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide",
+      "canonical_url": "https://jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 250,
+      "published_at": "2026-09-26T00:59:02+00:00"
+    },
+    {
+      "title": "Is your Postgres migration safe or not safe?",
+      "url": "https://safenotsafe.dev/",
+      "canonical_url": "https://safenotsafe.dev/",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 128,
+      "published_at": "2026-09-26T07:33:12+00:00"
+    },
+    {
+      "title": "Rusty thoughts on \"Parse, don't validate\"",
+      "url": "https://eli.thegreenplace.net/2026/rusty-thoughts-on-parse-dont-validate/",
+      "canonical_url": "https://eli.thegreenplace.net/2026/rusty-thoughts-on-parse-dont-validate",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 29,
+      "published_at": "2026-09-26T15:45:24.308000-05:00"
+    },
+    {
+      "title": "What even is an OS now?",
+      "url": "https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now/",
+      "canonical_url": "https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 299,
+      "published_at": "2026-09-25T21:36:56+00:00"
+    },
+    {
+      "title": "A single function Jev-like wrapper for LLMs, including vision models",
+      "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
+      "canonical_url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 143,
+      "published_at": "2026-09-26T04:20:58+00:00"
+    },
+    {
+      "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+      "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+      "canonical_url": "https://cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 492,
+      "published_at": "2026-09-25T15:29:25+00:00"
+    },
+    {
+      "title": "CAPTCHAs don't prove you're human – they prove you're American (2017)",
+      "url": "https://shkspr.mobi/blog/2017/11/captchas-dont-prove-youre-human-they-prove-youre-american/",
+      "canonical_url": "https://shkspr.mobi/blog/2017/11/captchas-dont-prove-youre-human-they-prove-youre-american",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 88,
+      "published_at": "2026-09-26T08:27:19+00:00"
+    },
+    {
+      "title": "Excel now supports multiple values in a single cell",
+      "url": "https://techcommunity.microsoft.com/blog/microsoft365insiderblog/put-multiple-values-in-one-cell-with-lists-and-arrays-in-excel/4559395",
+      "canonical_url": "https://techcommunity.microsoft.com/blog/microsoft365insiderblog/put-multiple-values-in-one-cell-with-lists-and-arrays-in-excel/4559395",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 264,
+      "published_at": "2026-09-25T20:55:00+00:00"
+    },
+    {
+      "title": "An agent used DNS to reach an external chatbot",
+      "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+      "canonical_url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 116,
+      "published_at": "2026-09-26T04:14:11+00:00"
+    },
+    {
+      "title": "How we learned to stop worrying and love campus surveillance",
+      "url": "https://fnl.mit.edu/how-we-learned-to-stop-worrying-and-love-campus-surveillance/",
+      "canonical_url": "https://fnl.mit.edu/how-we-learned-to-stop-worrying-and-love-campus-surveillance",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 258,
+      "published_at": "2026-09-25T19:56:57+00:00"
+    },
+    {
+      "title": "Ask HN: Who's still keeping a DOS machine up because the business depends on it?",
+      "url": "https://news.ycombinator.com/item?id=49848955",
+      "canonical_url": "https://news.ycombinator.com/item?id=49848955",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 257,
+      "published_at": "2026-09-25T19:37:55+00:00"
+    },
+    {
+      "title": "Infecting the Steam Link with NixOS",
+      "url": "https://feyor.sh/blog/infecting-the-steam-link-with-nixos/",
+      "canonical_url": "https://feyor.sh/blog/infecting-the-steam-link-with-nixos",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 40,
+      "published_at": "2026-09-26T08:45:59.865000-05:00"
+    },
+    {
+      "title": "AI Agents Push Humans Out of the Loop",
+      "url": "https://arxiv.org/abs/2608.23642",
+      "canonical_url": "https://arxiv.org/abs/2608.23642",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 22,
+      "published_at": "2026-09-26T14:21:56.883000-05:00"
+    },
+    {
+      "title": "PipePipe: NewPipe hard fork implementing SponsorBlock",
+      "url": "https://github.com/InfinityLoop1308/PipePipe",
+      "canonical_url": "https://github.com/InfinityLoop1308/PipePipe",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 442,
+      "published_at": "2026-09-25T10:55:40+00:00"
+    },
+    {
+      "title": "Does Georgism work? Five years later",
+      "url": "https://www.astralcodexten.com/p/does-georgism-work-five-years-later",
+      "canonical_url": "https://astralcodexten.com/p/does-georgism-work-five-years-later",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 389,
+      "published_at": "2026-09-25T13:48:38+00:00"
+    },
+    {
+      "title": "Deploying Guix images on Linode",
+      "url": "https://dthompson.us/posts/deploying-guix-images-on-linode.html",
+      "canonical_url": "https://dthompson.us/posts/deploying-guix-images-on-linode.html",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 11,
+      "published_at": "2026-09-26T19:10:18.481000-05:00"
+    },
+    {
+      "title": "Gravity seems holographic. What does that mean for reality?",
+      "url": "https://www.quantamagazine.org/gravity-seems-holographic-what-does-that-mean-for-reality-20260925/",
+      "canonical_url": "https://quantamagazine.org/gravity-seems-holographic-what-does-that-mean-for-reality-20260925",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 286,
+      "published_at": "2026-09-25T15:31:02+00:00"
+    },
+    {
+      "title": "ASML says it sold 'absolutely nothing' in Europe in 2026",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand",
+      "canonical_url": "https://tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 317,
+      "published_at": "2026-09-25T13:49:06+00:00"
+    },
+    {
+      "title": "Promising discoveries about the potential for life on one of Saturn’s icy moons",
+      "url": "https://www.fu-berlin.de/en/presse/informationen/fup/2026/fup_26_116-enceladus-cassini-mikroben-science-postberg/index.html",
+      "canonical_url": "https://fu-berlin.de/en/presse/informationen/fup/2026/fup_26_116-enceladus-cassini-mikroben-science-postberg/index.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 72,
+      "published_at": "2026-09-26T03:23:31+00:00"
+    },
+    {
+      "title": "Brazil Bans Online Betting",
+      "url": "https://www.reuters.com/world/americas/brazils-lula-bans-online-betting-operations-reelection-race-tightens-2026-09-25/",
+      "canonical_url": "https://reuters.com/world/americas/brazils-lula-bans-online-betting-operations-reelection-race-tightens-2026-09-25",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 88,
+      "published_at": "2026-09-26T00:08:00+00:00"
+    },
+    {
+      "title": "Alan Kay: Shannon gave us a way of dealing with noisy channels [video]",
+      "url": "https://www.youtube.com/watch?v=Cjntrqhn8pk",
+      "canonical_url": "https://youtube.com/watch?v=Cjntrqhn8pk",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 145,
+      "published_at": "2026-09-25T18:37:05+00:00"
+    },
+    {
+      "title": "Generate fonts where every LLM token is the same width",
+      "url": "https://ampdot.mesh.host/token-space-fonts.html",
+      "canonical_url": "https://ampdot.mesh.host/token-space-fonts.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 76,
+      "published_at": "2026-09-26T00:30:03+00:00"
+    },
+    {
+      "title": "Meta's Muse appears to use an OpenAI model labeled muse-special",
+      "url": "https://mouse.dev/blog/muse-special/",
+      "canonical_url": "https://mouse.dev/blog/muse-special",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 142,
+      "published_at": "2026-09-25T18:18:06+00:00"
+    },
+    {
+      "title": "Too AI; Didn't Read",
+      "url": "https://www.tai-dr.com/",
+      "canonical_url": "https://tai-dr.com/",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 111,
+      "published_at": "2026-09-25T20:37:56+00:00"
+    },
+    {
+      "title": "The state of SIMD in Rust in 2026",
+      "url": "https://shnatsel.github.io/state-of-simd-rust-2026/",
+      "canonical_url": "https://shnatsel.github.io/state-of-simd-rust-2026",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 32,
+      "published_at": "2026-09-26T03:28:50.571000-05:00"
+    },
+    {
+      "title": "How I changed teaching after AI managed to do all my homework assignments",
+      "url": "https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed",
+      "canonical_url": "https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 231,
+      "published_at": "2026-09-24T20:51:50+00:00"
+    },
+    {
+      "title": "The JavaScript Pun: tagged template literal",
+      "url": "https://shukla.io/blog/2026-09/pun.html",
+      "canonical_url": "https://shukla.io/blog/2026-09/pun.html",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 14,
+      "published_at": "2026-09-26T10:37:12.781000-05:00"
+    },
+    {
+      "title": "Teaching GPU programming in p5.js: now with compute shaders",
+      "url": "https://www.davepagurek.com/blog/p5-compute-shaders/",
+      "canonical_url": "https://davepagurek.com/blog/p5-compute-shaders",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 5,
+      "published_at": "2026-09-26T19:28:51.094000-05:00"
+    },
+    {
+      "title": "Reverse-engineering the vintage Intel 8087's tangent algorithm: more than CORDIC",
+      "url": "http://www.righto.com/2026/09/8087-tangent-cordic.html",
+      "canonical_url": "http://righto.com/2026/09/8087-tangent-cordic.html",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 9,
+      "published_at": "2026-09-26T14:01:50.552000-05:00"
+    },
+    {
+      "title": "Typst makes big strides",
+      "url": "https://lwn.net/Articles/1092993/",
+      "canonical_url": "https://lwn.net/Articles/1092993",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 128,
+      "published_at": "2026-09-25T16:25:08+00:00"
+    },
+    {
+      "title": "A searchable library of forgotten public-domain film clips from 1915 onward",
+      "url": "https://www.movingimagearchive.com/",
+      "canonical_url": "https://movingimagearchive.com/",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 183,
+      "published_at": "2026-09-24T16:11:42+00:00"
+    },
+    {
+      "title": "Zelensky says Russia has widened attacks to hit Ukraine's data centres",
+      "url": "https://www.bbc.com/news/articles/c84gkwgk7d06o",
+      "canonical_url": "https://bbc.com/news/articles/c84gkwgk7d06o",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 99,
+      "published_at": "2026-09-25T18:56:36+00:00"
+    },
+    {
+      "title": "Yes, Claude can do nine loops",
+      "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+      "canonical_url": "https://anthropic.com/research/yes-claude-can-do-nine-loops",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 103,
+      "published_at": "2026-09-25T18:11:48+00:00"
+    },
+    {
+      "title": "Bug: Border radius has infected VSCode editor",
+      "url": "https://github.com/microsoft/vscode/issues/338035",
+      "canonical_url": "https://github.com/microsoft/vscode/issues/338035",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 80,
+      "published_at": "2026-09-25T19:27:37+00:00"
+    },
+    {
+      "title": "Supreme Court permits states to use SAVE database for citizenship checks",
+      "url": "https://cyberscoop.com/supreme-court-save-database-voter-citizenship/",
+      "canonical_url": "https://cyberscoop.com/supreme-court-save-database-voter-citizenship",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 78,
+      "published_at": "2026-09-25T19:28:30+00:00"
+    },
+    {
+      "title": "Suggestion to replace LibreOffice with Collabora as default on Fedora",
+      "url": "https://www.phoronix.com/news/Fedora-Discuss-Collabora-Office",
+      "canonical_url": "https://phoronix.com/news/Fedora-Discuss-Collabora-Office",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 16,
+      "published_at": "2026-09-26T04:13:15.170000-05:00"
+    },
+    {
+      "title": "Evolving programming languages in the AI era",
+      "url": "https://dashbit.co/blog/evolving-ai-era",
+      "canonical_url": "https://dashbit.co/blog/evolving-ai-era",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 113,
+      "published_at": "2026-09-25T02:34:39+00:00"
+    },
+    {
+      "title": "Keep if clauses side-effect free",
+      "url": "https://www.teamten.com/lawrence/programming/keep-if-clauses-side-effect-free.html",
+      "canonical_url": "https://teamten.com/lawrence/programming/keep-if-clauses-side-effect-free.html",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 24,
+      "published_at": "2026-09-25T22:45:44.108000-05:00"
+    },
+    {
+      "title": "Exploding variance of means of exponentials: least-squares to the rescue",
+      "url": "https://francisbach.com/spectral_log_density_estimation/",
+      "canonical_url": "https://francisbach.com/spectral_log_density_estimation",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 39,
+      "published_at": "2026-09-25T22:48:52+00:00"
+    },
+    {
+      "title": "Commodified Intelligence",
+      "url": "https://herecomesthemoon.net/2026/09/commodified-intelligence/",
+      "canonical_url": "https://herecomesthemoon.net/2026/09/commodified-intelligence",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 60,
+      "published_at": "2026-09-25T13:24:29.215000-05:00"
+    },
+    {
+      "title": "Amazon Transcribe adds customer-managed KMS keys for custom resources",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-transcribe/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-transcribe",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T19:19:00+00:00"
+    },
+    {
+      "title": "Can we have reachability properties in TLA⁺?",
+      "url": "https://ahelwer.ca/post/2026-09-26-reachability/",
+      "canonical_url": "https://ahelwer.ca/post/2026-09-26-reachability",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 6,
+      "published_at": "2026-09-26T10:49:22.686000-05:00"
+    },
+    {
+      "title": "Wrong, not broken",
+      "url": "https://aws.amazon.com/blogs/aws-insights/wrong-not-broken/",
+      "canonical_url": "https://aws.amazon.com/blogs/aws-insights/wrong-not-broken",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 5,
+      "published_at": "2026-09-26T12:08:06.946000-05:00"
+    },
+    {
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "url": "https://openai.com/index/proaction",
+      "canonical_url": "https://openai.com/index/proaction",
+      "source": "rss:OpenAI",
+      "sources": [
+        "rss:OpenAI"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T19:00:00+00:00"
+    },
+    {
+      "title": "Amazon EC2 M8i and M8i-flex instances are now available in additional regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-m8i-m8i-flex-thf/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-m8i-m8i-flex-thf",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T18:40:00+00:00"
+    },
+    {
+      "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-r8i-r8i-flex-thf/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-r8i-r8i-flex-thf",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T18:37:00+00:00"
+    },
+    {
+      "title": "Amazon EC2 C8i and C8i-flex instances are now available in additional regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/c8i-c8i-flex-thf-september-2026/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/c8i-c8i-flex-thf-september-2026",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T18:09:00+00:00"
+    },
+    {
+      "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
+      "canonical_url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
+      "source": "rss:GitHub",
+      "sources": [
+        "rss:GitHub"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T18:00:00+00:00"
+    },
+    {
+      "title": "AWS IAM outbound identity federation now supports interface VPC endpoints for OIDC discovery",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts-vpc-oidc/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts-vpc-oidc",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T17:54:00+00:00"
+    },
+    {
+      "title": "Tuning a Server for Benchmarking",
+      "url": "https://david.alvarezrosa.com/posts/tuning-a-server-for-benchmarking/",
+      "canonical_url": "https://david.alvarezrosa.com/posts/tuning-a-server-for-benchmarking",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 8,
+      "published_at": "2026-09-26T06:48:40.380000-05:00"
+    },
+    {
+      "title": "Biology might not be quantum, but its math is quantumlike",
+      "url": "https://www.quantamagazine.org/biology-might-not-be-quantum-but-its-math-is-quantumlike-20260923/",
+      "canonical_url": "https://quantamagazine.org/biology-might-not-be-quantum-but-its-math-is-quantumlike-20260923",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 84,
+      "published_at": "2026-09-25T02:11:07+00:00"
+    },
+    {
+      "title": "AWS DataSync launches a monitoring dashboard for tracking task executions across your account",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/datasync-monitoring-dashboard",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/datasync-monitoring-dashboard",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T15:24:00+00:00"
+    },
+    {
+      "title": "Finally, A True Blue Rose Exists",
+      "url": "https://www.sciencenews.org/article/true-blue-rose-pigment-copigment",
+      "canonical_url": "https://sciencenews.org/article/true-blue-rose-pigment-copigment",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 30,
+      "published_at": "2026-09-25T20:44:38+00:00"
+    },
+    {
+      "title": "Push images to Vercel Container Registry from GitHub Actions",
+      "url": "https://vercel.com/changelog/vcr-login-github-action",
+      "canonical_url": "https://vercel.com/changelog/vcr-login-github-action",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T09:15:00+00:00"
+    },
+    {
+      "title": "State of agent skills",
+      "url": "https://vercel.com/blog/state-of-agent-skills",
+      "canonical_url": "https://vercel.com/blog/state-of-agent-skills",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T06:00:00+00:00"
+    },
+    {
+      "title": "Pixel Canary is now available in stealth for free on AI Gateway",
+      "url": "https://vercel.com/changelog/pixel-canary-is-now-available-in-stealth-for-free-on-ai-gateway",
+      "canonical_url": "https://vercel.com/changelog/pixel-canary-is-now-available-in-stealth-for-free-on-ai-gateway",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T00:00:00+00:00"
+    },
+    {
+      "title": "Vercel Sandbox now supports memory observability",
+      "url": "https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability",
+      "canonical_url": "https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T00:00:00+00:00"
+    },
+    {
+      "title": "AWS Elastic Disaster Recovery now supports AWS Graviton-based source servers",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/elastic-disaster-recovery-graviton/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/elastic-disaster-recovery-graviton",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T08:00:00+00:00"
+    },
+    {
+      "title": "AWS End User Messaging and Amazon SES now offer AI agent skills for the AWS MCP Server",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-messaging-ses-ai-skills-mcp-server/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-messaging-ses-ai-skills-mcp-server",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T07:00:00+00:00"
+    },
+    {
+      "title": "AWS End User Messaging now supports voice calling on WhatsApp",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-voice-calling-whatsapp",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-voice-calling-whatsapp",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T07:00:00+00:00"
+    },
+    {
+      "title": "AWS Billing and Cost Management now provides billing context for your account through a new API",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-billing-and-cost-management-billing-context-api/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-billing-and-cost-management-billing-context-api",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T00:58:00+00:00"
+    },
+    {
+      "title": "Amazon EventBridge relaunches event buses for enterprise scale",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/eventbridge-relaunches-custom-event-buses/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/eventbridge-relaunches-custom-event-buses",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-24T21:00:00+00:00"
+    },
+    {
+      "title": "AWS Lambda durable functions are now available in AWS European Sovereign Cloud region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/durablefunctions-european-sovereign-cloud/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/durablefunctions-european-sovereign-cloud",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-24T18:29:00+00:00"
+    },
+    {
+      "title": "When chat is the wrong UI",
+      "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+      "canonical_url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui",
+      "source": "rss:GitHub",
+      "sources": [
+        "rss:GitHub"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-24T20:00:00+00:00"
+    },
+    {
+      "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
+      "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
+      "canonical_url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent",
+      "source": "rss:GitHub",
+      "sources": [
+        "rss:GitHub"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-24T18:26:12+00:00"
+    }
+  ],
+  "raw_responses": [
+    "[{\"id\":0,\"score\":6,\"category\":\"frontend\",\"why\":\"CSS perf technique; incremental for React apps\",\"action\":\"skip\"},{\"id\":1,\"score\":3,\"category\":\"backend\",\"why\":\"Go concurrency guide; not your Node/TS stack\",\"action\":\"skip\"},{\"id\":2,\"score\":2,\"category\":\"backend\",\"why\":\"Philosophical opinion piece; no technical content\",\"action\":\"skip\"},{\"id\":3,\"score\":7,\"category\":\"security\",\"why\":\"AI agent exploit on HF; relevant if you use their APIs\",\"action\":\"aware\"},{\"id\":4,\"score\":3,\"category\":\"ai\",\"why\":\"Personal essay on avoiding AI; no actionable insight\",\"action\":\"skip\"}]",
+    "[{\"id\":5,\"score\":6,\"category\":\"devops\",\"why\":\"Boundary secures AI agent access; incremental for your stack\",\"action\":\"skip\"},{\"id\":6,\"score\":3,\"category\":\"ai\",\"why\":\"OpenAI PR concern; no code impact\",\"action\":\"skip\"},{\"id\":7,\"score\":1,\"category\":\"backend\",\"why\":\"Meta political moderation; irrelevant to your work\",\"action\":\"skip\"},{\"id\":8,\"score\":1,\"category\":\"testing\",\"why\":\"Geography trivia; off-topic\",\"action\":\"skip\"},{\"id\":9,\"score\":1,\"category\":\"frontend\",\"why\":\"Viral video backstory; off-topic\",\"action\":\"skip\"}]",
+    "[{\"id\":10,\"score\":3,\"category\":\"backend\",\"why\":\"Google Play policy change, not your stack\",\"action\":\"skip\"},{\"id\":11,\"score\":5,\"category\":\"devops\",\"why\":\"Diagram language tool, optional for docs\",\"action\":\"skip\"},{\"id\":12,\"score\":4,\"category\":\"ai\",\"why\":\"LLM chat template research, no action needed\",\"action\":\"skip\"},{\"id\":13,\"score\":5,\"category\":\"ai\",\"why\":\"DeepSeek compute offering, another AI API\",\"action\":\"skip\"},{\"id\":14,\"score\":1,\"category\":\"backend\",\"why\":\"Japan immigration policy, off-topic\",\"action\":\"skip\"}]",
+    "[{\"id\":15,\"score\":1,\"category\":\"frontend\",\"why\":\"Retro history, no technical value\",\"action\":\"skip\"},{\"id\":16,\"score\":3,\"category\":\"security\",\"why\":\"AI agent anecdote, not a vuln you patch\",\"action\":\"skip\"},{\"id\":17,\"score\":1,\"category\":\"testing\",\"why\":\"Education policy, irrelevant to stack\",\"action\":\"skip\"},{\"id\":18,\"score\":5,\"category\":\"ai\",\"why\":\"Visual coding agent, early stage\",\"action\":\"skip\"},{\"id\":19,\"score\":3,\"category\":\"ai\",\"why\":\"Opinion piece, no actionable shift\",\"action\":\"skip\"}]",
+    "[{\"id\":20,\"score\":2,\"category\":\"backend\",\"why\":\"Corporate governance drama, no code impact\",\"action\":\"skip\"},{\"id\":21,\"score\":6,\"category\":\"backend\",\"why\":\"Formal methods buzz, not yet mainstream\",\"action\":\"skip\"},{\"id\":22,\"score\":2,\"category\":\"backend\",\"why\":\"Payment industry politics, no stack change\",\"action\":\"skip\"},{\"id\":23,\"score\":4,\"category\":\"ai\",\"why\":\"Niche model distillation experiment\",\"action\":\"skip\"},{\"id\":24,\"score\":3,\"category\":\"ai\",\"why\":\"Opinion on AI hiring trends\",\"action\":\"skip\"}]",
+    "[{\"id\":25,\"score\":1,\"category\":\"backend\",\"why\":\"Retro hardware analysis, not relevant to your stack\",\"action\":\"skip\"},{\"id\":26,\"score\":3,\"category\":\"security\",\"why\":\"OpenAI bot incident, not a vulnerability in your dependencies\",\"action\":\"skip\"},{\"id\":27,\"score\":2,\"category\":\"security\",\"why\":\"Legal verdict, no code changes required for your stack\",\"action\":\"skip\"},{\"id\":28,\"score\":4,\"category\":\"frontend\",\"why\":\"Opinionated web design take, not a new primitive\",\"action\":\"skip\"},{\"id\":29,\"score\":3,\"category\":\"backend\",\"why\":\"New video codec, not relevant to your React/Node/Supabase stack\",\"action\":\"skip\"}]",
+    "[{\"id\":30,\"score\":6,\"category\":\"devops\",\"why\":\"Local cloud emulation for dev workflow\",\"action\":\"skip\"},{\"id\":31,\"score\":7,\"category\":\"ai\",\"why\":\"Ollama extension for decision models, high adoption\",\"action\":\"aware\"},{\"id\":32,\"score\":3,\"category\":\"ai\",\"why\":\"CEO opinion piece, no technical shift\",\"action\":\"skip\"},{\"id\":33,\"score\":1,\"category\":\"frontend\",\"why\":\"Hardware flip-dot display demo, off-topic\",\"action\":\"skip\"},{\"id\":34,\"score\":3,\"category\":\"ai\",\"why\":\"Marketing brand news, no code impact\",\"action\":\"skip\"}]",
+    "[{\"id\":35,\"score\":2,\"category\":\"security\",\"why\":\"Surveillance news, not actionable for your stack\",\"action\":\"skip\"},{\"id\":36,\"score\":8,\"category\":\"backend\",\"why\":\"Postgres migration safety directly affects your Supabase stack\",\"action\":\"learn\"},{\"id\":37,\"score\":5,\"category\":\"backend\",\"why\":\"Parse don't validate concept, useful but not new\",\"action\":\"skip\"},{\"id\":38,\"score\":3,\"category\":\"devops\",\"why\":\"OS philosophy piece, no code impact\",\"action\":\"skip\"},{\"id\":39,\"score\":5,\"category\":\"ai\",\"why\":\"LLM wrapper library, incremental AI tooling\",\"action\":\"skip\"}]",
+    "[{\"id\":40,\"score\":3,\"category\":\"ai\",\"why\":\"Legal ruling, no code impact\",\"action\":\"skip\"},{\"id\":41,\"score\":2,\"category\":\"security\",\"why\":\"2017 opinion, no actionable change\",\"action\":\"skip\"},{\"id\":42,\"score\":2,\"category\":\"backend\",\"why\":\"Excel feature, irrelevant to stack\",\"action\":\"skip\"},{\"id\":43,\"score\":5,\"category\":\"security\",\"why\":\"Security research, no immediate action\",\"action\":\"skip\"},{\"id\":44,\"score\":2,\"category\":\"security\",\"why\":\"Opinion piece, no technical shift\",\"action\":\"skip\"}]",
+    "[{\"id\":45,\"score\":2,\"category\":\"backend\",\"why\":\"Retrocomputing discussion, not relevant to your stack\",\"action\":\"skip\"},{\"id\":46,\"score\":4,\"category\":\"devops\",\"why\":\"NixOS on niche hardware, not directly applicable\",\"action\":\"skip\"},{\"id\":47,\"score\":3,\"category\":\"ai\",\"why\":\"Opinion piece on AI agents, no actionable primitive\",\"action\":\"skip\"},{\"id\":48,\"score\":2,\"category\":\"frontend\",\"why\":\"Android YouTube client fork, not your stack\",\"action\":\"skip\"},{\"id\":49,\"score\":1,\"category\":\"backend\",\"why\":\"Economic theory discussion, completely off-topic\",\"action\":\"skip\"}]",
+    "[{\"id\":50,\"score\":4,\"category\":\"devops\",\"why\":\"Guix deployment niche, not your stack\",\"action\":\"skip\"},{\"id\":51,\"score\":1,\"category\":\"ai\",\"why\":\"Physics theory, zero relevance to coding\",\"action\":\"skip\"},{\"id\":52,\"score\":2,\"category\":\"backend\",\"why\":\"Semiconductor sales news, no code impact\",\"action\":\"skip\"},{\"id\":53,\"score\":1,\"category\":\"ai\",\"why\":\"Space biology discovery, irrelevant to work\",\"action\":\"skip\"},{\"id\":54,\"score\":2,\"category\":\"security\",\"why\":\"Gambling ban regulation, unlikely to affect you\",\"action\":\"skip\"}]",
+    "[{\"id\":55,\"score\":3,\"category\":\"backend\",\"why\":\"CS history video, no actionable impact\",\"action\":\"skip\"},{\"id\":56,\"score\":4,\"category\":\"ai\",\"why\":\"Niche font tool for token visualization\",\"action\":\"skip\"},{\"id\":57,\"score\":2,\"category\":\"ai\",\"why\":\"Unverified industry speculation, no code impact\",\"action\":\"skip\"},{\"id\":58,\"score\":3,\"category\":\"ai\",\"why\":\"AI hype commentary, no technical substance\",\"action\":\"skip\"},{\"id\":59,\"score\":4,\"category\":\"backend\",\"why\":\"Rust SIMD overview, not your stack\",\"action\":\"skip\"}]",
+    "[{\"id\":60,\"score\":3,\"category\":\"ai\",\"why\":\"Opinion piece on AI in education, no stack impact\",\"action\":\"skip\"},{\"id\":61,\"score\":2,\"category\":\"frontend\",\"why\":\"Explainer on ES2015 tagged templates, not new\",\"action\":\"skip\"},{\"id\":62,\"score\":3,\"category\":\"frontend\",\"why\":\"p5.js compute shaders niche, not your stack\",\"action\":\"skip\"},{\"id\":63,\"score\":1,\"category\":\"backend\",\"why\":\"Retro CPU reverse-engineering, off-topic\",\"action\":\"skip\"},{\"id\":64,\"score\":4,\"category\":\"frontend\",\"why\":\"Typst progress, but not a React/TS/Supabase shift\",\"action\":\"skip\"}]",
+    "[{\"id\":65,\"score\":1,\"category\":\"frontend\",\"why\":\"Off-topic media archive, not relevant to stack\",\"action\":\"skip\"},{\"id\":66,\"score\":2,\"category\":\"security\",\"why\":\"Geopolitical news, no code impact\",\"action\":\"skip\"},{\"id\":67,\"score\":3,\"category\":\"ai\",\"why\":\"AI demo, no stack impact\",\"action\":\"skip\"},{\"id\":68,\"score\":3,\"category\":\"devops\",\"why\":\"Minor VSCode UI bug, not actionable\",\"action\":\"skip\"},{\"id\":69,\"score\":2,\"category\":\"backend\",\"why\":\"Legal ruling, no stack impact\",\"action\":\"skip\"}]",
+    "[{\"id\":70,\"score\":2,\"category\":\"devops\",\"why\":\"Fedora packaging change; irrelevant to your stack\",\"action\":\"skip\"},{\"id\":71,\"score\":4,\"category\":\"ai\",\"why\":\"Opinion piece on languages/AI; no actionable primitive\",\"action\":\"skip\"},{\"id\":72,\"score\":5,\"category\":\"frontend\",\"why\":\"Good TS/React hygiene reminder; incremental only\",\"action\":\"skip\"},{\"id\":73,\"score\":2,\"category\":\"backend\",\"why\":\"Academic stats paper; not applicable to your work\",\"action\":\"skip\"},{\"id\":74,\"score\":3,\"category\":\"ai\",\"why\":\"AI economics essay; no code impact for you\",\"action\":\"skip\"}]",
+    "[{\"id\":75,\"score\":2,\"category\":\"security\",\"why\":\"AWS Transcribe KMS feature; not your stack\",\"action\":\"skip\"},{\"id\":76,\"score\":2,\"category\":\"backend\",\"why\":\"TLA+ formal methods theory; academic\",\"action\":\"skip\"},{\"id\":77,\"score\":2,\"category\":\"backend\",\"why\":\"Opinion piece on correctness; no code impact\",\"action\":\"skip\"},{\"id\":78,\"score\":3,\"category\":\"ai\",\"why\":\"Codex marketing case study; not a tool shift\",\"action\":\"skip\"},{\"id\":79,\"score\":2,\"category\":\"devops\",\"why\":\"EC2 instance region expansion; you use Vercel/Supabase\",\"action\":\"skip\"}]",
+    "[{\"id\":80,\"score\":2,\"category\":\"devops\",\"why\":\"Just EC2 region expansion, no new primitive\",\"action\":\"skip\"},{\"id\":81,\"score\":2,\"category\":\"devops\",\"why\":\"Just EC2 region expansion, no new primitive\",\"action\":\"skip\"},{\"id\":82,\"score\":2,\"category\":\"ai\",\"why\":\"Beginner tutorial, not a capability shift\",\"action\":\"skip\"},{\"id\":83,\"score\":4,\"category\":\"security\",\"why\":\"Niche AWS IAM VPC endpoint feature\",\"action\":\"skip\"},{\"id\":84,\"score\":5,\"category\":\"backend\",\"why\":\"General server tuning knowledge, incremental\",\"action\":\"skip\"}]",
+    "[{\"id\":85,\"score\":1,\"category\":\"ai\",\"why\":\"Off-topic biology research\",\"action\":\"skip\"},{\"id\":86,\"score\":3,\"category\":\"devops\",\"why\":\"AWS DataSync not in your stack\",\"action\":\"skip\"},{\"id\":87,\"score\":1,\"category\":\"ai\",\"why\":\"Off-topic biology news\",\"action\":\"skip\"},{\"id\":88,\"score\":7,\"category\":\"devops\",\"why\":\"Simplifies your Vercel deploy pipeline\",\"action\":\"learn\"},{\"id\":89,\"score\":4,\"category\":\"ai\",\"why\":\"AI opinion piece, no new primitive\",\"action\":\"skip\"}]",
+    "[{\"id\":90,\"score\":4,\"category\":\"ai\",\"why\":\"Cloudflare AI Gateway niche observability; not your stack\",\"action\":\"skip\"},{\"id\":91,\"score\":7,\"category\":\"devops\",\"why\":\"Vercel Sandbox memory observability aids your Node debugging\",\"action\":\"learn\"},{\"id\":92,\"score\":3,\"category\":\"devops\",\"why\":\"AWS DR Graviton support irrelevant to Vercel/Supabase stack\",\"action\":\"skip\"},{\"id\":93,\"score\":4,\"category\":\"ai\",\"why\":\"AWS MCP integration; not your AI tooling path\",\"action\":\"skip\"},{\"id\":94,\"score\":2,\"category\":\"backend\",\"why\":\"WhatsApp voice via AWS messaging; off-stack\",\"action\":\"skip\"}]",
+    "[{\"id\":95,\"score\":3,\"category\":\"devops\",\"why\":\"AWS billing API irrelevant to Supabase stack\",\"action\":\"skip\"},{\"id\":96,\"score\":4,\"category\":\"backend\",\"why\":\"EventBridge changes don't affect your Node/Supabase events\",\"action\":\"skip\"},{\"id\":97,\"score\":3,\"category\":\"backend\",\"why\":\"Lambda durable functions in EU region not your runtime\",\"action\":\"skip\"},{\"id\":98,\"score\":2,\"category\":\"ai\",\"why\":\"Opinion piece on chat UI, no actionable shift\",\"action\":\"skip\"},{\"id\":99,\"score\":5,\"category\":\"security\",\"why\":\"GitHub fuzzing agent useful but incremental for security\",\"action\":\"skip\"}]"
+  ]
+}
