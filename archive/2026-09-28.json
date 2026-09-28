@@ -1,0 +1,2286 @@
+{
+  "run_at": "2026-09-28T15:21:12.807917+00:00",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "counts": {
+    "candidates": 85,
+    "scored": 85,
+    "selected": 2
+  },
+  "selected": [
+    {
+      "title": "Footguns with Postgres \"at time zone 'UTC'\"",
+      "url": "https://bookofrevenue.com/blog/6ab81e9a97a13f0001f7e4e1/postgres-at-time-zone-u-does-not-do-what-you-think-it-does",
+      "canonical_url": "https://bookofrevenue.com/blog/6ab81e9a97a13f0001f7e4e1/postgres-at-time-zone-u-does-not-do-what-you-think-it-does",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 108,
+      "published_at": "2026-09-27T10:19:51+00:00",
+      "score": 9,
+      "category": "backend",
+      "why": "Postgres timezone footgun bites Supabase users",
+      "action": "learn"
+    },
+    {
+      "title": "Vercel Sandbox now supports memory observability",
+      "url": "https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability",
+      "canonical_url": "https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-28T00:00:00+00:00",
+      "score": 8,
+      "category": "devops",
+      "why": "Vercel Sandbox memory observability aids debugging",
+      "action": "learn"
+    }
+  ],
+  "scored": [
+    {
+      "title": "When did Google get so weird?",
+      "url": "https://sancho.bearblog.dev/google-weird/",
+      "canonical_url": "https://sancho.bearblog.dev/google-weird",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 1550,
+      "published_at": "2026-09-27T20:12:54+00:00",
+      "score": 3,
+      "category": "backend",
+      "why": "Opinion piece on Google; no stack impact",
+      "action": "skip"
+    },
+    {
+      "title": "On caring for user data: NeoVim caused Vim undo files to be deleted",
+      "url": "https://unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users/",
+      "canonical_url": "https://unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 380,
+      "published_at": "2026-09-27T09:44:53.153000-05:00",
+      "score": 5,
+      "category": "security",
+      "why": "NeoVim data-loss bug; irrelevant to your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Don't couple your Go code to GitHub",
+      "url": "https://iain.rocks/blog/dont-couple-your-go-code-to-github",
+      "canonical_url": "https://iain.rocks/blog/dont-couple-your-go-code-to-github",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 287,
+      "published_at": "2026-09-27T16:50:58+00:00",
+      "score": 4,
+      "category": "backend",
+      "why": "Go/GitHub coupling advice; you use Node/TS",
+      "action": "skip"
+    },
+    {
+      "title": "PostmarketOS is rebranding as Nura",
+      "url": "https://nura.eco/blog/2026/09/27/nura-rename/",
+      "canonical_url": "https://nura.eco/blog/2026/09/27/nura-rename",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 184,
+      "published_at": "2026-09-27T15:31:15+00:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Mobile Linux distro rebrand; not your domain",
+      "action": "skip"
+    },
+    {
+      "title": "Replacing the old battery on rechargeable bike lights",
+      "url": "https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-lights/",
+      "canonical_url": "https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-lights",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 193,
+      "published_at": "2026-09-27T13:30:11+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Hardware repair guide; completely off-topic",
+      "action": "skip"
+    },
+    {
+      "title": "Ten lines of code that changed my world",
+      "url": "https://pixelambacht.nl/2026/ten-lines-of-code/",
+      "canonical_url": "https://pixelambacht.nl/2026/ten-lines-of-code",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 136,
+      "published_at": "2026-09-27T08:05:28.206000-05:00",
+      "score": 4,
+      "category": "frontend",
+      "why": "Personal essay, likely minor pattern",
+      "action": "skip"
+    },
+    {
+      "title": "Secure AI agents with HashiCorp Boundary",
+      "url": "https://www.hashicorp.com/blog/secure-ai-agents-with-hashicorp-boundary",
+      "canonical_url": "https://hashicorp.com/blog/secure-ai-agents-with-hashicorp-boundary",
+      "source": "rss:HashiCorp",
+      "sources": [
+        "rss:HashiCorp"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-29T07:00:00+00:00",
+      "score": 5,
+      "category": "security",
+      "why": "Boundary for AI agents; niche for your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Owed a billion dollars in Nvidia stock",
+      "url": "https://colo.to/nvidia-stock-narrative.html",
+      "canonical_url": "https://colo.to/nvidia-stock-narrative.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 905,
+      "published_at": "2026-09-28T02:05:13+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Financial anecdote, zero technical relevance",
+      "action": "skip"
+    },
+    {
+      "title": "AI companies in race to demonstrate their model most threatening to humanity",
+      "url": "https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity/",
+      "canonical_url": "https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 392,
+      "published_at": "2026-09-28T08:35:40+00:00",
+      "score": 2,
+      "category": "ai",
+      "why": "Sensational AI safety take, no code impact",
+      "action": "skip"
+    },
+    {
+      "title": "SpaceX's Starship launching to orbit for first time ever today",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacexs-starship-megarocket-launching-to-orbit-for-1st-time-ever-on-sept-28-watch-it-live",
+      "canonical_url": "https://space.com/space-exploration/launches-spacecraft/spacexs-starship-megarocket-launching-to-orbit-for-1st-time-ever-on-sept-28-watch-it-live",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 256,
+      "published_at": "2026-09-28T09:15:04+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Space launch news, unrelated to your work",
+      "action": "skip"
+    },
+    {
+      "title": "Parley: Federated, decentralised chat that speaks plain IRC",
+      "url": "https://git.mills.io/prologic/parley",
+      "canonical_url": "https://git.mills.io/prologic/parley",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 172,
+      "published_at": "2026-09-28T10:30:54+00:00",
+      "score": 2,
+      "category": "backend",
+      "why": "IRC-based chat protocol; not your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Coding Is Not Solved",
+      "url": "https://blog.alexewerlof.com/p/coding-is-not-solved",
+      "canonical_url": "https://blog.alexewerlof.com/p/coding-is-not-solved",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 104,
+      "published_at": "2026-09-28T13:52:57+00:00",
+      "score": 2,
+      "category": "ai",
+      "why": "Opinion piece on AI coding limits",
+      "action": "skip"
+    },
+    {
+      "title": "Prompting Claude Opus 5.5",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5",
+      "canonical_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 176,
+      "published_at": "2026-09-28T07:33:29+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "Prompting guide for one model release",
+      "action": "skip"
+    },
+    {
+      "title": "Has Violence Against Teachers Become Accepted by Society?",
+      "url": "https://theeducatorsroom.com/has-violence-against-teachers-become-accepted-by-society/",
+      "canonical_url": "https://theeducatorsroom.com/has-violence-against-teachers-become-accepted-by-society",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 86,
+      "published_at": "2026-09-28T13:40:28+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Social issue, zero technical relevance",
+      "action": "skip"
+    },
+    {
+      "title": "Ember-1",
+      "url": "https://fireworks.ai/blog/ember-1",
+      "canonical_url": "https://fireworks.ai/blog/ember-1",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 537,
+      "published_at": "2026-09-27T17:31:53+00:00",
+      "score": 4,
+      "category": "frontend",
+      "why": "Likely Ember.js or model; not React stack",
+      "action": "skip"
+    },
+    {
+      "title": "Show HN: Hntui – A TUI for Hacker News",
+      "url": "https://github.com/ahmd-sh/hntui",
+      "canonical_url": "https://github.com/ahmd-sh/hntui",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 70,
+      "published_at": "2026-09-28T12:11:20+00:00",
+      "score": 2,
+      "category": "devops",
+      "why": "Terminal HN reader, not your stack",
+      "action": "skip"
+    },
+    {
+      "title": "37,500 border drawings: a map of the world as people remember it",
+      "url": "https://www.habibicode.org/thedrawnworld",
+      "canonical_url": "https://habibicode.org/thedrawnworld",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 99,
+      "published_at": "2026-09-28T08:35:10+00:00",
+      "score": 1,
+      "category": "frontend",
+      "why": "Art project, not technical",
+      "action": "skip"
+    },
+    {
+      "title": "Musk, the Movie",
+      "url": "https://bleeckerstreetmedia.com/musk",
+      "canonical_url": "https://bleeckerstreetmedia.com/musk",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 167,
+      "published_at": "2026-09-28T02:12:17+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Entertainment news, off-topic",
+      "action": "skip"
+    },
+    {
+      "title": "Thinking fast and slow in AI: The role of metacognition (2021)",
+      "url": "https://arxiv.org/abs/2110.01834",
+      "canonical_url": "https://arxiv.org/abs/2110.01834",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 147,
+      "published_at": "2026-09-28T03:23:53+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "2021 theory paper, not actionable",
+      "action": "skip"
+    },
+    {
+      "title": "Self-Hosting on the Dark Web",
+      "url": "https://david.alvarezrosa.com/posts/self-hosting-on-the-dark-web/",
+      "canonical_url": "https://david.alvarezrosa.com/posts/self-hosting-on-the-dark-web",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 292,
+      "published_at": "2026-09-27T20:03:36+00:00",
+      "score": 4,
+      "category": "security",
+      "why": "Niche self-hosting guide, low adoption",
+      "action": "skip"
+    },
+    {
+      "title": "There are no \"rogue\" AI agents",
+      "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+      "canonical_url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 380,
+      "published_at": "2026-09-27T16:19:46+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "Opinion piece on AI alignment, no technical shift",
+      "action": "skip"
+    },
+    {
+      "title": "Show HN: Lofi Cities – Pixel-art city nights with browser-generated lofi",
+      "url": "https://loficities.com/",
+      "canonical_url": "https://loficities.com/",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 291,
+      "published_at": "2026-09-27T18:44:30+00:00",
+      "score": 4,
+      "category": "frontend",
+      "why": "Creative browser demo, not a tooling primitive",
+      "action": "skip"
+    },
+    {
+      "title": "As A.I. makes law firms more efficient, clients ask: 'Where's my discount?'",
+      "url": "https://www.nytimes.com/2026/09/26/business/dealbook/ai-law-discount-billable-hour.html",
+      "canonical_url": "https://nytimes.com/2026/09/26/business/dealbook/ai-law-discount-billable-hour.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 138,
+      "published_at": "2026-09-28T01:30:17+00:00",
+      "score": 2,
+      "category": "ai",
+      "why": "Legal industry pricing discussion, not technical",
+      "action": "skip"
+    },
+    {
+      "title": "Armada: Encrypted, Open-Source, Discord Alternative (Built on Nostr)",
+      "url": "https://soapbox.pub/armada",
+      "canonical_url": "https://soapbox.pub/armada",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 116,
+      "published_at": "2026-09-28T02:55:27+00:00",
+      "score": 5,
+      "category": "devops",
+      "why": "Nostr-based chat tool, niche adoption",
+      "action": "skip"
+    },
+    {
+      "title": "Yes, no AI is now a feature",
+      "url": "https://blog.documentfoundation.org/blog/2026/09/03/yes-no-ai-is-now-a-feature/",
+      "canonical_url": "https://blog.documentfoundation.org/blog/2026/09/03/yes-no-ai-is-now-a-feature",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 56,
+      "published_at": "2026-09-28T04:58:26.129000-05:00",
+      "score": 3,
+      "category": "ai",
+      "why": "Marketing take on 'no AI' positioning",
+      "action": "skip"
+    },
+    {
+      "title": "Nissan's third generation e-POWER powertrain",
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/E_POWER_GEN3/",
+      "canonical_url": "https://nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/E_POWER_GEN3",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 117,
+      "published_at": "2026-09-28T02:31:23+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Automotive hardware, irrelevant to stack",
+      "action": "skip"
+    },
+    {
+      "title": "Tells of a Slop UI",
+      "url": "https://hereticpleb.vercel.app/blog/10-tells-of-slop",
+      "canonical_url": "https://hereticpleb.vercel.app/blog/10-tells-of-slop",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 370,
+      "published_at": "2026-09-27T14:41:26+00:00",
+      "score": 3,
+      "category": "frontend",
+      "why": "Opinion piece on UI quality, no actionable tech",
+      "action": "skip"
+    },
+    {
+      "title": "The Normalization of Inexplicable Failures",
+      "url": "https://www.ihatethefuture.com/2026/09/the-normalization-of-inexplicable.html",
+      "canonical_url": "https://ihatethefuture.com/2026/09/the-normalization-of-inexplicable.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 272,
+      "published_at": "2026-09-27T15:26:40+00:00",
+      "score": 3,
+      "category": "devops",
+      "why": "Commentary on failure culture, not a tool or shift",
+      "action": "skip"
+    },
+    {
+      "title": "Made by Mechanical Means",
+      "url": "https://felixrieseberg.com/made-by-mechanical-means/",
+      "canonical_url": "https://felixrieseberg.com/made-by-mechanical-means",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 55,
+      "published_at": "2026-09-28T07:06:06+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Retro/hardware topic, off-profile",
+      "action": "skip"
+    },
+    {
+      "title": "Alan Kay's answer to “Did the ENIAC have a BIOS”?",
+      "url": "https://www.quora.com/Did-the-ENIAC-have-a-BIOS/answer/Alan-Kay-11",
+      "canonical_url": "https://quora.com/Did-the-ENIAC-have-a-BIOS/answer/Alan-Kay-11",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 166,
+      "published_at": "2026-09-27T19:37:05+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Computing history trivia, no relevance",
+      "action": "skip"
+    },
+    {
+      "title": "In an $80 motel room, a discovery to shed light on the origins of life",
+      "url": "https://www.nytimes.com/2026/09/26/science/motel-science-discovery.html",
+      "canonical_url": "https://nytimes.com/2026/09/26/science/motel-science-discovery.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 274,
+      "published_at": "2026-09-27T14:30:55+00:00",
+      "score": 1,
+      "category": "ai",
+      "why": "Biology research, not relevant to your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
+      "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+      "canonical_url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 621,
+      "published_at": "2026-09-27T06:19:33+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "Legal filing, no code impact for you",
+      "action": "skip"
+    },
+    {
+      "title": "Show HN: PaperMono, e-ink fridge magnet shopping list with mobile web page",
+      "url": "https://github.com/seamusc/papermono-shopping-list",
+      "canonical_url": "https://github.com/seamusc/papermono-shopping-list",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 37,
+      "published_at": "2026-09-28T10:14:41+00:00",
+      "score": 2,
+      "category": "frontend",
+      "why": "Hobby IoT project, not your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Research finds 485 chemicals in US pesticide products linked to breast cancer",
+      "url": "https://www.theguardian.com/us-news/2026/sep/26/breast-cancer-us-pesticide-products",
+      "canonical_url": "https://theguardian.com/us-news/2026/sep/26/breast-cancer-us-pesticide-products",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 87,
+      "published_at": "2026-09-28T01:27:21+00:00",
+      "score": 1,
+      "category": "ai",
+      "why": "Health research, irrelevant to development",
+      "action": "skip"
+    },
+    {
+      "title": "Meta Blocks President Lula's Facebook Page, Campaign Ads 2 Weeks from Election",
+      "url": "https://www.reddit.com/r/worldnews/comments/1wr3id3/meta_blocks_president_lulas_facebook_page_and/",
+      "canonical_url": "https://reddit.com/r/worldnews/comments/1wr3id3/meta_blocks_president_lulas_facebook_page_and",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 454,
+      "published_at": "2026-09-27T08:44:04+00:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Platform moderation news, no code change",
+      "action": "skip"
+    },
+    {
+      "title": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
+      "url": "https://www.youtube.com/watch?v=-Nvne3LzBls",
+      "canonical_url": "https://youtube.com/watch?v=-Nvne3LzBls",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 187,
+      "published_at": "2026-09-27T17:32:02+00:00",
+      "score": 2,
+      "category": "ai",
+      "why": "SNL comedy segment, no technical content",
+      "action": "skip"
+    },
+    {
+      "title": "Malleable software: Restoring user agency in a world of locked-down apps (2025)",
+      "url": "https://www.inkandswitch.com/essay/malleable-software/",
+      "canonical_url": "https://inkandswitch.com/essay/malleable-software",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 130,
+      "published_at": "2026-09-27T19:01:31+00:00",
+      "score": 4,
+      "category": "frontend",
+      "why": "Philosophical essay, no actionable primitives for your stack",
+      "action": "skip"
+    },
+    {
+      "title": "What I did at Recurse Center",
+      "url": "https://thill.me/2026/09/11/what-i-did-at-rc.html",
+      "canonical_url": "https://thill.me/2026/09/11/what-i-did-at-rc.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 116,
+      "published_at": "2026-09-27T19:04:19+00:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Personal retreat recap, not relevant to daily work",
+      "action": "skip"
+    },
+    {
+      "title": "Lunar Terminator Paradox",
+      "url": "https://notes.secretsauce.net/notes/2026/09/27_lunar-terminator-paradox.html",
+      "canonical_url": "https://notes.secretsauce.net/notes/2026/09/27_lunar-terminator-paradox.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 93,
+      "published_at": "2026-09-27T21:06:17+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Astronomy topic, completely off-topic for software",
+      "action": "skip"
+    },
+    {
+      "title": "What makes Lisp difficult to read?",
+      "url": "https://paultm.nl/paren-thesis",
+      "canonical_url": "https://paultm.nl/paren-thesis",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 40,
+      "published_at": "2026-09-27T23:44:02.263000-05:00",
+      "score": 3,
+      "category": "frontend",
+      "why": "Lisp syntax discussion, not relevant to TS/React stack",
+      "action": "skip"
+    },
+    {
+      "title": "Leaving them behind",
+      "url": "https://dbushell.com/2026/09/28/leaving-them-behind/",
+      "canonical_url": "https://dbushell.com/2026/09/28/leaving-them-behind",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 23,
+      "published_at": "2026-09-28T04:44:05.658000-05:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Vague opinion piece, no actionable tech",
+      "action": "skip"
+    },
+    {
+      "title": "Imp is a full port of DSPy to the BEAM",
+      "url": "https://github.com/deepfates/imp",
+      "canonical_url": "https://github.com/deepfates/imp",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 91,
+      "published_at": "2026-09-27T19:28:23+00:00",
+      "score": 5,
+      "category": "ai",
+      "why": "DSPy port to BEAM, not your Node stack",
+      "action": "skip"
+    },
+    {
+      "title": "Hijacking the PS5's RTMP Stream",
+      "url": "https://yashgarg.dev/posts/hijacking-ps5-rtmp-stream/",
+      "canonical_url": "https://yashgarg.dev/posts/hijacking-ps5-rtmp-stream",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 16,
+      "published_at": "2026-09-28T06:45:16.525000-05:00",
+      "score": 2,
+      "category": "security",
+      "why": "PS5 hardware hack, irrelevant to web stack",
+      "action": "skip"
+    },
+    {
+      "title": "Vercel Sandbox now supports memory observability",
+      "url": "https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability",
+      "canonical_url": "https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-28T00:00:00+00:00",
+      "score": 8,
+      "category": "devops",
+      "why": "Vercel Sandbox memory observability aids debugging",
+      "action": "learn"
+    },
+    {
+      "title": "Show HN: TinyAIArena watch AI agents battle it out",
+      "url": "https://tinyaiarena.com/",
+      "canonical_url": "https://tinyaiarena.com/",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 115,
+      "published_at": "2026-09-27T15:51:28+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "AI agent demo, no practical adoption value",
+      "action": "skip"
+    },
+    {
+      "title": "Oral history of John Chowning, inventor of FM synthesis [video]",
+      "url": "https://www.youtube.com/watch?v=e1Xn3030IvM",
+      "canonical_url": "https://youtube.com/watch?v=e1Xn3030IvM",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 84,
+      "published_at": "2026-09-27T18:02:43+00:00",
+      "score": 1,
+      "category": "ai",
+      "why": "History of FM synthesis, not relevant",
+      "action": "skip"
+    },
+    {
+      "title": "Expert asterisks",
+      "url": "https://nedbatchelder.com/blog/202609/expert_asterisks",
+      "canonical_url": "https://nedbatchelder.com/blog/202609/expert_asterisks",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 28,
+      "published_at": "2026-09-27T22:48:21.007000-05:00",
+      "score": 3,
+      "category": "frontend",
+      "why": "Vague programming article, low signal",
+      "action": "skip"
+    },
+    {
+      "title": "Rickrolling with a Pharmacy cross",
+      "url": "https://hugoarnal.com/blog/rickroll-pharmacy-cross/",
+      "canonical_url": "https://hugoarnal.com/blog/rickroll-pharmacy-cross",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 16,
+      "published_at": "2026-09-28T02:52:23.979000-05:00",
+      "score": 1,
+      "category": "frontend",
+      "why": "Novelty hack, no durable value",
+      "action": "skip"
+    },
+    {
+      "title": "Fragment of oldest known peace treaty found in Turkey",
+      "url": "https://www.livescience.com/archaeology/ancient-egyptians/we-have-found-traces-of-peace-thousands-of-years-old-fragment-of-worlds-oldest-known-peace-treaty-found-in-turkey",
+      "canonical_url": "https://livescience.com/archaeology/ancient-egyptians/we-have-found-traces-of-peace-thousands-of-years-old-fragment-of-worlds-oldest-known-peace-treaty-found-in-turkey",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 91,
+      "published_at": "2026-09-27T14:35:10+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Archaeology find, zero relevance",
+      "action": "skip"
+    },
+    {
+      "title": "Fool's Expertise",
+      "url": "https://bcantrill.dtrace.org/2026/09/27/fools-expertise/",
+      "canonical_url": "https://bcantrill.dtrace.org/2026/09/27/fools-expertise",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 23,
+      "published_at": "2026-09-27T22:50:52.079000-05:00",
+      "score": 2,
+      "category": "ai",
+      "why": "Opinion piece on expertise, not actionable",
+      "action": "skip"
+    },
+    {
+      "title": "What is the size of Yemen? (2024)",
+      "url": "https://theborys.substack.com/p/what-is-the-size-of-yemen",
+      "canonical_url": "https://theborys.substack.com/p/what-is-the-size-of-yemen",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 255,
+      "published_at": "2026-09-27T02:40:26+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Geography trivia, irrelevant to stack",
+      "action": "skip"
+    },
+    {
+      "title": "Footguns with Postgres \"at time zone 'UTC'\"",
+      "url": "https://bookofrevenue.com/blog/6ab81e9a97a13f0001f7e4e1/postgres-at-time-zone-u-does-not-do-what-you-think-it-does",
+      "canonical_url": "https://bookofrevenue.com/blog/6ab81e9a97a13f0001f7e4e1/postgres-at-time-zone-u-does-not-do-what-you-think-it-does",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 108,
+      "published_at": "2026-09-27T10:19:51+00:00",
+      "score": 9,
+      "category": "backend",
+      "why": "Postgres timezone footgun bites Supabase users",
+      "action": "learn"
+    },
+    {
+      "title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+      "url": "https://arxiv.org/abs/2609.25021",
+      "canonical_url": "https://arxiv.org/abs/2609.25021",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 102,
+      "published_at": "2026-09-27T10:26:25+00:00",
+      "score": 4,
+      "category": "ai",
+      "why": "LLM chat template research, not applicable",
+      "action": "skip"
+    },
+    {
+      "title": "If we do not stop to help each other, what do we become?",
+      "url": "https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become/",
+      "canonical_url": "https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 205,
+      "published_at": "2026-09-27T03:20:46+00:00",
+      "score": 2,
+      "category": "frontend",
+      "why": "Philosophical essay, no technical content",
+      "action": "skip"
+    },
+    {
+      "title": "What are you doing this week?",
+      "url": "https://lobste.rs/s/hgmgp2/what_are_you_doing_this_week",
+      "canonical_url": "https://lobste.rs/s/hgmgp2/what_are_you_doing_this_week",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 6,
+      "published_at": "2026-09-28T07:42:17.719000-05:00",
+      "score": 2,
+      "category": "devops",
+      "why": "Weekly discussion thread, no actionable signal",
+      "action": "skip"
+    },
+    {
+      "title": "Rusty thoughts on \"Parse, don't validate\"",
+      "url": "https://eli.thegreenplace.net/2026/rusty-thoughts-on-parse-dont-validate/",
+      "canonical_url": "https://eli.thegreenplace.net/2026/rusty-thoughts-on-parse-dont-validate",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 90,
+      "published_at": "2026-09-27T08:59:59+00:00",
+      "score": 6,
+      "category": "backend",
+      "why": "Parse don't validate pattern useful for TS API boundaries",
+      "action": "skip"
+    },
+    {
+      "title": "The internet discovers TLA+. Now what?",
+      "url": "https://reasonable.io/blog/tla-tutorial/",
+      "canonical_url": "https://reasonable.io/blog/tla-tutorial",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 125,
+      "published_at": "2026-09-27T05:26:15+00:00",
+      "score": 5,
+      "category": "testing",
+      "why": "TLA+ formal methods trending, niche for now",
+      "action": "skip"
+    },
+    {
+      "title": "Dropping Swift entirely from our Bevy iOS crates",
+      "url": "https://rustunit.com/blog/2026/09-04-bevy-ios-crates-objc2/",
+      "canonical_url": "https://rustunit.com/blog/2026/09-04-bevy-ios-crates-objc2",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 18,
+      "published_at": "2026-09-27T18:22:45.754000-05:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Rust game engine iOS work, not your stack",
+      "action": "skip"
+    },
+    {
+      "title": "One month without AI",
+      "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+      "canonical_url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 92,
+      "published_at": "2026-09-27T01:22:21.194000-05:00",
+      "score": 2,
+      "category": "ai",
+      "why": "Personal no-AI experiment, no actionable insight",
+      "action": "skip"
+    },
+    {
+      "title": "Pragmatic Anthropomorphism, or: How to Talk to an Autocompleting Cricket",
+      "url": "https://blog.lmorchard.com/2026/09/27/pragmatic-anthropomorphism/",
+      "canonical_url": "https://blog.lmorchard.com/2026/09/27/pragmatic-anthropomorphism",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 7,
+      "published_at": "2026-09-28T00:48:54.004000-05:00",
+      "score": 2,
+      "category": "ai",
+      "why": "Anthropomorphism essay, not a tool or shift",
+      "action": "skip"
+    },
+    {
+      "title": "LuaRocks Security Incident September 2026",
+      "url": "https://luarocks.org/security-incident-september-2026",
+      "canonical_url": "https://luarocks.org/security-incident-september-2026",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 31,
+      "published_at": "2026-09-27T08:58:57.101000-05:00",
+      "score": 2,
+      "category": "security",
+      "why": "Lua package manager, not your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Syncing Rust GCC backend or how to test Murphy's law",
+      "url": "https://blog.guillaume-gomez.fr/articles/2026-09-22+Syncing+Rust+GCC+backend+or+how+to+test+Murphy%27s+law",
+      "canonical_url": "https://blog.guillaume-gomez.fr/articles/2026-09-22+Syncing+Rust+GCC+backend+or+how+to+test+Murphy%27s+law",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 8,
+      "published_at": "2026-09-27T19:10:55.368000-05:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Rust compiler internals, not your stack",
+      "action": "skip"
+    },
+    {
+      "title": "OpenAI agents tried to bruteforce a UN website's API fields",
+      "url": "https://swarmcha.se/posts/openai-unctad",
+      "canonical_url": "https://swarmcha.se/posts/openai-unctad",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 85,
+      "published_at": "2026-09-27T01:08:07+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "AI agent misbehavior, no code impact",
+      "action": "skip"
+    },
+    {
+      "title": "Video CDs Break Windows Explorer",
+      "url": "https://clydesnotes.blogspot.com/2026/08/video-cds-break-windows-explorer.html",
+      "canonical_url": "https://clydesnotes.blogspot.com/2026/08/video-cds-break-windows-explorer.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 138,
+      "published_at": "2026-09-26T19:30:39+00:00",
+      "score": 1,
+      "category": "devops",
+      "why": "Windows Explorer bug, irrelevant",
+      "action": "skip"
+    },
+    {
+      "title": "Reverse Engineering the iPod Classic's Undocumented Mikey Chip",
+      "url": "https://terminalbytes.com/reverse-engineering-ipod-classic-mikey-chip/",
+      "canonical_url": "https://terminalbytes.com/reverse-engineering-ipod-classic-mikey-chip",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 10,
+      "published_at": "2026-09-27T14:58:31.261000-05:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Retro hardware reverse engineering",
+      "action": "skip"
+    },
+    {
+      "title": "Valve Introduces Pyrowave Video Codec In Beta For Low Latency Streaming",
+      "url": "https://www.phoronix.com/news/Valve-Steam-Beta-Pyrowave",
+      "canonical_url": "https://phoronix.com/news/Valve-Steam-Beta-Pyrowave",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 54,
+      "published_at": "2026-09-26T22:41:44.295000-05:00",
+      "score": 4,
+      "category": "backend",
+      "why": "Valve's streaming codec; niche unless you build video infra",
+      "action": "skip"
+    },
+    {
+      "title": "Palantir's Co-Founder Wants Us Less Judgmental About Deadly Iran School Strike",
+      "url": "https://www.motherjones.com/politics/2026/09/palantirs-co-founder-thinks-we-should-be-less-judgmental-about-that-deadly-iran-school-strike/",
+      "canonical_url": "https://motherjones.com/politics/2026/09/palantirs-co-founder-thinks-we-should-be-less-judgmental-about-that-deadly-iran-school-strike",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 92,
+      "published_at": "2026-09-26T22:16:46+00:00",
+      "score": 1,
+      "category": "security",
+      "why": "Political opinion, no code impact",
+      "action": "skip"
+    },
+    {
+      "title": "OpenAI Codex agents go rogue and consumes USD 78,000 without authorization",
+      "url": "https://news.ycombinator.com/item?id=49861047",
+      "canonical_url": "https://news.ycombinator.com/item?id=49861047",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 81,
+      "published_at": "2026-09-26T22:15:32+00:00",
+      "score": 5,
+      "category": "ai",
+      "why": "AI agent cost overrun incident; cautionary but not actionable",
+      "action": "skip"
+    },
+    {
+      "title": "What I believe about the future of software development",
+      "url": "https://thorstenball.com/blog/2026/09/19/what-i-believe-about-the-future-of-software-development/",
+      "canonical_url": "https://thorstenball.com/blog/2026/09/19/what-i-believe-about-the-future-of-software-development",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 5,
+      "published_at": "2026-09-27T18:37:33.930000-05:00",
+      "score": 2,
+      "category": "frontend",
+      "why": "Opinion piece, no new primitives",
+      "action": "skip"
+    },
+    {
+      "title": "Welcome to the Medical Clinic at the Interplanetary Relay Station",
+      "url": "https://www.lightspeedmagazine.com/fiction/welcome-to-the-medical-clinic-at-the-interplanetary-relay-station/",
+      "canonical_url": "https://lightspeedmagazine.com/fiction/welcome-to-the-medical-clinic-at-the-interplanetary-relay-station",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 83,
+      "published_at": "2026-09-26T20:08:50+00:00",
+      "score": 1,
+      "category": "ai",
+      "why": "Sci-fi short story, irrelevant",
+      "action": "skip"
+    },
+    {
+      "title": "Faster prompt lookup drafting in llama.cpp",
+      "url": "https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp/",
+      "canonical_url": "https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 81,
+      "published_at": "2026-09-26T19:57:24+00:00",
+      "score": 4,
+      "category": "ai",
+      "why": "llama.cpp optimization; incremental for inference",
+      "action": "skip"
+    },
+    {
+      "title": "Ember-1 from Fireworks now available on AI Gateway",
+      "url": "https://vercel.com/changelog/ember-1-from-fireworks-now-available-on-ai-gateway",
+      "canonical_url": "https://vercel.com/changelog/ember-1-from-fireworks-now-available-on-ai-gateway",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-27T00:00:00+00:00",
+      "score": 5,
+      "category": "ai",
+      "why": "New model on Fireworks/Cloudflare Gateway",
+      "action": "skip"
+    },
+    {
+      "title": "Guitar amp and effects pedal built on the Waveshare ESP32-S3-Touch-AMOLED-2.06",
+      "url": "https://github.com/dashersw/coyopedal",
+      "canonical_url": "https://github.com/dashersw/coyopedal",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 126,
+      "published_at": "2026-09-26T02:24:50+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "ESP32 hardware project; off-stack",
+      "action": "skip"
+    },
+    {
+      "title": "Deshittification Part 2: Bypassing the App Store Gatekeeper",
+      "url": "https://fabricati-diem.inform.social/post/deshittification-as-a-service-part2-bypassing-the-app-store-gatekeeper/",
+      "canonical_url": "https://fabricati-diem.inform.social/post/deshittification-as-a-service-part2-bypassing-the-app-store-gatekeeper",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 10,
+      "published_at": "2026-09-27T09:47:13.187000-05:00",
+      "score": 3,
+      "category": "frontend",
+      "why": "App Store opinion piece; no code impact",
+      "action": "skip"
+    },
+    {
+      "title": "Deterministic Concurrency [video]",
+      "url": "https://www.youtube.com/watch?v=25x0UuSCKuU",
+      "canonical_url": "https://youtube.com/watch?v=25x0UuSCKuU",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 69,
+      "published_at": "2026-09-26T00:14:04+00:00",
+      "score": 4,
+      "category": "backend",
+      "why": "Concurrency theory video; no new primitive",
+      "action": "skip"
+    },
+    {
+      "title": "Reading’s Bayeux Tapestry",
+      "url": "https://diamondgeezer.blogspot.com/2026/09/readings-bayeux-tapestry.html",
+      "canonical_url": "https://diamondgeezer.blogspot.com/2026/09/readings-bayeux-tapestry.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 65,
+      "published_at": "2026-09-26T10:48:40+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Historical artifact, not relevant to tech stack",
+      "action": "skip"
+    },
+    {
+      "title": "Functional Mechanical Sympathy [video]",
+      "url": "https://www.youtube.com/watch?v=jSHmDnUZCm8",
+      "canonical_url": "https://youtube.com/watch?v=jSHmDnUZCm8",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 55,
+      "published_at": "2026-09-26T01:26:56+00:00",
+      "score": 6,
+      "category": "backend",
+      "why": "Performance optimization talk, potentially useful context",
+      "action": "skip"
+    },
+    {
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "url": "https://openai.com/index/proaction",
+      "canonical_url": "https://openai.com/index/proaction",
+      "source": "rss:OpenAI",
+      "sources": [
+        "rss:OpenAI"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T19:00:00+00:00",
+      "score": 4,
+      "category": "ai",
+      "why": "Marketing case study for AI coding assistant",
+      "action": "skip"
+    },
+    {
+      "title": "Amazon Transcribe adds customer-managed KMS keys for custom resources",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-transcribe/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-transcribe",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T19:19:00+00:00",
+      "score": 5,
+      "category": "security",
+      "why": "AWS Transcribe KMS keys, niche compliance feature",
+      "action": "skip"
+    },
+    {
+      "title": "Amazon EC2 M8i and M8i-flex instances are now available in additional regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-m8i-m8i-flex-thf/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-m8i-m8i-flex-thf",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T18:40:00+00:00",
+      "score": 3,
+      "category": "devops",
+      "why": "EC2 instance region expansion, not your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-r8i-r8i-flex-thf/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-r8i-r8i-flex-thf",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T18:37:00+00:00",
+      "score": 2,
+      "category": "devops",
+      "why": "EC2 regional expansion, not relevant to Supabase stack",
+      "action": "skip"
+    },
+    {
+      "title": "Amazon EC2 C8i and C8i-flex instances are now available in additional regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/c8i-c8i-flex-thf-september-2026/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/c8i-c8i-flex-thf-september-2026",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T18:09:00+00:00",
+      "score": 2,
+      "category": "devops",
+      "why": "EC2 regional expansion, not relevant to Supabase stack",
+      "action": "skip"
+    },
+    {
+      "title": "AWS IAM outbound identity federation now supports interface VPC endpoints for OIDC discovery",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts-vpc-oidc/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts-vpc-oidc",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T17:54:00+00:00",
+      "score": 4,
+      "category": "security",
+      "why": "IAM OIDC VPC endpoints niche; unlikely to affect your auth flow",
+      "action": "skip"
+    },
+    {
+      "title": "AWS DataSync launches a monitoring dashboard for tracking task executions across your account",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/datasync-monitoring-dashboard",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/datasync-monitoring-dashboard",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T15:24:00+00:00",
+      "score": 3,
+      "category": "devops",
+      "why": "DataSync monitoring dashboard; incremental ops tooling",
+      "action": "skip"
+    },
+    {
+      "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
+      "canonical_url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
+      "source": "rss:GitHub",
+      "sources": [
+        "rss:GitHub"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T18:00:00+00:00",
+      "score": 2,
+      "category": "ai",
+      "why": "Beginner Copilot tutorial; no new capability for daily work",
+      "action": "skip"
+    }
+  ],
+  "candidates": [
+    {
+      "title": "When did Google get so weird?",
+      "url": "https://sancho.bearblog.dev/google-weird/",
+      "canonical_url": "https://sancho.bearblog.dev/google-weird",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 1550,
+      "published_at": "2026-09-27T20:12:54+00:00"
+    },
+    {
+      "title": "On caring for user data: NeoVim caused Vim undo files to be deleted",
+      "url": "https://unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users/",
+      "canonical_url": "https://unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 380,
+      "published_at": "2026-09-27T09:44:53.153000-05:00"
+    },
+    {
+      "title": "Don't couple your Go code to GitHub",
+      "url": "https://iain.rocks/blog/dont-couple-your-go-code-to-github",
+      "canonical_url": "https://iain.rocks/blog/dont-couple-your-go-code-to-github",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 287,
+      "published_at": "2026-09-27T16:50:58+00:00"
+    },
+    {
+      "title": "PostmarketOS is rebranding as Nura",
+      "url": "https://nura.eco/blog/2026/09/27/nura-rename/",
+      "canonical_url": "https://nura.eco/blog/2026/09/27/nura-rename",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 184,
+      "published_at": "2026-09-27T15:31:15+00:00"
+    },
+    {
+      "title": "Replacing the old battery on rechargeable bike lights",
+      "url": "https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-lights/",
+      "canonical_url": "https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-lights",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 193,
+      "published_at": "2026-09-27T13:30:11+00:00"
+    },
+    {
+      "title": "Ten lines of code that changed my world",
+      "url": "https://pixelambacht.nl/2026/ten-lines-of-code/",
+      "canonical_url": "https://pixelambacht.nl/2026/ten-lines-of-code",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 136,
+      "published_at": "2026-09-27T08:05:28.206000-05:00"
+    },
+    {
+      "title": "Secure AI agents with HashiCorp Boundary",
+      "url": "https://www.hashicorp.com/blog/secure-ai-agents-with-hashicorp-boundary",
+      "canonical_url": "https://hashicorp.com/blog/secure-ai-agents-with-hashicorp-boundary",
+      "source": "rss:HashiCorp",
+      "sources": [
+        "rss:HashiCorp"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-29T07:00:00+00:00"
+    },
+    {
+      "title": "Owed a billion dollars in Nvidia stock",
+      "url": "https://colo.to/nvidia-stock-narrative.html",
+      "canonical_url": "https://colo.to/nvidia-stock-narrative.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 905,
+      "published_at": "2026-09-28T02:05:13+00:00"
+    },
+    {
+      "title": "AI companies in race to demonstrate their model most threatening to humanity",
+      "url": "https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity/",
+      "canonical_url": "https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 392,
+      "published_at": "2026-09-28T08:35:40+00:00"
+    },
+    {
+      "title": "SpaceX's Starship launching to orbit for first time ever today",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacexs-starship-megarocket-launching-to-orbit-for-1st-time-ever-on-sept-28-watch-it-live",
+      "canonical_url": "https://space.com/space-exploration/launches-spacecraft/spacexs-starship-megarocket-launching-to-orbit-for-1st-time-ever-on-sept-28-watch-it-live",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 256,
+      "published_at": "2026-09-28T09:15:04+00:00"
+    },
+    {
+      "title": "Parley: Federated, decentralised chat that speaks plain IRC",
+      "url": "https://git.mills.io/prologic/parley",
+      "canonical_url": "https://git.mills.io/prologic/parley",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 172,
+      "published_at": "2026-09-28T10:30:54+00:00"
+    },
+    {
+      "title": "Coding Is Not Solved",
+      "url": "https://blog.alexewerlof.com/p/coding-is-not-solved",
+      "canonical_url": "https://blog.alexewerlof.com/p/coding-is-not-solved",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 104,
+      "published_at": "2026-09-28T13:52:57+00:00"
+    },
+    {
+      "title": "Prompting Claude Opus 5.5",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5",
+      "canonical_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 176,
+      "published_at": "2026-09-28T07:33:29+00:00"
+    },
+    {
+      "title": "Has Violence Against Teachers Become Accepted by Society?",
+      "url": "https://theeducatorsroom.com/has-violence-against-teachers-become-accepted-by-society/",
+      "canonical_url": "https://theeducatorsroom.com/has-violence-against-teachers-become-accepted-by-society",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 86,
+      "published_at": "2026-09-28T13:40:28+00:00"
+    },
+    {
+      "title": "Ember-1",
+      "url": "https://fireworks.ai/blog/ember-1",
+      "canonical_url": "https://fireworks.ai/blog/ember-1",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 537,
+      "published_at": "2026-09-27T17:31:53+00:00"
+    },
+    {
+      "title": "Show HN: Hntui – A TUI for Hacker News",
+      "url": "https://github.com/ahmd-sh/hntui",
+      "canonical_url": "https://github.com/ahmd-sh/hntui",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 70,
+      "published_at": "2026-09-28T12:11:20+00:00"
+    },
+    {
+      "title": "37,500 border drawings: a map of the world as people remember it",
+      "url": "https://www.habibicode.org/thedrawnworld",
+      "canonical_url": "https://habibicode.org/thedrawnworld",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 99,
+      "published_at": "2026-09-28T08:35:10+00:00"
+    },
+    {
+      "title": "Musk, the Movie",
+      "url": "https://bleeckerstreetmedia.com/musk",
+      "canonical_url": "https://bleeckerstreetmedia.com/musk",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 167,
+      "published_at": "2026-09-28T02:12:17+00:00"
+    },
+    {
+      "title": "Thinking fast and slow in AI: The role of metacognition (2021)",
+      "url": "https://arxiv.org/abs/2110.01834",
+      "canonical_url": "https://arxiv.org/abs/2110.01834",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 147,
+      "published_at": "2026-09-28T03:23:53+00:00"
+    },
+    {
+      "title": "Self-Hosting on the Dark Web",
+      "url": "https://david.alvarezrosa.com/posts/self-hosting-on-the-dark-web/",
+      "canonical_url": "https://david.alvarezrosa.com/posts/self-hosting-on-the-dark-web",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 292,
+      "published_at": "2026-09-27T20:03:36+00:00"
+    },
+    {
+      "title": "There are no \"rogue\" AI agents",
+      "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+      "canonical_url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 380,
+      "published_at": "2026-09-27T16:19:46+00:00"
+    },
+    {
+      "title": "Show HN: Lofi Cities – Pixel-art city nights with browser-generated lofi",
+      "url": "https://loficities.com/",
+      "canonical_url": "https://loficities.com/",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 291,
+      "published_at": "2026-09-27T18:44:30+00:00"
+    },
+    {
+      "title": "As A.I. makes law firms more efficient, clients ask: 'Where's my discount?'",
+      "url": "https://www.nytimes.com/2026/09/26/business/dealbook/ai-law-discount-billable-hour.html",
+      "canonical_url": "https://nytimes.com/2026/09/26/business/dealbook/ai-law-discount-billable-hour.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 138,
+      "published_at": "2026-09-28T01:30:17+00:00"
+    },
+    {
+      "title": "Armada: Encrypted, Open-Source, Discord Alternative (Built on Nostr)",
+      "url": "https://soapbox.pub/armada",
+      "canonical_url": "https://soapbox.pub/armada",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 116,
+      "published_at": "2026-09-28T02:55:27+00:00"
+    },
+    {
+      "title": "Yes, no AI is now a feature",
+      "url": "https://blog.documentfoundation.org/blog/2026/09/03/yes-no-ai-is-now-a-feature/",
+      "canonical_url": "https://blog.documentfoundation.org/blog/2026/09/03/yes-no-ai-is-now-a-feature",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 56,
+      "published_at": "2026-09-28T04:58:26.129000-05:00"
+    },
+    {
+      "title": "Nissan's third generation e-POWER powertrain",
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/E_POWER_GEN3/",
+      "canonical_url": "https://nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/E_POWER_GEN3",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 117,
+      "published_at": "2026-09-28T02:31:23+00:00"
+    },
+    {
+      "title": "Tells of a Slop UI",
+      "url": "https://hereticpleb.vercel.app/blog/10-tells-of-slop",
+      "canonical_url": "https://hereticpleb.vercel.app/blog/10-tells-of-slop",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 370,
+      "published_at": "2026-09-27T14:41:26+00:00"
+    },
+    {
+      "title": "The Normalization of Inexplicable Failures",
+      "url": "https://www.ihatethefuture.com/2026/09/the-normalization-of-inexplicable.html",
+      "canonical_url": "https://ihatethefuture.com/2026/09/the-normalization-of-inexplicable.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 272,
+      "published_at": "2026-09-27T15:26:40+00:00"
+    },
+    {
+      "title": "Made by Mechanical Means",
+      "url": "https://felixrieseberg.com/made-by-mechanical-means/",
+      "canonical_url": "https://felixrieseberg.com/made-by-mechanical-means",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 55,
+      "published_at": "2026-09-28T07:06:06+00:00"
+    },
+    {
+      "title": "Alan Kay's answer to “Did the ENIAC have a BIOS”?",
+      "url": "https://www.quora.com/Did-the-ENIAC-have-a-BIOS/answer/Alan-Kay-11",
+      "canonical_url": "https://quora.com/Did-the-ENIAC-have-a-BIOS/answer/Alan-Kay-11",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 166,
+      "published_at": "2026-09-27T19:37:05+00:00"
+    },
+    {
+      "title": "In an $80 motel room, a discovery to shed light on the origins of life",
+      "url": "https://www.nytimes.com/2026/09/26/science/motel-science-discovery.html",
+      "canonical_url": "https://nytimes.com/2026/09/26/science/motel-science-discovery.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 274,
+      "published_at": "2026-09-27T14:30:55+00:00"
+    },
+    {
+      "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
+      "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+      "canonical_url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 621,
+      "published_at": "2026-09-27T06:19:33+00:00"
+    },
+    {
+      "title": "Show HN: PaperMono, e-ink fridge magnet shopping list with mobile web page",
+      "url": "https://github.com/seamusc/papermono-shopping-list",
+      "canonical_url": "https://github.com/seamusc/papermono-shopping-list",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 37,
+      "published_at": "2026-09-28T10:14:41+00:00"
+    },
+    {
+      "title": "Research finds 485 chemicals in US pesticide products linked to breast cancer",
+      "url": "https://www.theguardian.com/us-news/2026/sep/26/breast-cancer-us-pesticide-products",
+      "canonical_url": "https://theguardian.com/us-news/2026/sep/26/breast-cancer-us-pesticide-products",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 87,
+      "published_at": "2026-09-28T01:27:21+00:00"
+    },
+    {
+      "title": "Meta Blocks President Lula's Facebook Page, Campaign Ads 2 Weeks from Election",
+      "url": "https://www.reddit.com/r/worldnews/comments/1wr3id3/meta_blocks_president_lulas_facebook_page_and/",
+      "canonical_url": "https://reddit.com/r/worldnews/comments/1wr3id3/meta_blocks_president_lulas_facebook_page_and",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 454,
+      "published_at": "2026-09-27T08:44:04+00:00"
+    },
+    {
+      "title": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
+      "url": "https://www.youtube.com/watch?v=-Nvne3LzBls",
+      "canonical_url": "https://youtube.com/watch?v=-Nvne3LzBls",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 187,
+      "published_at": "2026-09-27T17:32:02+00:00"
+    },
+    {
+      "title": "Malleable software: Restoring user agency in a world of locked-down apps (2025)",
+      "url": "https://www.inkandswitch.com/essay/malleable-software/",
+      "canonical_url": "https://inkandswitch.com/essay/malleable-software",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 130,
+      "published_at": "2026-09-27T19:01:31+00:00"
+    },
+    {
+      "title": "What I did at Recurse Center",
+      "url": "https://thill.me/2026/09/11/what-i-did-at-rc.html",
+      "canonical_url": "https://thill.me/2026/09/11/what-i-did-at-rc.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 116,
+      "published_at": "2026-09-27T19:04:19+00:00"
+    },
+    {
+      "title": "Lunar Terminator Paradox",
+      "url": "https://notes.secretsauce.net/notes/2026/09/27_lunar-terminator-paradox.html",
+      "canonical_url": "https://notes.secretsauce.net/notes/2026/09/27_lunar-terminator-paradox.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 93,
+      "published_at": "2026-09-27T21:06:17+00:00"
+    },
+    {
+      "title": "What makes Lisp difficult to read?",
+      "url": "https://paultm.nl/paren-thesis",
+      "canonical_url": "https://paultm.nl/paren-thesis",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 40,
+      "published_at": "2026-09-27T23:44:02.263000-05:00"
+    },
+    {
+      "title": "Leaving them behind",
+      "url": "https://dbushell.com/2026/09/28/leaving-them-behind/",
+      "canonical_url": "https://dbushell.com/2026/09/28/leaving-them-behind",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 23,
+      "published_at": "2026-09-28T04:44:05.658000-05:00"
+    },
+    {
+      "title": "Imp is a full port of DSPy to the BEAM",
+      "url": "https://github.com/deepfates/imp",
+      "canonical_url": "https://github.com/deepfates/imp",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 91,
+      "published_at": "2026-09-27T19:28:23+00:00"
+    },
+    {
+      "title": "Hijacking the PS5's RTMP Stream",
+      "url": "https://yashgarg.dev/posts/hijacking-ps5-rtmp-stream/",
+      "canonical_url": "https://yashgarg.dev/posts/hijacking-ps5-rtmp-stream",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 16,
+      "published_at": "2026-09-28T06:45:16.525000-05:00"
+    },
+    {
+      "title": "Vercel Sandbox now supports memory observability",
+      "url": "https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability",
+      "canonical_url": "https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-28T00:00:00+00:00"
+    },
+    {
+      "title": "Show HN: TinyAIArena watch AI agents battle it out",
+      "url": "https://tinyaiarena.com/",
+      "canonical_url": "https://tinyaiarena.com/",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 115,
+      "published_at": "2026-09-27T15:51:28+00:00"
+    },
+    {
+      "title": "Oral history of John Chowning, inventor of FM synthesis [video]",
+      "url": "https://www.youtube.com/watch?v=e1Xn3030IvM",
+      "canonical_url": "https://youtube.com/watch?v=e1Xn3030IvM",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 84,
+      "published_at": "2026-09-27T18:02:43+00:00"
+    },
+    {
+      "title": "Expert asterisks",
+      "url": "https://nedbatchelder.com/blog/202609/expert_asterisks",
+      "canonical_url": "https://nedbatchelder.com/blog/202609/expert_asterisks",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 28,
+      "published_at": "2026-09-27T22:48:21.007000-05:00"
+    },
+    {
+      "title": "Rickrolling with a Pharmacy cross",
+      "url": "https://hugoarnal.com/blog/rickroll-pharmacy-cross/",
+      "canonical_url": "https://hugoarnal.com/blog/rickroll-pharmacy-cross",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 16,
+      "published_at": "2026-09-28T02:52:23.979000-05:00"
+    },
+    {
+      "title": "Fragment of oldest known peace treaty found in Turkey",
+      "url": "https://www.livescience.com/archaeology/ancient-egyptians/we-have-found-traces-of-peace-thousands-of-years-old-fragment-of-worlds-oldest-known-peace-treaty-found-in-turkey",
+      "canonical_url": "https://livescience.com/archaeology/ancient-egyptians/we-have-found-traces-of-peace-thousands-of-years-old-fragment-of-worlds-oldest-known-peace-treaty-found-in-turkey",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 91,
+      "published_at": "2026-09-27T14:35:10+00:00"
+    },
+    {
+      "title": "Fool's Expertise",
+      "url": "https://bcantrill.dtrace.org/2026/09/27/fools-expertise/",
+      "canonical_url": "https://bcantrill.dtrace.org/2026/09/27/fools-expertise",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 23,
+      "published_at": "2026-09-27T22:50:52.079000-05:00"
+    },
+    {
+      "title": "What is the size of Yemen? (2024)",
+      "url": "https://theborys.substack.com/p/what-is-the-size-of-yemen",
+      "canonical_url": "https://theborys.substack.com/p/what-is-the-size-of-yemen",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 255,
+      "published_at": "2026-09-27T02:40:26+00:00"
+    },
+    {
+      "title": "Footguns with Postgres \"at time zone 'UTC'\"",
+      "url": "https://bookofrevenue.com/blog/6ab81e9a97a13f0001f7e4e1/postgres-at-time-zone-u-does-not-do-what-you-think-it-does",
+      "canonical_url": "https://bookofrevenue.com/blog/6ab81e9a97a13f0001f7e4e1/postgres-at-time-zone-u-does-not-do-what-you-think-it-does",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 108,
+      "published_at": "2026-09-27T10:19:51+00:00"
+    },
+    {
+      "title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+      "url": "https://arxiv.org/abs/2609.25021",
+      "canonical_url": "https://arxiv.org/abs/2609.25021",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 102,
+      "published_at": "2026-09-27T10:26:25+00:00"
+    },
+    {
+      "title": "If we do not stop to help each other, what do we become?",
+      "url": "https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become/",
+      "canonical_url": "https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 205,
+      "published_at": "2026-09-27T03:20:46+00:00"
+    },
+    {
+      "title": "What are you doing this week?",
+      "url": "https://lobste.rs/s/hgmgp2/what_are_you_doing_this_week",
+      "canonical_url": "https://lobste.rs/s/hgmgp2/what_are_you_doing_this_week",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 6,
+      "published_at": "2026-09-28T07:42:17.719000-05:00"
+    },
+    {
+      "title": "Rusty thoughts on \"Parse, don't validate\"",
+      "url": "https://eli.thegreenplace.net/2026/rusty-thoughts-on-parse-dont-validate/",
+      "canonical_url": "https://eli.thegreenplace.net/2026/rusty-thoughts-on-parse-dont-validate",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 90,
+      "published_at": "2026-09-27T08:59:59+00:00"
+    },
+    {
+      "title": "The internet discovers TLA+. Now what?",
+      "url": "https://reasonable.io/blog/tla-tutorial/",
+      "canonical_url": "https://reasonable.io/blog/tla-tutorial",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 125,
+      "published_at": "2026-09-27T05:26:15+00:00"
+    },
+    {
+      "title": "Dropping Swift entirely from our Bevy iOS crates",
+      "url": "https://rustunit.com/blog/2026/09-04-bevy-ios-crates-objc2/",
+      "canonical_url": "https://rustunit.com/blog/2026/09-04-bevy-ios-crates-objc2",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 18,
+      "published_at": "2026-09-27T18:22:45.754000-05:00"
+    },
+    {
+      "title": "One month without AI",
+      "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+      "canonical_url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 92,
+      "published_at": "2026-09-27T01:22:21.194000-05:00"
+    },
+    {
+      "title": "Pragmatic Anthropomorphism, or: How to Talk to an Autocompleting Cricket",
+      "url": "https://blog.lmorchard.com/2026/09/27/pragmatic-anthropomorphism/",
+      "canonical_url": "https://blog.lmorchard.com/2026/09/27/pragmatic-anthropomorphism",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 7,
+      "published_at": "2026-09-28T00:48:54.004000-05:00"
+    },
+    {
+      "title": "LuaRocks Security Incident September 2026",
+      "url": "https://luarocks.org/security-incident-september-2026",
+      "canonical_url": "https://luarocks.org/security-incident-september-2026",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 31,
+      "published_at": "2026-09-27T08:58:57.101000-05:00"
+    },
+    {
+      "title": "Syncing Rust GCC backend or how to test Murphy's law",
+      "url": "https://blog.guillaume-gomez.fr/articles/2026-09-22+Syncing+Rust+GCC+backend+or+how+to+test+Murphy%27s+law",
+      "canonical_url": "https://blog.guillaume-gomez.fr/articles/2026-09-22+Syncing+Rust+GCC+backend+or+how+to+test+Murphy%27s+law",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 8,
+      "published_at": "2026-09-27T19:10:55.368000-05:00"
+    },
+    {
+      "title": "OpenAI agents tried to bruteforce a UN website's API fields",
+      "url": "https://swarmcha.se/posts/openai-unctad",
+      "canonical_url": "https://swarmcha.se/posts/openai-unctad",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 85,
+      "published_at": "2026-09-27T01:08:07+00:00"
+    },
+    {
+      "title": "Video CDs Break Windows Explorer",
+      "url": "https://clydesnotes.blogspot.com/2026/08/video-cds-break-windows-explorer.html",
+      "canonical_url": "https://clydesnotes.blogspot.com/2026/08/video-cds-break-windows-explorer.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 138,
+      "published_at": "2026-09-26T19:30:39+00:00"
+    },
+    {
+      "title": "Reverse Engineering the iPod Classic's Undocumented Mikey Chip",
+      "url": "https://terminalbytes.com/reverse-engineering-ipod-classic-mikey-chip/",
+      "canonical_url": "https://terminalbytes.com/reverse-engineering-ipod-classic-mikey-chip",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 10,
+      "published_at": "2026-09-27T14:58:31.261000-05:00"
+    },
+    {
+      "title": "Valve Introduces Pyrowave Video Codec In Beta For Low Latency Streaming",
+      "url": "https://www.phoronix.com/news/Valve-Steam-Beta-Pyrowave",
+      "canonical_url": "https://phoronix.com/news/Valve-Steam-Beta-Pyrowave",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 54,
+      "published_at": "2026-09-26T22:41:44.295000-05:00"
+    },
+    {
+      "title": "Palantir's Co-Founder Wants Us Less Judgmental About Deadly Iran School Strike",
+      "url": "https://www.motherjones.com/politics/2026/09/palantirs-co-founder-thinks-we-should-be-less-judgmental-about-that-deadly-iran-school-strike/",
+      "canonical_url": "https://motherjones.com/politics/2026/09/palantirs-co-founder-thinks-we-should-be-less-judgmental-about-that-deadly-iran-school-strike",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 92,
+      "published_at": "2026-09-26T22:16:46+00:00"
+    },
+    {
+      "title": "OpenAI Codex agents go rogue and consumes USD 78,000 without authorization",
+      "url": "https://news.ycombinator.com/item?id=49861047",
+      "canonical_url": "https://news.ycombinator.com/item?id=49861047",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 81,
+      "published_at": "2026-09-26T22:15:32+00:00"
+    },
+    {
+      "title": "What I believe about the future of software development",
+      "url": "https://thorstenball.com/blog/2026/09/19/what-i-believe-about-the-future-of-software-development/",
+      "canonical_url": "https://thorstenball.com/blog/2026/09/19/what-i-believe-about-the-future-of-software-development",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 5,
+      "published_at": "2026-09-27T18:37:33.930000-05:00"
+    },
+    {
+      "title": "Welcome to the Medical Clinic at the Interplanetary Relay Station",
+      "url": "https://www.lightspeedmagazine.com/fiction/welcome-to-the-medical-clinic-at-the-interplanetary-relay-station/",
+      "canonical_url": "https://lightspeedmagazine.com/fiction/welcome-to-the-medical-clinic-at-the-interplanetary-relay-station",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 83,
+      "published_at": "2026-09-26T20:08:50+00:00"
+    },
+    {
+      "title": "Faster prompt lookup drafting in llama.cpp",
+      "url": "https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp/",
+      "canonical_url": "https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 81,
+      "published_at": "2026-09-26T19:57:24+00:00"
+    },
+    {
+      "title": "Ember-1 from Fireworks now available on AI Gateway",
+      "url": "https://vercel.com/changelog/ember-1-from-fireworks-now-available-on-ai-gateway",
+      "canonical_url": "https://vercel.com/changelog/ember-1-from-fireworks-now-available-on-ai-gateway",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-27T00:00:00+00:00"
+    },
+    {
+      "title": "Guitar amp and effects pedal built on the Waveshare ESP32-S3-Touch-AMOLED-2.06",
+      "url": "https://github.com/dashersw/coyopedal",
+      "canonical_url": "https://github.com/dashersw/coyopedal",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 126,
+      "published_at": "2026-09-26T02:24:50+00:00"
+    },
+    {
+      "title": "Deshittification Part 2: Bypassing the App Store Gatekeeper",
+      "url": "https://fabricati-diem.inform.social/post/deshittification-as-a-service-part2-bypassing-the-app-store-gatekeeper/",
+      "canonical_url": "https://fabricati-diem.inform.social/post/deshittification-as-a-service-part2-bypassing-the-app-store-gatekeeper",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 10,
+      "published_at": "2026-09-27T09:47:13.187000-05:00"
+    },
+    {
+      "title": "Deterministic Concurrency [video]",
+      "url": "https://www.youtube.com/watch?v=25x0UuSCKuU",
+      "canonical_url": "https://youtube.com/watch?v=25x0UuSCKuU",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 69,
+      "published_at": "2026-09-26T00:14:04+00:00"
+    },
+    {
+      "title": "Reading’s Bayeux Tapestry",
+      "url": "https://diamondgeezer.blogspot.com/2026/09/readings-bayeux-tapestry.html",
+      "canonical_url": "https://diamondgeezer.blogspot.com/2026/09/readings-bayeux-tapestry.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 65,
+      "published_at": "2026-09-26T10:48:40+00:00"
+    },
+    {
+      "title": "Functional Mechanical Sympathy [video]",
+      "url": "https://www.youtube.com/watch?v=jSHmDnUZCm8",
+      "canonical_url": "https://youtube.com/watch?v=jSHmDnUZCm8",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 55,
+      "published_at": "2026-09-26T01:26:56+00:00"
+    },
+    {
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "url": "https://openai.com/index/proaction",
+      "canonical_url": "https://openai.com/index/proaction",
+      "source": "rss:OpenAI",
+      "sources": [
+        "rss:OpenAI"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T19:00:00+00:00"
+    },
+    {
+      "title": "Amazon Transcribe adds customer-managed KMS keys for custom resources",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-transcribe/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-transcribe",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T19:19:00+00:00"
+    },
+    {
+      "title": "Amazon EC2 M8i and M8i-flex instances are now available in additional regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-m8i-m8i-flex-thf/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-m8i-m8i-flex-thf",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T18:40:00+00:00"
+    },
+    {
+      "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-r8i-r8i-flex-thf/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-r8i-r8i-flex-thf",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T18:37:00+00:00"
+    },
+    {
+      "title": "Amazon EC2 C8i and C8i-flex instances are now available in additional regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/c8i-c8i-flex-thf-september-2026/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/c8i-c8i-flex-thf-september-2026",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T18:09:00+00:00"
+    },
+    {
+      "title": "AWS IAM outbound identity federation now supports interface VPC endpoints for OIDC discovery",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts-vpc-oidc/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts-vpc-oidc",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T17:54:00+00:00"
+    },
+    {
+      "title": "AWS DataSync launches a monitoring dashboard for tracking task executions across your account",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/datasync-monitoring-dashboard",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/datasync-monitoring-dashboard",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T15:24:00+00:00"
+    },
+    {
+      "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
+      "canonical_url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
+      "source": "rss:GitHub",
+      "sources": [
+        "rss:GitHub"
+      ],
+      "engagement": 0,
+      "published_at": "2026-09-25T18:00:00+00:00"
+    }
+  ],
+  "raw_responses": [
+    "[{\"id\":0,\"score\":3,\"category\":\"backend\",\"why\":\"Opinion piece on Google; no stack impact\",\"action\":\"skip\"},{\"id\":1,\"score\":5,\"category\":\"security\",\"why\":\"NeoVim data-loss bug; irrelevant to your stack\",\"action\":\"skip\"},{\"id\":2,\"score\":4,\"category\":\"backend\",\"why\":\"Go/GitHub coupling advice; you use Node/TS\",\"action\":\"skip\"},{\"id\":3,\"score\":2,\"category\":\"backend\",\"why\":\"Mobile Linux distro rebrand; not your domain\",\"action\":\"skip\"},{\"id\":4,\"score\":1,\"category\":\"backend\",\"why\":\"Hardware repair guide; completely off-topic\",\"action\":\"skip\"}]",
+    "[{\"id\":5,\"score\":4,\"category\":\"frontend\",\"why\":\"Personal essay, likely minor pattern\",\"action\":\"skip\"},{\"id\":6,\"score\":5,\"category\":\"security\",\"why\":\"Boundary for AI agents; niche for your stack\",\"action\":\"skip\"},{\"id\":7,\"score\":1,\"category\":\"backend\",\"why\":\"Financial anecdote, zero technical relevance\",\"action\":\"skip\"},{\"id\":8,\"score\":2,\"category\":\"ai\",\"why\":\"Sensational AI safety take, no code impact\",\"action\":\"skip\"},{\"id\":9,\"score\":1,\"category\":\"backend\",\"why\":\"Space launch news, unrelated to your work\",\"action\":\"skip\"}]",
+    "[{\"id\":10,\"score\":2,\"category\":\"backend\",\"why\":\"IRC-based chat protocol; not your stack\",\"action\":\"skip\"},{\"id\":11,\"score\":2,\"category\":\"ai\",\"why\":\"Opinion piece on AI coding limits\",\"action\":\"skip\"},{\"id\":12,\"score\":3,\"category\":\"ai\",\"why\":\"Prompting guide for one model release\",\"action\":\"skip\"},{\"id\":13,\"score\":1,\"category\":\"backend\",\"why\":\"Social issue, zero technical relevance\",\"action\":\"skip\"},{\"id\":14,\"score\":4,\"category\":\"frontend\",\"why\":\"Likely Ember.js or model; not React stack\",\"action\":\"skip\"}]",
+    "[{\"id\":15,\"score\":2,\"category\":\"devops\",\"why\":\"Terminal HN reader, not your stack\",\"action\":\"skip\"},{\"id\":16,\"score\":1,\"category\":\"frontend\",\"why\":\"Art project, not technical\",\"action\":\"skip\"},{\"id\":17,\"score\":1,\"category\":\"backend\",\"why\":\"Entertainment news, off-topic\",\"action\":\"skip\"},{\"id\":18,\"score\":3,\"category\":\"ai\",\"why\":\"2021 theory paper, not actionable\",\"action\":\"skip\"},{\"id\":19,\"score\":4,\"category\":\"security\",\"why\":\"Niche self-hosting guide, low adoption\",\"action\":\"skip\"}]",
+    "[{\"id\":20,\"score\":3,\"category\":\"ai\",\"why\":\"Opinion piece on AI alignment, no technical shift\",\"action\":\"skip\"},{\"id\":21,\"score\":4,\"category\":\"frontend\",\"why\":\"Creative browser demo, not a tooling primitive\",\"action\":\"skip\"},{\"id\":22,\"score\":2,\"category\":\"ai\",\"why\":\"Legal industry pricing discussion, not technical\",\"action\":\"skip\"},{\"id\":23,\"score\":5,\"category\":\"devops\",\"why\":\"Nostr-based chat tool, niche adoption\",\"action\":\"skip\"},{\"id\":24,\"score\":3,\"category\":\"ai\",\"why\":\"Marketing take on 'no AI' positioning\",\"action\":\"skip\"}]",
+    "[\n  {\"id\": 25, \"score\": 1, \"category\": \"backend\", \"why\": \"Automotive hardware, irrelevant to stack\", \"action\": \"skip\"},\n  {\"id\": 26, \"score\": 3, \"category\": \"frontend\", \"why\": \"Opinion piece on UI quality, no actionable tech\", \"action\": \"skip\"},\n  {\"id\": 27, \"score\": 3, \"category\": \"devops\", \"why\": \"Commentary on failure culture, not a tool or shift\", \"action\": \"skip\"},\n  {\"id\": 28, \"score\": 1, \"category\": \"backend\", \"why\": \"Retro/hardware topic, off-profile\", \"action\": \"skip\"},\n  {\"id\": 29, \"score\": 1, \"category\": \"backend\", \"why\": \"Computing history trivia, no relevance\", \"action\": \"skip\"}\n]",
+    "[{\"id\":30,\"score\":1,\"category\":\"ai\",\"why\":\"Biology research, not relevant to your stack\",\"action\":\"skip\"},{\"id\":31,\"score\":3,\"category\":\"ai\",\"why\":\"Legal filing, no code impact for you\",\"action\":\"skip\"},{\"id\":32,\"score\":2,\"category\":\"frontend\",\"why\":\"Hobby IoT project, not your stack\",\"action\":\"skip\"},{\"id\":33,\"score\":1,\"category\":\"ai\",\"why\":\"Health research, irrelevant to development\",\"action\":\"skip\"},{\"id\":34,\"score\":2,\"category\":\"backend\",\"why\":\"Platform moderation news, no code change\",\"action\":\"skip\"}]",
+    "[{\"id\":35,\"score\":2,\"category\":\"ai\",\"why\":\"SNL comedy segment, no technical content\",\"action\":\"skip\"},{\"id\":36,\"score\":4,\"category\":\"frontend\",\"why\":\"Philosophical essay, no actionable primitives for your stack\",\"action\":\"skip\"},{\"id\":37,\"score\":2,\"category\":\"backend\",\"why\":\"Personal retreat recap, not relevant to daily work\",\"action\":\"skip\"},{\"id\":38,\"score\":1,\"category\":\"backend\",\"why\":\"Astronomy topic, completely off-topic for software\",\"action\":\"skip\"},{\"id\":39,\"score\":3,\"category\":\"frontend\",\"why\":\"Lisp syntax discussion, not relevant to TS/React stack\",\"action\":\"skip\"}]",
+    "[{\"id\":40,\"score\":2,\"category\":\"backend\",\"why\":\"Vague opinion piece, no actionable tech\",\"action\":\"skip\"},{\"id\":41,\"score\":5,\"category\":\"ai\",\"why\":\"DSPy port to BEAM, not your Node stack\",\"action\":\"skip\"},{\"id\":42,\"score\":2,\"category\":\"security\",\"why\":\"PS5 hardware hack, irrelevant to web stack\",\"action\":\"skip\"},{\"id\":43,\"score\":8,\"category\":\"devops\",\"why\":\"Vercel Sandbox memory observability aids debugging\",\"action\":\"learn\"},{\"id\":44,\"score\":3,\"category\":\"ai\",\"why\":\"AI agent demo, no practical adoption value\",\"action\":\"skip\"}]",
+    "[{\"id\":45,\"score\":1,\"category\":\"ai\",\"why\":\"History of FM synthesis, not relevant\",\"action\":\"skip\"},{\"id\":46,\"score\":3,\"category\":\"frontend\",\"why\":\"Vague programming article, low signal\",\"action\":\"skip\"},{\"id\":47,\"score\":1,\"category\":\"frontend\",\"why\":\"Novelty hack, no durable value\",\"action\":\"skip\"},{\"id\":48,\"score\":1,\"category\":\"backend\",\"why\":\"Archaeology find, zero relevance\",\"action\":\"skip\"},{\"id\":49,\"score\":2,\"category\":\"ai\",\"why\":\"Opinion piece on expertise, not actionable\",\"action\":\"skip\"}]",
+    "[{\"id\":50,\"score\":1,\"category\":\"backend\",\"why\":\"Geography trivia, irrelevant to stack\",\"action\":\"skip\"},{\"id\":51,\"score\":9,\"category\":\"backend\",\"why\":\"Postgres timezone footgun bites Supabase users\",\"action\":\"learn\"},{\"id\":52,\"score\":4,\"category\":\"ai\",\"why\":\"LLM chat template research, not applicable\",\"action\":\"skip\"},{\"id\":53,\"score\":2,\"category\":\"frontend\",\"why\":\"Philosophical essay, no technical content\",\"action\":\"skip\"},{\"id\":54,\"score\":2,\"category\":\"devops\",\"why\":\"Weekly discussion thread, no actionable signal\",\"action\":\"skip\"}]",
+    "[{\"id\":55,\"score\":6,\"category\":\"backend\",\"why\":\"Parse don't validate pattern useful for TS API boundaries\",\"action\":\"skip\"},{\"id\":56,\"score\":5,\"category\":\"testing\",\"why\":\"TLA+ formal methods trending, niche for now\",\"action\":\"skip\"},{\"id\":57,\"score\":2,\"category\":\"backend\",\"why\":\"Rust game engine iOS work, not your stack\",\"action\":\"skip\"},{\"id\":58,\"score\":2,\"category\":\"ai\",\"why\":\"Personal no-AI experiment, no actionable insight\",\"action\":\"skip\"},{\"id\":59,\"score\":2,\"category\":\"ai\",\"why\":\"Anthropomorphism essay, not a tool or shift\",\"action\":\"skip\"}]",
+    "[{\"id\":60,\"score\":2,\"category\":\"security\",\"why\":\"Lua package manager, not your stack\",\"action\":\"skip\"},{\"id\":61,\"score\":2,\"category\":\"backend\",\"why\":\"Rust compiler internals, not your stack\",\"action\":\"skip\"},{\"id\":62,\"score\":3,\"category\":\"ai\",\"why\":\"AI agent misbehavior, no code impact\",\"action\":\"skip\"},{\"id\":63,\"score\":1,\"category\":\"devops\",\"why\":\"Windows Explorer bug, irrelevant\",\"action\":\"skip\"},{\"id\":64,\"score\":1,\"category\":\"backend\",\"why\":\"Retro hardware reverse engineering\",\"action\":\"skip\"}]",
+    "[{\"id\":65,\"score\":4,\"category\":\"backend\",\"why\":\"Valve's streaming codec; niche unless you build video infra\",\"action\":\"skip\"},{\"id\":66,\"score\":1,\"category\":\"security\",\"why\":\"Political opinion, no code impact\",\"action\":\"skip\"},{\"id\":67,\"score\":5,\"category\":\"ai\",\"why\":\"AI agent cost overrun incident; cautionary but not actionable\",\"action\":\"skip\"},{\"id\":68,\"score\":2,\"category\":\"frontend\",\"why\":\"Opinion piece, no new primitives\",\"action\":\"skip\"},{\"id\":69,\"score\":1,\"category\":\"ai\",\"why\":\"Sci-fi short story, irrelevant\",\"action\":\"skip\"}]",
+    "[{\"id\":70,\"score\":4,\"category\":\"ai\",\"why\":\"llama.cpp optimization; incremental for inference\",\"action\":\"skip\"},{\"id\":71,\"score\":5,\"category\":\"ai\",\"why\":\"New model on Fireworks/Cloudflare Gateway\",\"action\":\"skip\"},{\"id\":72,\"score\":1,\"category\":\"backend\",\"why\":\"ESP32 hardware project; off-stack\",\"action\":\"skip\"},{\"id\":73,\"score\":3,\"category\":\"frontend\",\"why\":\"App Store opinion piece; no code impact\",\"action\":\"skip\"},{\"id\":74,\"score\":4,\"category\":\"backend\",\"why\":\"Concurrency theory video; no new primitive\",\"action\":\"skip\"}]",
+    "[{\"id\":75,\"score\":1,\"category\":\"backend\",\"why\":\"Historical artifact, not relevant to tech stack\",\"action\":\"skip\"},{\"id\":76,\"score\":6,\"category\":\"backend\",\"why\":\"Performance optimization talk, potentially useful context\",\"action\":\"skip\"},{\"id\":77,\"score\":4,\"category\":\"ai\",\"why\":\"Marketing case study for AI coding assistant\",\"action\":\"skip\"},{\"id\":78,\"score\":5,\"category\":\"security\",\"why\":\"AWS Transcribe KMS keys, niche compliance feature\",\"action\":\"skip\"},{\"id\":79,\"score\":3,\"category\":\"devops\",\"why\":\"EC2 instance region expansion, not your stack\",\"action\":\"skip\"}]",
+    "[{\"id\":80,\"score\":2,\"category\":\"devops\",\"why\":\"EC2 regional expansion, not relevant to Supabase stack\",\"action\":\"skip\"},{\"id\":81,\"score\":2,\"category\":\"devops\",\"why\":\"EC2 regional expansion, not relevant to Supabase stack\",\"action\":\"skip\"},{\"id\":82,\"score\":4,\"category\":\"security\",\"why\":\"IAM OIDC VPC endpoints niche; unlikely to affect your auth flow\",\"action\":\"skip\"},{\"id\":83,\"score\":3,\"category\":\"devops\",\"why\":\"DataSync monitoring dashboard; incremental ops tooling\",\"action\":\"skip\"},{\"id\":84,\"score\":2,\"category\":\"ai\",\"why\":\"Beginner Copilot tutorial; no new capability for daily work\",\"action\":\"skip\"}]"
+  ]
+}
