@@ -1,0 +1,2234 @@
+{
+  "run_at": "2026-10-05T15:49:21.679718+00:00",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "counts": {
+    "candidates": 83,
+    "scored": 83,
+    "selected": 2
+  },
+  "selected": [
+    {
+      "title": "Xray-core concealed a certificate verification bypass vulnerability",
+      "url": "https://github.com/net4people/bbs/issues/672",
+      "canonical_url": "https://github.com/net4people/bbs/issues/672",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 83,
+      "published_at": "2026-10-04T17:38:54+00:00",
+      "score": 7,
+      "category": "security",
+      "why": "Cert bypass in proxy tool you may use in DevOps",
+      "action": "aware"
+    },
+    {
+      "title": "Using docker-compose with Podman rootless",
+      "url": "https://elou.world/en/tutorial/podman-docker-compose",
+      "canonical_url": "https://elou.world/en/tutorial/podman-docker-compose",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 6,
+      "published_at": "2026-10-05T04:51:28.692000-05:00",
+      "score": 7,
+      "category": "devops",
+      "why": "Rootless Podman improves local/CI container security",
+      "action": "aware"
+    }
+  ],
+  "scored": [
+    {
+      "title": "Self-hosted HTTP tunnels with SSH and Nginx",
+      "url": "https://vincent.bernat.ch/en/blog/2026-http-over-ssh",
+      "canonical_url": "https://vincent.bernat.ch/en/blog/2026-http-over-ssh",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 173,
+      "published_at": "2026-10-04T14:08:58.378000-05:00",
+      "score": 5,
+      "category": "devops",
+      "why": "Known pattern for local tunnels; ngrok alternatives exist",
+      "action": "skip"
+    },
+    {
+      "title": "Mold Linker Version 3.0.0 Release – Rewritten in Rust",
+      "url": "https://github.com/rui314/mold/releases/tag/v3.0.0",
+      "canonical_url": "https://github.com/rui314/mold/releases/tag/v3.0.0",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 26,
+      "published_at": "2026-10-05T11:17:18+00:00",
+      "score": 4,
+      "category": "backend",
+      "why": "Faster C/Rust linker; irrelevant to Node/TS daily work",
+      "action": "skip"
+    },
+    {
+      "title": "We're going to need default hard budget caps on pretty much everything",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "canonical_url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 615,
+      "published_at": "2026-10-04T00:20:16+00:00",
+      "score": 3,
+      "category": "devops",
+      "why": "Opinion on cloud budget caps; no technical primitive",
+      "action": "skip"
+    },
+    {
+      "title": "Making a GTK application in Haskell, part 1",
+      "url": "https://floreal.tech/blog/2026/making-a-gtk-app-in-haskell-part-1/",
+      "canonical_url": "https://floreal.tech/blog/2026/making-a-gtk-app-in-haskell-part-1",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 6,
+      "published_at": "2026-10-05T09:22:54.820000-05:00",
+      "score": 1,
+      "category": "frontend",
+      "why": "Haskell/GTK desktop dev; outside your web stack",
+      "action": "skip"
+    },
+    {
+      "title": "Why don't more developers “use the platform”?",
+      "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
+      "canonical_url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 314,
+      "published_at": "2026-10-03T16:35:28.658000-05:00",
+      "score": 5,
+      "category": "frontend",
+      "why": "Platform vs framework debate; useful perspective only",
+      "action": "skip"
+    },
+    {
+      "title": "We ported the original Doom to SQL",
+      "url": "https://cedardb.com/blog/sqldoom/",
+      "canonical_url": "https://cedardb.com/blog/sqldoom",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 233,
+      "published_at": "2026-10-03T22:14:00+00:00",
+      "score": 3,
+      "category": "backend",
+      "why": "Impressive SQL demo, no practical adoption for your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Europe's new robotics unicorn: Germany's RobCo hits $1B valuation",
+      "url": "https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/",
+      "canonical_url": "https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 262,
+      "published_at": "2026-10-05T11:13:51+00:00",
+      "score": 2,
+      "category": "ai",
+      "why": "Funding announcement, no technical substance for your work",
+      "action": "skip"
+    },
+    {
+      "title": "Denmark Data Breach Exposes 8.8M People's Personal Data",
+      "url": "https://www.cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger",
+      "canonical_url": "https://cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 326,
+      "published_at": "2026-10-05T08:09:36+00:00",
+      "score": 3,
+      "category": "security",
+      "why": "Large breach incident, not a vuln in your dependencies",
+      "action": "skip"
+    },
+    {
+      "title": "Pixel 11 doesn't yet meet the GrapheneOS security standards and may be skipped",
+      "url": "https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped",
+      "canonical_url": "https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 192,
+      "published_at": "2026-10-05T13:02:25+00:00",
+      "score": 1,
+      "category": "security",
+      "why": "Phone hardware security, irrelevant to your web stack",
+      "action": "skip"
+    },
+    {
+      "title": "Web Search API",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
+      "canonical_url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 185,
+      "published_at": "2026-10-05T10:47:06+00:00",
+      "score": 4,
+      "category": "backend",
+      "why": "Vague API launch, unclear if it changes your tooling",
+      "action": "skip"
+    },
+    {
+      "title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
+      "url": "https://github.com/omlahore/RemoveMacAI",
+      "canonical_url": "https://github.com/omlahore/RemoveMacAI",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 700,
+      "published_at": "2026-10-04T19:42:25+00:00",
+      "score": 2,
+      "category": "devops",
+      "why": "macOS config tip, not stack-relevant",
+      "action": "skip"
+    },
+    {
+      "title": "Apple and a Hacker's Future",
+      "url": "https://stratechery.com/2026/apple-and-a-hackers-future/",
+      "canonical_url": "https://stratechery.com/2026/apple-and-a-hackers-future",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 130,
+      "published_at": "2026-10-05T10:05:02+00:00",
+      "score": 3,
+      "category": "security",
+      "why": "Opinion piece, no actionable security impact",
+      "action": "skip"
+    },
+    {
+      "title": "Nearly 200 people under observation after Irkutsk lab worker dies from plague",
+      "url": "https://www.themoscowtimes.com/2026/10/02/nearly-200-people-under-observation-after-irkutsk-lab-worker-dies-from-plague-a93857",
+      "canonical_url": "https://themoscowtimes.com/2026/10/02/nearly-200-people-under-observation-after-irkutsk-lab-worker-dies-from-plague-a93857",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 265,
+      "published_at": "2026-10-05T02:31:45+00:00",
+      "score": 1,
+      "category": "security",
+      "why": "Public health news, zero dev relevance",
+      "action": "skip"
+    },
+    {
+      "title": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
+      "url": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/",
+      "canonical_url": "https://motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 267,
+      "published_at": "2026-10-05T01:54:08+00:00",
+      "score": 2,
+      "category": "backend",
+      "why": "F1 software anecdote, not applicable",
+      "action": "skip"
+    },
+    {
+      "title": "Improper redaction reveals Google Data Center water and electricity usage",
+      "url": "https://www.1011now.com/2026/09/30/more-questions-than-answers-about-lincolns-google-data-center-water-electricity-usage/",
+      "canonical_url": "https://1011now.com/2026/09/30/more-questions-than-answers-about-lincolns-google-data-center-water-electricity-usage",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 476,
+      "published_at": "2026-10-04T19:37:05+00:00",
+      "score": 3,
+      "category": "devops",
+      "why": "Google infra trivia, no code change needed",
+      "action": "skip"
+    },
+    {
+      "title": "Press Release: Nobel Prize in Physiology or Medicine 2026",
+      "url": "https://www.nobelprize.org/prizes/medicine/2026/press-release/",
+      "canonical_url": "https://nobelprize.org/prizes/medicine/2026/press-release",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 104,
+      "published_at": "2026-10-05T10:35:59+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Off-topic science news",
+      "action": "skip"
+    },
+    {
+      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "url": "https://github.com/Niko1221/Strata",
+      "canonical_url": "https://github.com/Niko1221/Strata",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 867,
+      "published_at": "2026-10-04T12:51:53+00:00",
+      "score": 5,
+      "category": "ai",
+      "why": "Model release, not a stack primitive",
+      "action": "skip"
+    },
+    {
+      "title": "Huawei and Qualcomm Announce Broad Patent License Agreement",
+      "url": "https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement",
+      "canonical_url": "https://huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 115,
+      "published_at": "2026-10-05T07:46:10+00:00",
+      "score": 3,
+      "category": "backend",
+      "why": "Patent deal, no code impact",
+      "action": "skip"
+    },
+    {
+      "title": "Our approach to EU text provenance rules",
+      "url": "https://openai.com/index/eu-text-provenance",
+      "canonical_url": "https://openai.com/index/eu-text-provenance",
+      "source": "rss:OpenAI",
+      "sources": [
+        "rss:OpenAI"
+      ],
+      "engagement": 0,
+      "published_at": "2026-10-05T15:00:00+00:00",
+      "score": 3,
+      "category": "security",
+      "why": "EU compliance post, no immediate action",
+      "action": "skip"
+    },
+    {
+      "title": "Tell HN: Uceprotect is extorting website owners",
+      "url": "https://news.ycombinator.com/item?id=49964045",
+      "canonical_url": "https://news.ycombinator.com/item?id=49964045",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 56,
+      "published_at": "2026-10-05T12:35:55+00:00",
+      "score": 4,
+      "category": "security",
+      "why": "Email reputation discussion, monitor if affected",
+      "action": "skip"
+    },
+    {
+      "title": "A browser-native classic Visual Basic VB6 IDE",
+      "url": "https://wieslawsoltes.github.io/VB6/",
+      "canonical_url": "https://wieslawsoltes.github.io/VB6",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 333,
+      "published_at": "2026-10-04T18:49:17+00:00",
+      "score": 1,
+      "category": "frontend",
+      "why": "Retro VB6 in browser, irrelevant to your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Gitframes",
+      "url": "https://github.com/gatewai-dev/gitframes",
+      "canonical_url": "https://github.com/gatewai-dev/gitframes",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 52,
+      "published_at": "2026-10-05T12:59:14+00:00",
+      "score": 5,
+      "category": "devops",
+      "why": "Git visualization tool, incremental utility",
+      "action": "skip"
+    },
+    {
+      "title": "Replacement of petroleum based products with plant-based materials (2025)",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/eng2.70108",
+      "canonical_url": "https://onlinelibrary.wiley.com/doi/10.1002/eng2.70108",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 94,
+      "published_at": "2026-10-05T05:09:43+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Materials science, not software",
+      "action": "skip"
+    },
+    {
+      "title": "Anthropic reported diary entry to police, woman faces felony charge",
+      "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+      "canonical_url": "https://techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 87,
+      "published_at": "2026-10-05T05:37:40+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "Legal incident at AI vendor, no code impact",
+      "action": "skip"
+    },
+    {
+      "title": "The Era of Software Quality, or the Era of Ostriches?",
+      "url": "https://blogs.gnome.org/mcatanzaro/2026/10/02/the-era-of-software-quality-or-the-era-of-ostriches/",
+      "canonical_url": "https://blogs.gnome.org/mcatanzaro/2026/10/02/the-era-of-software-quality-or-the-era-of-ostriches",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 43,
+      "published_at": "2026-10-05T12:33:15+00:00",
+      "score": 3,
+      "category": "testing",
+      "why": "Opinion piece on software quality, no actionable shift",
+      "action": "skip"
+    },
+    {
+      "title": "Building advertising for the way people use AI",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "canonical_url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "source": "rss:OpenAI",
+      "sources": [
+        "rss:OpenAI"
+      ],
+      "engagement": 0,
+      "published_at": "2026-10-05T10:00:00+00:00",
+      "score": 2,
+      "category": "ai",
+      "why": "Marketing fluff about AI ads, no technical substance",
+      "action": "skip"
+    },
+    {
+      "title": "In the wake of Tippett Studios’ closure, a digital archive appears online",
+      "url": "https://filmstories.co.uk/news/tippett-studios-in-the-wake-of-its-closure-a-digital-archive-of-animated-materials-appears-online/",
+      "canonical_url": "https://filmstories.co.uk/news/tippett-studios-in-the-wake-of-its-closure-a-digital-archive-of-animated-materials-appears-online",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 195,
+      "published_at": "2026-10-04T21:01:28+00:00",
+      "score": 2,
+      "category": "frontend",
+      "why": "VFX studio archive, unrelated to your stack",
+      "action": "skip"
+    },
+    {
+      "title": "A 40ms Go garbage collector pause caused by swap",
+      "url": "https://frn.sh/go-gc/",
+      "canonical_url": "https://frn.sh/go-gc",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 103,
+      "published_at": "2026-10-05T01:11:56+00:00",
+      "score": 4,
+      "category": "backend",
+      "why": "Go GC debugging, not your Node runtime",
+      "action": "skip"
+    },
+    {
+      "title": "ArtCraft Apps – open-source Adobe compatible suite written in Rust",
+      "url": "https://getartcraft.com/apps",
+      "canonical_url": "https://getartcraft.com/apps",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 106,
+      "published_at": "2026-10-04T23:02:43+00:00",
+      "score": 4,
+      "category": "frontend",
+      "why": "Rust creative suite, not your React/TS toolchain",
+      "action": "skip"
+    },
+    {
+      "title": "Car is a smartphone on wheels. Here's who's listening",
+      "url": "https://automatictransmission.khoury.northeastern.edu/",
+      "canonical_url": "https://automatictransmission.khoury.northeastern.edu/",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 214,
+      "published_at": "2026-10-04T15:43:14+00:00",
+      "score": 3,
+      "category": "security",
+      "why": "Car privacy expose, no code impact for you",
+      "action": "skip"
+    },
+    {
+      "title": "Tell HN: Bob Cringely has died",
+      "url": "https://news.ycombinator.com/item?id=49949438",
+      "canonical_url": "https://news.ycombinator.com/item?id=49949438",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 913,
+      "published_at": "2026-10-04T00:50:52+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Obituary, no technical impact on your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Flirt is now Open-Source",
+      "url": "https://blog.buenzli.dev/flirt-is-open-source/",
+      "canonical_url": "https://blog.buenzli.dev/flirt-is-open-source",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 26,
+      "published_at": "2026-10-05T04:34:42.913000-05:00",
+      "score": 3,
+      "category": "backend",
+      "why": "Unknown open-source tool, low adoption signal",
+      "action": "skip"
+    },
+    {
+      "title": "Friendship ended with Deno, now Node is my best friend",
+      "url": "https://dbushell.com/2026/10/03/deno-to-node/",
+      "canonical_url": "https://dbushell.com/2026/10/03/deno-to-node",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 23,
+      "published_at": "2026-10-05T05:01:55.874000-05:00",
+      "score": 3,
+      "category": "backend",
+      "why": "Opinion piece on Node vs Deno, no action needed",
+      "action": "skip"
+    },
+    {
+      "title": "Homa: The end of TCP for AI clusters [video]",
+      "url": "https://www.youtube.com/watch?v=eZ8WWZzoaR0",
+      "canonical_url": "https://youtube.com/watch?v=eZ8WWZzoaR0",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 78,
+      "published_at": "2026-10-04T19:42:25+00:00",
+      "score": 2,
+      "category": "devops",
+      "why": "Datacenter transport research, not your application layer",
+      "action": "skip"
+    },
+    {
+      "title": "All I wanted was a custom domain email",
+      "url": "https://jacobg.co/emails-at-jacobg-co/",
+      "canonical_url": "https://jacobg.co/emails-at-jacobg-co",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 91,
+      "published_at": "2026-10-04T17:47:21+00:00",
+      "score": 3,
+      "category": "devops",
+      "why": "Custom email setup guide, incremental not paradigm",
+      "action": "skip"
+    },
+    {
+      "title": "Blindsight (Watts Novel)",
+      "url": "https://en.wikipedia.org/wiki/Blindsight_(Watts_novel)",
+      "canonical_url": "https://en.wikipedia.org/wiki/Blindsight_(Watts_novel)",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 103,
+      "published_at": "2026-10-04T16:25:17+00:00",
+      "score": 1,
+      "category": "ai",
+      "why": "Sci-fi novel discussion, not relevant to stack",
+      "action": "skip"
+    },
+    {
+      "title": "Another step towards elm v1",
+      "url": "https://elm-lang.org/news/another-step-towards-elm-v1",
+      "canonical_url": "https://elm-lang.org/news/another-step-towards-elm-v1",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 11,
+      "published_at": "2026-10-05T08:20:47.476000-05:00",
+      "score": 4,
+      "category": "frontend",
+      "why": "Elm v1 progress, not your React/TS stack",
+      "action": "skip"
+    },
+    {
+      "title": "Claude Says",
+      "url": "https://ohhfishal.net/Posts/claude",
+      "canonical_url": "https://ohhfishal.net/Posts/claude",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 27,
+      "published_at": "2026-10-04T23:48:18.022000-05:00",
+      "score": 4,
+      "category": "ai",
+      "why": "Claude wrapper tool, low adoption signal",
+      "action": "skip"
+    },
+    {
+      "title": "Xray-core concealed a certificate verification bypass vulnerability",
+      "url": "https://github.com/net4people/bbs/issues/672",
+      "canonical_url": "https://github.com/net4people/bbs/issues/672",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 83,
+      "published_at": "2026-10-04T17:38:54+00:00",
+      "score": 7,
+      "category": "security",
+      "why": "Cert bypass in proxy tool you may use in DevOps",
+      "action": "aware"
+    },
+    {
+      "title": "Bill Draper has died",
+      "url": "https://www.nytimes.com/2026/09/30/technology/william-draper-dead.html",
+      "canonical_url": "https://nytimes.com/2026/09/30/technology/william-draper-dead.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 133,
+      "published_at": "2026-10-04T12:21:35+00:00",
+      "score": 3,
+      "category": "backend",
+      "why": "VC obituary, industry news not tech shift",
+      "action": "skip"
+    },
+    {
+      "title": "In Ukraine, distributed renewables foil Russia's assaults",
+      "url": "https://energytransition.org/2026/09/in-ukraine-distributed-renewables-foil-russias-assaults/",
+      "canonical_url": "https://energytransition.org/2026/09/in-ukraine-distributed-renewables-foil-russias-assaults",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 174,
+      "published_at": "2026-10-04T08:39:58+00:00",
+      "score": 1,
+      "category": "devops",
+      "why": "Energy infrastructure, not your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Federal judge calls Flock 'indiscriminate mass surveillance'",
+      "url": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
+      "canonical_url": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 489,
+      "published_at": "2026-10-03T22:07:13+00:00",
+      "score": 2,
+      "category": "security",
+      "why": "Legal ruling on surveillance, no code impact",
+      "action": "skip"
+    },
+    {
+      "title": "Show HN: AI search for every photo and every frame of video on macOS",
+      "url": "https://github.com/allenv0/SCM",
+      "canonical_url": "https://github.com/allenv0/SCM",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 156,
+      "published_at": "2026-10-04T09:24:52+00:00",
+      "score": 4,
+      "category": "ai",
+      "why": "macOS-only AI search, not cross-platform",
+      "action": "skip"
+    },
+    {
+      "title": "Rejection Sensitivity in Gifted and Twice-Exceptional Children",
+      "url": "https://teachyourkids.substack.com/p/rejection-sensitivity-in-gifted-and",
+      "canonical_url": "https://teachyourkids.substack.com/p/rejection-sensitivity-in-gifted-and",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 106,
+      "published_at": "2026-10-04T11:58:47+00:00",
+      "score": 1,
+      "category": "testing",
+      "why": "Psychology research, irrelevant to engineering",
+      "action": "skip"
+    },
+    {
+      "title": "Mosquitoes Are a Choice",
+      "url": "https://worksinprogress.co/issue/mosquitoes-are-a-choice/",
+      "canonical_url": "https://worksinprogress.co/issue/mosquitoes-are-a-choice",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 54,
+      "published_at": "2026-10-04T18:06:04+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Biology article, zero technical relevance",
+      "action": "skip"
+    },
+    {
+      "title": "Refinement E-Graphs",
+      "url": "https://www.philipzucker.com/refinement_egraph/",
+      "canonical_url": "https://philipzucker.com/refinement_egraph",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 23,
+      "published_at": "2026-10-04T21:23:30.392000-05:00",
+      "score": 3,
+      "category": "backend",
+      "why": "PL research (e-graphs), not relevant to your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Factor Overview",
+      "url": "https://re.factorcode.org/2026/10/factor-overview.html",
+      "canonical_url": "https://re.factorcode.org/2026/10/factor-overview.html",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 8,
+      "published_at": "2026-10-05T07:11:57.329000-05:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Factor language overview, off-topic for your work",
+      "action": "skip"
+    },
+    {
+      "title": "Iroh global content discovery",
+      "url": "https://www.iroh.computer/blog/iroh-global-content-discovery",
+      "canonical_url": "https://iroh.computer/blog/iroh-global-content-discovery",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 44,
+      "published_at": "2026-10-04T14:19:42.619000-05:00",
+      "score": 4,
+      "category": "devops",
+      "why": "P2P content discovery lib, niche not your stack",
+      "action": "skip"
+    },
+    {
+      "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+      "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+      "canonical_url": "https://phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 485,
+      "published_at": "2026-10-03T19:14:48+00:00",
+      "score": 2,
+      "category": "devops",
+      "why": "Linux GPU driver work, hardware not your concern",
+      "action": "skip"
+    },
+    {
+      "title": "ncdu: NCurses Disk Usage (an updated fork)",
+      "url": "https://github.com/rcalixte/ncdu",
+      "canonical_url": "https://github.com/rcalixte/ncdu",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 39,
+      "published_at": "2026-10-04T14:30:36.027000-05:00",
+      "score": 4,
+      "category": "devops",
+      "why": "ncdu fork update, incremental CLI tool change",
+      "action": "skip"
+    },
+    {
+      "title": "VGHF Digital Archive passes 5000 magazines. Here's what's next",
+      "url": "https://gamehistory.org/5k-magazines/",
+      "canonical_url": "https://gamehistory.org/5k-magazines",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 107,
+      "published_at": "2026-10-04T09:07:11+00:00",
+      "score": 1,
+      "category": "ai",
+      "why": "Game magazine archive, irrelevant to your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Emitting metadata early makes building/checking Rust up to twice as fast",
+      "url": "https://github.com/PowderworksCode/headstart",
+      "canonical_url": "https://github.com/PowderworksCode/headstart",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 140,
+      "published_at": "2026-10-04T06:26:57+00:00",
+      "score": 3,
+      "category": "backend",
+      "why": "Rust compiler optimization, not your stack",
+      "action": "skip"
+    },
+    {
+      "title": "How to scale intent, quality, and artistry with AI [video]",
+      "url": "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
+      "canonical_url": "https://youtube.com/watch?v=GLvFTMtw4Jk",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 95,
+      "published_at": "2026-10-04T08:41:58+00:00",
+      "score": 5,
+      "category": "ai",
+      "why": "High-level AI scaling philosophy, not actionable",
+      "action": "skip"
+    },
+    {
+      "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "canonical_url": "https://theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 267,
+      "published_at": "2026-10-03T22:18:13+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "OpenAI personnel news, no code impact",
+      "action": "skip"
+    },
+    {
+      "title": "Religious scholars met with Anthropic",
+      "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+      "canonical_url": "https://nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 164,
+      "published_at": "2026-10-04T02:34:22+00:00",
+      "score": 2,
+      "category": "ai",
+      "why": "Religious scholars meeting, non-technical AI ethics",
+      "action": "skip"
+    },
+    {
+      "title": "Using docker-compose with Podman rootless",
+      "url": "https://elou.world/en/tutorial/podman-docker-compose",
+      "canonical_url": "https://elou.world/en/tutorial/podman-docker-compose",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 6,
+      "published_at": "2026-10-05T04:51:28.692000-05:00",
+      "score": 7,
+      "category": "devops",
+      "why": "Rootless Podman improves local/CI container security",
+      "action": "aware"
+    },
+    {
+      "title": "Hole Punch: Sling your spaceship around gravitational fields",
+      "url": "https://notoriousbfg.com/hole-punch/",
+      "canonical_url": "https://notoriousbfg.com/hole-punch",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 363,
+      "published_at": "2026-10-03T18:06:45+00:00",
+      "score": 1,
+      "category": "frontend",
+      "why": "Game demo, irrelevant to your stack",
+      "action": "skip"
+    },
+    {
+      "title": "We're working on a new RuneScape MMO",
+      "url": "https://play.runescape.com/4",
+      "canonical_url": "https://play.runescape.com/4",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 161,
+      "published_at": "2026-10-04T01:12:22+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Gaming announcement, not relevant",
+      "action": "skip"
+    },
+    {
+      "title": "A new, bespoke static site generator to replace Jekyll",
+      "url": "https://nullprogram.com/blog/2026/10/04/",
+      "canonical_url": "https://nullprogram.com/blog/2026/10/04",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 5,
+      "published_at": "2026-10-05T04:59:25.188000-05:00",
+      "score": 4,
+      "category": "frontend",
+      "why": "Personal SSG project, no adoption signal",
+      "action": "skip"
+    },
+    {
+      "title": "Reasons I didn't become an EMT, ranked",
+      "url": "https://ben.stolovitz.com/posts/reasons-not-emt-ranked/",
+      "canonical_url": "https://ben.stolovitz.com/posts/reasons-not-emt-ranked",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 242,
+      "published_at": "2026-10-03T20:49:15+00:00",
+      "score": 1,
+      "category": "frontend",
+      "why": "Personal essay, off-topic",
+      "action": "skip"
+    },
+    {
+      "title": "The complement of true is true, except when it's false",
+      "url": "https://dryperspective.github.io/posts/complement-of-true/",
+      "canonical_url": "https://dryperspective.github.io/posts/complement-of-true",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 43,
+      "published_at": "2026-10-04T07:30:26.844000-05:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Logic puzzle post, not relevant to stack",
+      "action": "skip"
+    },
+    {
+      "title": "Hacking the Go compiler to efficiently map IPv4 to IPv6",
+      "url": "https://vincent.bernat.ch/en/blog/2026-go-netip-addrto6",
+      "canonical_url": "https://vincent.bernat.ch/en/blog/2026-go-netip-addrto6",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 22,
+      "published_at": "2026-10-04T13:49:55.122000-05:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Go compiler internals, not your runtime",
+      "action": "skip"
+    },
+    {
+      "title": "We want you to build the next Git platform on Cloudflare",
+      "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
+      "canonical_url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 221,
+      "published_at": "2026-10-03T19:33:16+00:00",
+      "score": 4,
+      "category": "devops",
+      "why": "Cloudflare marketing challenge, no new primitive",
+      "action": "skip"
+    },
+    {
+      "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+      "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
+      "canonical_url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 237,
+      "published_at": "2026-10-03T18:29:30+00:00",
+      "score": 5,
+      "category": "ai",
+      "why": "Model usage guide, not a stack change",
+      "action": "skip"
+    },
+    {
+      "title": "From: anyone@icloud.com - Spoofing Arbitrary Apple iCloud Identities",
+      "url": "https://sec-consult.com/blog/detail/from-anyoneicloudcom-spoofing-arbitrary-apple-icloud-identities/",
+      "canonical_url": "https://sec-consult.com/blog/detail/from-anyoneicloudcom-spoofing-arbitrary-apple-icloud-identities",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 5,
+      "published_at": "2026-10-05T01:50:55.660000-05:00",
+      "score": 6,
+      "category": "security",
+      "why": "Apple iCloud spoofing vuln, low direct impact",
+      "action": "skip"
+    },
+    {
+      "title": "ADHD, autism or complex trauma? [pdf]",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/30CC4826561366615BFAEC807CDE28A7/S0007125026108046a.pdf/adhd-autism-or-complex-trauma-the-complicated-nature-of-the-question.pdf",
+      "canonical_url": "https://cambridge.org/core/services/aop-cambridge-core/content/view/30CC4826561366615BFAEC807CDE28A7/S0007125026108046a.pdf/adhd-autism-or-complex-trauma-the-complicated-nature-of-the-question.pdf",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 233,
+      "published_at": "2026-10-03T18:08:28+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Medical PDF, irrelevant to your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Surely you have ultra-wideband radios on your bins too?",
+      "url": "https://sjg.io/writing/binrange-have-you-actually-put-the-bins-out/",
+      "canonical_url": "https://sjg.io/writing/binrange-have-you-actually-put-the-bins-out",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 151,
+      "published_at": "2026-10-03T20:27:44+00:00",
+      "score": 2,
+      "category": "devops",
+      "why": "Hardware/IoT topic, not your focus",
+      "action": "skip"
+    },
+    {
+      "title": "Broadcasting conglomerates are attempting a takeover of over-the-air television. We must defend it",
+      "url": "https://place.reeseric.ci/writings/2026-10-04/",
+      "canonical_url": "https://place.reeseric.ci/writings/2026-10-04",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 5,
+      "published_at": "2026-10-04T23:10:42.269000-05:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Broadcast regulation, no code changes needed",
+      "action": "skip"
+    },
+    {
+      "title": "Big Balls Now Exposed to Serious Criminal Charges in at Least Six States",
+      "url": "https://medium.com/@carmitage/big-balls-now-exposed-to-serious-criminal-charges-in-at-least-six-states-ca865e1d6305",
+      "canonical_url": "https://medium.com/@carmitage/big-balls-now-exposed-to-serious-criminal-charges-in-at-least-six-states-ca865e1d6305",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 99,
+      "published_at": "2026-10-03T22:35:14+00:00",
+      "score": 1,
+      "category": "security",
+      "why": "Sensational legal news, zero technical value",
+      "action": "skip"
+    },
+    {
+      "title": "Rust's derive often implies inline",
+      "url": "https://yossarian.net/til/post/rust-s-derive-often-implies-inline/",
+      "canonical_url": "https://yossarian.net/til/post/rust-s-derive-often-implies-inline",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 71,
+      "published_at": "2026-10-03T20:41:57.843000-05:00",
+      "score": 4,
+      "category": "backend",
+      "why": "Rust compile-time detail, not your runtime",
+      "action": "skip"
+    },
+    {
+      "title": "What Meta got right with Muse",
+      "url": "https://metedata.substack.com/p/what-meta-got-right-with-muse",
+      "canonical_url": "https://metedata.substack.com/p/what-meta-got-right-with-muse",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 144,
+      "published_at": "2026-10-03T18:23:48+00:00",
+      "score": 4,
+      "category": "ai",
+      "why": "Meta's Muse retrospective; not a new primitive for your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Apple's \"Clean Design\" Is Stupidity When It Comes to Hiding Fire Extinguishers",
+      "url": "https://www.gadgetreview.com/apples-clean-design-is-stupidity-when-it-comes-to-hiding-fire-extinguishers",
+      "canonical_url": "https://gadgetreview.com/apples-clean-design-is-stupidity-when-it-comes-to-hiding-fire-extinguishers",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 79,
+      "published_at": "2026-10-04T00:09:21+00:00",
+      "score": 2,
+      "category": "frontend",
+      "why": "Design critique of Apple; no code impact for you",
+      "action": "skip"
+    },
+    {
+      "title": "Infidel goes wild",
+      "url": "https://blog.zarfhome.com/2026/10/infidel-goes-wild",
+      "canonical_url": "https://blog.zarfhome.com/2026/10/infidel-goes-wild",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 163,
+      "published_at": "2026-10-03T12:19:40+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Unclear topic; no relevance to your stack",
+      "action": "skip"
+    },
+    {
+      "title": "'Neanderthals Among Us' review",
+      "url": "https://www.historytoday.com/archive/review/neanderthals-among-us-peter-sahlins-review",
+      "canonical_url": "https://historytoday.com/archive/review/neanderthals-among-us-peter-sahlins-review",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 82,
+      "published_at": "2026-10-03T20:41:15+00:00",
+      "score": 1,
+      "category": "ai",
+      "why": "Book review; off-topic for engineering work",
+      "action": "skip"
+    },
+    {
+      "title": "Automating my 35mm film scanning pipeline",
+      "url": "https://shannadige.com/blog/darkroom/",
+      "canonical_url": "https://shannadige.com/blog/darkroom",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 105,
+      "published_at": "2026-10-03T17:35:42+00:00",
+      "score": 3,
+      "category": "devops",
+      "why": "Personal film-scanning pipeline; not transferable to your stack",
+      "action": "skip"
+    },
+    {
+      "title": "grubby: static site generator for git repos written in Ruby",
+      "url": "https://git.btxx.org/grubby",
+      "canonical_url": "https://git.btxx.org/grubby",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 18,
+      "published_at": "2026-10-04T05:28:57.685000-05:00",
+      "score": 2,
+      "category": "frontend",
+      "why": "Ruby SSG irrelevant to your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Type Safe Generic Data Structures in C",
+      "url": "https://danielchasehooper.com/posts/typechecked-generic-c-data-structures/",
+      "canonical_url": "https://danielchasehooper.com/posts/typechecked-generic-c-data-structures",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 77,
+      "published_at": "2026-10-03T11:57:20+00:00",
+      "score": 2,
+      "category": "backend",
+      "why": "C generics not your language",
+      "action": "skip"
+    },
+    {
+      "title": "A model guide for the GPT-6 family",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "canonical_url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "source": "rss:OpenAI",
+      "sources": [
+        "rss:OpenAI"
+      ],
+      "engagement": 0,
+      "published_at": "2026-10-02T16:15:00+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "Speculative GPT-6 guide, not actionable",
+      "action": "skip"
+    },
+    {
+      "title": "Amazon ECS adds Amazon VPC Lattice support for blue/green, linear, and canary deployments",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-10-02T20:18:00+00:00",
+      "score": 5,
+      "category": "devops",
+      "why": "ECS deployment patterns, incremental",
+      "action": "skip"
+    },
+    {
+      "title": "AWS Health introduces the version catalog for software lifecycle management",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-health-introduces-version-catalog-software-lifecycle-management",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-health-introduces-version-catalog-software-lifecycle-management",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-10-02T18:09:00+00:00",
+      "score": 3,
+      "category": "devops",
+      "why": "AWS Health catalog, ops noise",
+      "action": "skip"
+    },
+    {
+      "title": "Amazon Aurora DSQL now supports partial indexes",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-10-02T17:30:00+00:00",
+      "score": 3,
+      "category": "backend",
+      "why": "Aurora DSQL not in your Supabase/Postgres stack",
+      "action": "skip"
+    },
+    {
+      "title": "Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.37",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-10-02T17:30:00+00:00",
+      "score": 5,
+      "category": "devops",
+      "why": "EKS 1.37 upgrade only matters if you run EKS",
+      "action": "skip"
+    },
+    {
+      "title": "AWS Brazil automates distribution of non-Brazilian software product licenses to Brazilian customers",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-brazil-software-license-distribution/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-brazil-software-license-distribution",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-10-02T16:30:00+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Marketplace licensing automation, no code impact",
+      "action": "skip"
+    }
+  ],
+  "candidates": [
+    {
+      "title": "Self-hosted HTTP tunnels with SSH and Nginx",
+      "url": "https://vincent.bernat.ch/en/blog/2026-http-over-ssh",
+      "canonical_url": "https://vincent.bernat.ch/en/blog/2026-http-over-ssh",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 173,
+      "published_at": "2026-10-04T14:08:58.378000-05:00"
+    },
+    {
+      "title": "Mold Linker Version 3.0.0 Release – Rewritten in Rust",
+      "url": "https://github.com/rui314/mold/releases/tag/v3.0.0",
+      "canonical_url": "https://github.com/rui314/mold/releases/tag/v3.0.0",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 26,
+      "published_at": "2026-10-05T11:17:18+00:00"
+    },
+    {
+      "title": "We're going to need default hard budget caps on pretty much everything",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "canonical_url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 615,
+      "published_at": "2026-10-04T00:20:16+00:00"
+    },
+    {
+      "title": "Making a GTK application in Haskell, part 1",
+      "url": "https://floreal.tech/blog/2026/making-a-gtk-app-in-haskell-part-1/",
+      "canonical_url": "https://floreal.tech/blog/2026/making-a-gtk-app-in-haskell-part-1",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 6,
+      "published_at": "2026-10-05T09:22:54.820000-05:00"
+    },
+    {
+      "title": "Why don't more developers “use the platform”?",
+      "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
+      "canonical_url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 314,
+      "published_at": "2026-10-03T16:35:28.658000-05:00"
+    },
+    {
+      "title": "We ported the original Doom to SQL",
+      "url": "https://cedardb.com/blog/sqldoom/",
+      "canonical_url": "https://cedardb.com/blog/sqldoom",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 233,
+      "published_at": "2026-10-03T22:14:00+00:00"
+    },
+    {
+      "title": "Europe's new robotics unicorn: Germany's RobCo hits $1B valuation",
+      "url": "https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/",
+      "canonical_url": "https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 262,
+      "published_at": "2026-10-05T11:13:51+00:00"
+    },
+    {
+      "title": "Denmark Data Breach Exposes 8.8M People's Personal Data",
+      "url": "https://www.cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger",
+      "canonical_url": "https://cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 326,
+      "published_at": "2026-10-05T08:09:36+00:00"
+    },
+    {
+      "title": "Pixel 11 doesn't yet meet the GrapheneOS security standards and may be skipped",
+      "url": "https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped",
+      "canonical_url": "https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 192,
+      "published_at": "2026-10-05T13:02:25+00:00"
+    },
+    {
+      "title": "Web Search API",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
+      "canonical_url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 185,
+      "published_at": "2026-10-05T10:47:06+00:00"
+    },
+    {
+      "title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
+      "url": "https://github.com/omlahore/RemoveMacAI",
+      "canonical_url": "https://github.com/omlahore/RemoveMacAI",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 700,
+      "published_at": "2026-10-04T19:42:25+00:00"
+    },
+    {
+      "title": "Apple and a Hacker's Future",
+      "url": "https://stratechery.com/2026/apple-and-a-hackers-future/",
+      "canonical_url": "https://stratechery.com/2026/apple-and-a-hackers-future",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 130,
+      "published_at": "2026-10-05T10:05:02+00:00"
+    },
+    {
+      "title": "Nearly 200 people under observation after Irkutsk lab worker dies from plague",
+      "url": "https://www.themoscowtimes.com/2026/10/02/nearly-200-people-under-observation-after-irkutsk-lab-worker-dies-from-plague-a93857",
+      "canonical_url": "https://themoscowtimes.com/2026/10/02/nearly-200-people-under-observation-after-irkutsk-lab-worker-dies-from-plague-a93857",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 265,
+      "published_at": "2026-10-05T02:31:45+00:00"
+    },
+    {
+      "title": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
+      "url": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/",
+      "canonical_url": "https://motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 267,
+      "published_at": "2026-10-05T01:54:08+00:00"
+    },
+    {
+      "title": "Improper redaction reveals Google Data Center water and electricity usage",
+      "url": "https://www.1011now.com/2026/09/30/more-questions-than-answers-about-lincolns-google-data-center-water-electricity-usage/",
+      "canonical_url": "https://1011now.com/2026/09/30/more-questions-than-answers-about-lincolns-google-data-center-water-electricity-usage",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 476,
+      "published_at": "2026-10-04T19:37:05+00:00"
+    },
+    {
+      "title": "Press Release: Nobel Prize in Physiology or Medicine 2026",
+      "url": "https://www.nobelprize.org/prizes/medicine/2026/press-release/",
+      "canonical_url": "https://nobelprize.org/prizes/medicine/2026/press-release",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 104,
+      "published_at": "2026-10-05T10:35:59+00:00"
+    },
+    {
+      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "url": "https://github.com/Niko1221/Strata",
+      "canonical_url": "https://github.com/Niko1221/Strata",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 867,
+      "published_at": "2026-10-04T12:51:53+00:00"
+    },
+    {
+      "title": "Huawei and Qualcomm Announce Broad Patent License Agreement",
+      "url": "https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement",
+      "canonical_url": "https://huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 115,
+      "published_at": "2026-10-05T07:46:10+00:00"
+    },
+    {
+      "title": "Our approach to EU text provenance rules",
+      "url": "https://openai.com/index/eu-text-provenance",
+      "canonical_url": "https://openai.com/index/eu-text-provenance",
+      "source": "rss:OpenAI",
+      "sources": [
+        "rss:OpenAI"
+      ],
+      "engagement": 0,
+      "published_at": "2026-10-05T15:00:00+00:00"
+    },
+    {
+      "title": "Tell HN: Uceprotect is extorting website owners",
+      "url": "https://news.ycombinator.com/item?id=49964045",
+      "canonical_url": "https://news.ycombinator.com/item?id=49964045",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 56,
+      "published_at": "2026-10-05T12:35:55+00:00"
+    },
+    {
+      "title": "A browser-native classic Visual Basic VB6 IDE",
+      "url": "https://wieslawsoltes.github.io/VB6/",
+      "canonical_url": "https://wieslawsoltes.github.io/VB6",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 333,
+      "published_at": "2026-10-04T18:49:17+00:00"
+    },
+    {
+      "title": "Gitframes",
+      "url": "https://github.com/gatewai-dev/gitframes",
+      "canonical_url": "https://github.com/gatewai-dev/gitframes",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 52,
+      "published_at": "2026-10-05T12:59:14+00:00"
+    },
+    {
+      "title": "Replacement of petroleum based products with plant-based materials (2025)",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/eng2.70108",
+      "canonical_url": "https://onlinelibrary.wiley.com/doi/10.1002/eng2.70108",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 94,
+      "published_at": "2026-10-05T05:09:43+00:00"
+    },
+    {
+      "title": "Anthropic reported diary entry to police, woman faces felony charge",
+      "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+      "canonical_url": "https://techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 87,
+      "published_at": "2026-10-05T05:37:40+00:00"
+    },
+    {
+      "title": "The Era of Software Quality, or the Era of Ostriches?",
+      "url": "https://blogs.gnome.org/mcatanzaro/2026/10/02/the-era-of-software-quality-or-the-era-of-ostriches/",
+      "canonical_url": "https://blogs.gnome.org/mcatanzaro/2026/10/02/the-era-of-software-quality-or-the-era-of-ostriches",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 43,
+      "published_at": "2026-10-05T12:33:15+00:00"
+    },
+    {
+      "title": "Building advertising for the way people use AI",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "canonical_url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "source": "rss:OpenAI",
+      "sources": [
+        "rss:OpenAI"
+      ],
+      "engagement": 0,
+      "published_at": "2026-10-05T10:00:00+00:00"
+    },
+    {
+      "title": "In the wake of Tippett Studios’ closure, a digital archive appears online",
+      "url": "https://filmstories.co.uk/news/tippett-studios-in-the-wake-of-its-closure-a-digital-archive-of-animated-materials-appears-online/",
+      "canonical_url": "https://filmstories.co.uk/news/tippett-studios-in-the-wake-of-its-closure-a-digital-archive-of-animated-materials-appears-online",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 195,
+      "published_at": "2026-10-04T21:01:28+00:00"
+    },
+    {
+      "title": "A 40ms Go garbage collector pause caused by swap",
+      "url": "https://frn.sh/go-gc/",
+      "canonical_url": "https://frn.sh/go-gc",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 103,
+      "published_at": "2026-10-05T01:11:56+00:00"
+    },
+    {
+      "title": "ArtCraft Apps – open-source Adobe compatible suite written in Rust",
+      "url": "https://getartcraft.com/apps",
+      "canonical_url": "https://getartcraft.com/apps",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 106,
+      "published_at": "2026-10-04T23:02:43+00:00"
+    },
+    {
+      "title": "Car is a smartphone on wheels. Here's who's listening",
+      "url": "https://automatictransmission.khoury.northeastern.edu/",
+      "canonical_url": "https://automatictransmission.khoury.northeastern.edu/",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 214,
+      "published_at": "2026-10-04T15:43:14+00:00"
+    },
+    {
+      "title": "Tell HN: Bob Cringely has died",
+      "url": "https://news.ycombinator.com/item?id=49949438",
+      "canonical_url": "https://news.ycombinator.com/item?id=49949438",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 913,
+      "published_at": "2026-10-04T00:50:52+00:00"
+    },
+    {
+      "title": "Flirt is now Open-Source",
+      "url": "https://blog.buenzli.dev/flirt-is-open-source/",
+      "canonical_url": "https://blog.buenzli.dev/flirt-is-open-source",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 26,
+      "published_at": "2026-10-05T04:34:42.913000-05:00"
+    },
+    {
+      "title": "Friendship ended with Deno, now Node is my best friend",
+      "url": "https://dbushell.com/2026/10/03/deno-to-node/",
+      "canonical_url": "https://dbushell.com/2026/10/03/deno-to-node",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 23,
+      "published_at": "2026-10-05T05:01:55.874000-05:00"
+    },
+    {
+      "title": "Homa: The end of TCP for AI clusters [video]",
+      "url": "https://www.youtube.com/watch?v=eZ8WWZzoaR0",
+      "canonical_url": "https://youtube.com/watch?v=eZ8WWZzoaR0",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 78,
+      "published_at": "2026-10-04T19:42:25+00:00"
+    },
+    {
+      "title": "All I wanted was a custom domain email",
+      "url": "https://jacobg.co/emails-at-jacobg-co/",
+      "canonical_url": "https://jacobg.co/emails-at-jacobg-co",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 91,
+      "published_at": "2026-10-04T17:47:21+00:00"
+    },
+    {
+      "title": "Blindsight (Watts Novel)",
+      "url": "https://en.wikipedia.org/wiki/Blindsight_(Watts_novel)",
+      "canonical_url": "https://en.wikipedia.org/wiki/Blindsight_(Watts_novel)",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 103,
+      "published_at": "2026-10-04T16:25:17+00:00"
+    },
+    {
+      "title": "Another step towards elm v1",
+      "url": "https://elm-lang.org/news/another-step-towards-elm-v1",
+      "canonical_url": "https://elm-lang.org/news/another-step-towards-elm-v1",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 11,
+      "published_at": "2026-10-05T08:20:47.476000-05:00"
+    },
+    {
+      "title": "Claude Says",
+      "url": "https://ohhfishal.net/Posts/claude",
+      "canonical_url": "https://ohhfishal.net/Posts/claude",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 27,
+      "published_at": "2026-10-04T23:48:18.022000-05:00"
+    },
+    {
+      "title": "Xray-core concealed a certificate verification bypass vulnerability",
+      "url": "https://github.com/net4people/bbs/issues/672",
+      "canonical_url": "https://github.com/net4people/bbs/issues/672",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 83,
+      "published_at": "2026-10-04T17:38:54+00:00"
+    },
+    {
+      "title": "Bill Draper has died",
+      "url": "https://www.nytimes.com/2026/09/30/technology/william-draper-dead.html",
+      "canonical_url": "https://nytimes.com/2026/09/30/technology/william-draper-dead.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 133,
+      "published_at": "2026-10-04T12:21:35+00:00"
+    },
+    {
+      "title": "In Ukraine, distributed renewables foil Russia's assaults",
+      "url": "https://energytransition.org/2026/09/in-ukraine-distributed-renewables-foil-russias-assaults/",
+      "canonical_url": "https://energytransition.org/2026/09/in-ukraine-distributed-renewables-foil-russias-assaults",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 174,
+      "published_at": "2026-10-04T08:39:58+00:00"
+    },
+    {
+      "title": "Federal judge calls Flock 'indiscriminate mass surveillance'",
+      "url": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
+      "canonical_url": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 489,
+      "published_at": "2026-10-03T22:07:13+00:00"
+    },
+    {
+      "title": "Show HN: AI search for every photo and every frame of video on macOS",
+      "url": "https://github.com/allenv0/SCM",
+      "canonical_url": "https://github.com/allenv0/SCM",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 156,
+      "published_at": "2026-10-04T09:24:52+00:00"
+    },
+    {
+      "title": "Rejection Sensitivity in Gifted and Twice-Exceptional Children",
+      "url": "https://teachyourkids.substack.com/p/rejection-sensitivity-in-gifted-and",
+      "canonical_url": "https://teachyourkids.substack.com/p/rejection-sensitivity-in-gifted-and",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 106,
+      "published_at": "2026-10-04T11:58:47+00:00"
+    },
+    {
+      "title": "Mosquitoes Are a Choice",
+      "url": "https://worksinprogress.co/issue/mosquitoes-are-a-choice/",
+      "canonical_url": "https://worksinprogress.co/issue/mosquitoes-are-a-choice",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 54,
+      "published_at": "2026-10-04T18:06:04+00:00"
+    },
+    {
+      "title": "Refinement E-Graphs",
+      "url": "https://www.philipzucker.com/refinement_egraph/",
+      "canonical_url": "https://philipzucker.com/refinement_egraph",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 23,
+      "published_at": "2026-10-04T21:23:30.392000-05:00"
+    },
+    {
+      "title": "Factor Overview",
+      "url": "https://re.factorcode.org/2026/10/factor-overview.html",
+      "canonical_url": "https://re.factorcode.org/2026/10/factor-overview.html",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 8,
+      "published_at": "2026-10-05T07:11:57.329000-05:00"
+    },
+    {
+      "title": "Iroh global content discovery",
+      "url": "https://www.iroh.computer/blog/iroh-global-content-discovery",
+      "canonical_url": "https://iroh.computer/blog/iroh-global-content-discovery",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 44,
+      "published_at": "2026-10-04T14:19:42.619000-05:00"
+    },
+    {
+      "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+      "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+      "canonical_url": "https://phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 485,
+      "published_at": "2026-10-03T19:14:48+00:00"
+    },
+    {
+      "title": "ncdu: NCurses Disk Usage (an updated fork)",
+      "url": "https://github.com/rcalixte/ncdu",
+      "canonical_url": "https://github.com/rcalixte/ncdu",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 39,
+      "published_at": "2026-10-04T14:30:36.027000-05:00"
+    },
+    {
+      "title": "VGHF Digital Archive passes 5000 magazines. Here's what's next",
+      "url": "https://gamehistory.org/5k-magazines/",
+      "canonical_url": "https://gamehistory.org/5k-magazines",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 107,
+      "published_at": "2026-10-04T09:07:11+00:00"
+    },
+    {
+      "title": "Emitting metadata early makes building/checking Rust up to twice as fast",
+      "url": "https://github.com/PowderworksCode/headstart",
+      "canonical_url": "https://github.com/PowderworksCode/headstart",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 140,
+      "published_at": "2026-10-04T06:26:57+00:00"
+    },
+    {
+      "title": "How to scale intent, quality, and artistry with AI [video]",
+      "url": "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
+      "canonical_url": "https://youtube.com/watch?v=GLvFTMtw4Jk",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 95,
+      "published_at": "2026-10-04T08:41:58+00:00"
+    },
+    {
+      "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "canonical_url": "https://theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 267,
+      "published_at": "2026-10-03T22:18:13+00:00"
+    },
+    {
+      "title": "Religious scholars met with Anthropic",
+      "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+      "canonical_url": "https://nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 164,
+      "published_at": "2026-10-04T02:34:22+00:00"
+    },
+    {
+      "title": "Using docker-compose with Podman rootless",
+      "url": "https://elou.world/en/tutorial/podman-docker-compose",
+      "canonical_url": "https://elou.world/en/tutorial/podman-docker-compose",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 6,
+      "published_at": "2026-10-05T04:51:28.692000-05:00"
+    },
+    {
+      "title": "Hole Punch: Sling your spaceship around gravitational fields",
+      "url": "https://notoriousbfg.com/hole-punch/",
+      "canonical_url": "https://notoriousbfg.com/hole-punch",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 363,
+      "published_at": "2026-10-03T18:06:45+00:00"
+    },
+    {
+      "title": "We're working on a new RuneScape MMO",
+      "url": "https://play.runescape.com/4",
+      "canonical_url": "https://play.runescape.com/4",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 161,
+      "published_at": "2026-10-04T01:12:22+00:00"
+    },
+    {
+      "title": "A new, bespoke static site generator to replace Jekyll",
+      "url": "https://nullprogram.com/blog/2026/10/04/",
+      "canonical_url": "https://nullprogram.com/blog/2026/10/04",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 5,
+      "published_at": "2026-10-05T04:59:25.188000-05:00"
+    },
+    {
+      "title": "Reasons I didn't become an EMT, ranked",
+      "url": "https://ben.stolovitz.com/posts/reasons-not-emt-ranked/",
+      "canonical_url": "https://ben.stolovitz.com/posts/reasons-not-emt-ranked",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 242,
+      "published_at": "2026-10-03T20:49:15+00:00"
+    },
+    {
+      "title": "The complement of true is true, except when it's false",
+      "url": "https://dryperspective.github.io/posts/complement-of-true/",
+      "canonical_url": "https://dryperspective.github.io/posts/complement-of-true",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 43,
+      "published_at": "2026-10-04T07:30:26.844000-05:00"
+    },
+    {
+      "title": "Hacking the Go compiler to efficiently map IPv4 to IPv6",
+      "url": "https://vincent.bernat.ch/en/blog/2026-go-netip-addrto6",
+      "canonical_url": "https://vincent.bernat.ch/en/blog/2026-go-netip-addrto6",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 22,
+      "published_at": "2026-10-04T13:49:55.122000-05:00"
+    },
+    {
+      "title": "We want you to build the next Git platform on Cloudflare",
+      "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
+      "canonical_url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 221,
+      "published_at": "2026-10-03T19:33:16+00:00"
+    },
+    {
+      "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+      "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
+      "canonical_url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 237,
+      "published_at": "2026-10-03T18:29:30+00:00"
+    },
+    {
+      "title": "From: anyone@icloud.com - Spoofing Arbitrary Apple iCloud Identities",
+      "url": "https://sec-consult.com/blog/detail/from-anyoneicloudcom-spoofing-arbitrary-apple-icloud-identities/",
+      "canonical_url": "https://sec-consult.com/blog/detail/from-anyoneicloudcom-spoofing-arbitrary-apple-icloud-identities",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 5,
+      "published_at": "2026-10-05T01:50:55.660000-05:00"
+    },
+    {
+      "title": "ADHD, autism or complex trauma? [pdf]",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/30CC4826561366615BFAEC807CDE28A7/S0007125026108046a.pdf/adhd-autism-or-complex-trauma-the-complicated-nature-of-the-question.pdf",
+      "canonical_url": "https://cambridge.org/core/services/aop-cambridge-core/content/view/30CC4826561366615BFAEC807CDE28A7/S0007125026108046a.pdf/adhd-autism-or-complex-trauma-the-complicated-nature-of-the-question.pdf",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 233,
+      "published_at": "2026-10-03T18:08:28+00:00"
+    },
+    {
+      "title": "Surely you have ultra-wideband radios on your bins too?",
+      "url": "https://sjg.io/writing/binrange-have-you-actually-put-the-bins-out/",
+      "canonical_url": "https://sjg.io/writing/binrange-have-you-actually-put-the-bins-out",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 151,
+      "published_at": "2026-10-03T20:27:44+00:00"
+    },
+    {
+      "title": "Broadcasting conglomerates are attempting a takeover of over-the-air television. We must defend it",
+      "url": "https://place.reeseric.ci/writings/2026-10-04/",
+      "canonical_url": "https://place.reeseric.ci/writings/2026-10-04",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 5,
+      "published_at": "2026-10-04T23:10:42.269000-05:00"
+    },
+    {
+      "title": "Big Balls Now Exposed to Serious Criminal Charges in at Least Six States",
+      "url": "https://medium.com/@carmitage/big-balls-now-exposed-to-serious-criminal-charges-in-at-least-six-states-ca865e1d6305",
+      "canonical_url": "https://medium.com/@carmitage/big-balls-now-exposed-to-serious-criminal-charges-in-at-least-six-states-ca865e1d6305",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 99,
+      "published_at": "2026-10-03T22:35:14+00:00"
+    },
+    {
+      "title": "Rust's derive often implies inline",
+      "url": "https://yossarian.net/til/post/rust-s-derive-often-implies-inline/",
+      "canonical_url": "https://yossarian.net/til/post/rust-s-derive-often-implies-inline",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 71,
+      "published_at": "2026-10-03T20:41:57.843000-05:00"
+    },
+    {
+      "title": "What Meta got right with Muse",
+      "url": "https://metedata.substack.com/p/what-meta-got-right-with-muse",
+      "canonical_url": "https://metedata.substack.com/p/what-meta-got-right-with-muse",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 144,
+      "published_at": "2026-10-03T18:23:48+00:00"
+    },
+    {
+      "title": "Apple's \"Clean Design\" Is Stupidity When It Comes to Hiding Fire Extinguishers",
+      "url": "https://www.gadgetreview.com/apples-clean-design-is-stupidity-when-it-comes-to-hiding-fire-extinguishers",
+      "canonical_url": "https://gadgetreview.com/apples-clean-design-is-stupidity-when-it-comes-to-hiding-fire-extinguishers",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 79,
+      "published_at": "2026-10-04T00:09:21+00:00"
+    },
+    {
+      "title": "Infidel goes wild",
+      "url": "https://blog.zarfhome.com/2026/10/infidel-goes-wild",
+      "canonical_url": "https://blog.zarfhome.com/2026/10/infidel-goes-wild",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 163,
+      "published_at": "2026-10-03T12:19:40+00:00"
+    },
+    {
+      "title": "'Neanderthals Among Us' review",
+      "url": "https://www.historytoday.com/archive/review/neanderthals-among-us-peter-sahlins-review",
+      "canonical_url": "https://historytoday.com/archive/review/neanderthals-among-us-peter-sahlins-review",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 82,
+      "published_at": "2026-10-03T20:41:15+00:00"
+    },
+    {
+      "title": "Automating my 35mm film scanning pipeline",
+      "url": "https://shannadige.com/blog/darkroom/",
+      "canonical_url": "https://shannadige.com/blog/darkroom",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 105,
+      "published_at": "2026-10-03T17:35:42+00:00"
+    },
+    {
+      "title": "grubby: static site generator for git repos written in Ruby",
+      "url": "https://git.btxx.org/grubby",
+      "canonical_url": "https://git.btxx.org/grubby",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 18,
+      "published_at": "2026-10-04T05:28:57.685000-05:00"
+    },
+    {
+      "title": "Type Safe Generic Data Structures in C",
+      "url": "https://danielchasehooper.com/posts/typechecked-generic-c-data-structures/",
+      "canonical_url": "https://danielchasehooper.com/posts/typechecked-generic-c-data-structures",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 77,
+      "published_at": "2026-10-03T11:57:20+00:00"
+    },
+    {
+      "title": "A model guide for the GPT-6 family",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "canonical_url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "source": "rss:OpenAI",
+      "sources": [
+        "rss:OpenAI"
+      ],
+      "engagement": 0,
+      "published_at": "2026-10-02T16:15:00+00:00"
+    },
+    {
+      "title": "Amazon ECS adds Amazon VPC Lattice support for blue/green, linear, and canary deployments",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-10-02T20:18:00+00:00"
+    },
+    {
+      "title": "AWS Health introduces the version catalog for software lifecycle management",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-health-introduces-version-catalog-software-lifecycle-management",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-health-introduces-version-catalog-software-lifecycle-management",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-10-02T18:09:00+00:00"
+    },
+    {
+      "title": "Amazon Aurora DSQL now supports partial indexes",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-10-02T17:30:00+00:00"
+    },
+    {
+      "title": "Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.37",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-10-02T17:30:00+00:00"
+    },
+    {
+      "title": "AWS Brazil automates distribution of non-Brazilian software product licenses to Brazilian customers",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-brazil-software-license-distribution/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-brazil-software-license-distribution",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-10-02T16:30:00+00:00"
+    }
+  ],
+  "raw_responses": [
+    "[{\"id\":0,\"score\":5,\"category\":\"devops\",\"why\":\"Known pattern for local tunnels; ngrok alternatives exist\",\"action\":\"skip\"},{\"id\":1,\"score\":4,\"category\":\"backend\",\"why\":\"Faster C/Rust linker; irrelevant to Node/TS daily work\",\"action\":\"skip\"},{\"id\":2,\"score\":3,\"category\":\"devops\",\"why\":\"Opinion on cloud budget caps; no technical primitive\",\"action\":\"skip\"},{\"id\":3,\"score\":1,\"category\":\"frontend\",\"why\":\"Haskell/GTK desktop dev; outside your web stack\",\"action\":\"skip\"},{\"id\":4,\"score\":5,\"category\":\"frontend\",\"why\":\"Platform vs framework debate; useful perspective only\",\"action\":\"skip\"}]",
+    "[{\"id\":5,\"score\":3,\"category\":\"backend\",\"why\":\"Impressive SQL demo, no practical adoption for your stack\",\"action\":\"skip\"},{\"id\":6,\"score\":2,\"category\":\"ai\",\"why\":\"Funding announcement, no technical substance for your work\",\"action\":\"skip\"},{\"id\":7,\"score\":3,\"category\":\"security\",\"why\":\"Large breach incident, not a vuln in your dependencies\",\"action\":\"skip\"},{\"id\":8,\"score\":1,\"category\":\"security\",\"why\":\"Phone hardware security, irrelevant to your web stack\",\"action\":\"skip\"},{\"id\":9,\"score\":4,\"category\":\"backend\",\"why\":\"Vague API launch, unclear if it changes your tooling\",\"action\":\"skip\"}]",
+    "[{\"id\":10,\"score\":2,\"category\":\"devops\",\"why\":\"macOS config tip, not stack-relevant\",\"action\":\"skip\"},{\"id\":11,\"score\":3,\"category\":\"security\",\"why\":\"Opinion piece, no actionable security impact\",\"action\":\"skip\"},{\"id\":12,\"score\":1,\"category\":\"security\",\"why\":\"Public health news, zero dev relevance\",\"action\":\"skip\"},{\"id\":13,\"score\":2,\"category\":\"backend\",\"why\":\"F1 software anecdote, not applicable\",\"action\":\"skip\"},{\"id\":14,\"score\":3,\"category\":\"devops\",\"why\":\"Google infra trivia, no code change needed\",\"action\":\"skip\"}]",
+    "[{\"id\":15,\"score\":1,\"category\":\"backend\",\"why\":\"Off-topic science news\",\"action\":\"skip\"},{\"id\":16,\"score\":5,\"category\":\"ai\",\"why\":\"Model release, not a stack primitive\",\"action\":\"skip\"},{\"id\":17,\"score\":3,\"category\":\"backend\",\"why\":\"Patent deal, no code impact\",\"action\":\"skip\"},{\"id\":18,\"score\":3,\"category\":\"security\",\"why\":\"EU compliance post, no immediate action\",\"action\":\"skip\"},{\"id\":19,\"score\":4,\"category\":\"security\",\"why\":\"Email reputation discussion, monitor if affected\",\"action\":\"skip\"}]",
+    "[{\"id\":20,\"score\":1,\"category\":\"frontend\",\"why\":\"Retro VB6 in browser, irrelevant to your stack\",\"action\":\"skip\"},{\"id\":21,\"score\":5,\"category\":\"devops\",\"why\":\"Git visualization tool, incremental utility\",\"action\":\"skip\"},{\"id\":22,\"score\":1,\"category\":\"backend\",\"why\":\"Materials science, not software\",\"action\":\"skip\"},{\"id\":23,\"score\":3,\"category\":\"ai\",\"why\":\"Legal incident at AI vendor, no code impact\",\"action\":\"skip\"},{\"id\":24,\"score\":3,\"category\":\"testing\",\"why\":\"Opinion piece on software quality, no actionable shift\",\"action\":\"skip\"}]",
+    "[{\"id\":25,\"score\":2,\"category\":\"ai\",\"why\":\"Marketing fluff about AI ads, no technical substance\",\"action\":\"skip\"},{\"id\":26,\"score\":2,\"category\":\"frontend\",\"why\":\"VFX studio archive, unrelated to your stack\",\"action\":\"skip\"},{\"id\":27,\"score\":4,\"category\":\"backend\",\"why\":\"Go GC debugging, not your Node runtime\",\"action\":\"skip\"},{\"id\":28,\"score\":4,\"category\":\"frontend\",\"why\":\"Rust creative suite, not your React/TS toolchain\",\"action\":\"skip\"},{\"id\":29,\"score\":3,\"category\":\"security\",\"why\":\"Car privacy expose, no code impact for you\",\"action\":\"skip\"}]",
+    "[{\"id\":30,\"score\":1,\"category\":\"backend\",\"why\":\"Obituary, no technical impact on your stack\",\"action\":\"skip\"},{\"id\":31,\"score\":3,\"category\":\"backend\",\"why\":\"Unknown open-source tool, low adoption signal\",\"action\":\"skip\"},{\"id\":32,\"score\":3,\"category\":\"backend\",\"why\":\"Opinion piece on Node vs Deno, no action needed\",\"action\":\"skip\"},{\"id\":33,\"score\":2,\"category\":\"devops\",\"why\":\"Datacenter transport research, not your application layer\",\"action\":\"skip\"},{\"id\":34,\"score\":3,\"category\":\"devops\",\"why\":\"Custom email setup guide, incremental not paradigm\",\"action\":\"skip\"}]",
+    "[{\"id\":35,\"score\":1,\"category\":\"ai\",\"why\":\"Sci-fi novel discussion, not relevant to stack\",\"action\":\"skip\"},{\"id\":36,\"score\":4,\"category\":\"frontend\",\"why\":\"Elm v1 progress, not your React/TS stack\",\"action\":\"skip\"},{\"id\":37,\"score\":4,\"category\":\"ai\",\"why\":\"Claude wrapper tool, low adoption signal\",\"action\":\"skip\"},{\"id\":38,\"score\":7,\"category\":\"security\",\"why\":\"Cert bypass in proxy tool you may use in DevOps\",\"action\":\"aware\"},{\"id\":39,\"score\":3,\"category\":\"backend\",\"why\":\"VC obituary, industry news not tech shift\",\"action\":\"skip\"}]",
+    "[{\"id\":40,\"score\":1,\"category\":\"devops\",\"why\":\"Energy infrastructure, not your stack\",\"action\":\"skip\"},{\"id\":41,\"score\":2,\"category\":\"security\",\"why\":\"Legal ruling on surveillance, no code impact\",\"action\":\"skip\"},{\"id\":42,\"score\":4,\"category\":\"ai\",\"why\":\"macOS-only AI search, not cross-platform\",\"action\":\"skip\"},{\"id\":43,\"score\":1,\"category\":\"testing\",\"why\":\"Psychology research, irrelevant to engineering\",\"action\":\"skip\"},{\"id\":44,\"score\":1,\"category\":\"backend\",\"why\":\"Biology article, zero technical relevance\",\"action\":\"skip\"}]",
+    "[{\"id\":45,\"score\":3,\"category\":\"backend\",\"why\":\"PL research (e-graphs), not relevant to your stack\",\"action\":\"skip\"},{\"id\":46,\"score\":2,\"category\":\"backend\",\"why\":\"Factor language overview, off-topic for your work\",\"action\":\"skip\"},{\"id\":47,\"score\":4,\"category\":\"devops\",\"why\":\"P2P content discovery lib, niche not your stack\",\"action\":\"skip\"},{\"id\":48,\"score\":2,\"category\":\"devops\",\"why\":\"Linux GPU driver work, hardware not your concern\",\"action\":\"skip\"},{\"id\":49,\"score\":4,\"category\":\"devops\",\"why\":\"ncdu fork update, incremental CLI tool change\",\"action\":\"skip\"}]",
+    "[{\"id\":50,\"score\":1,\"category\":\"ai\",\"why\":\"Game magazine archive, irrelevant to your stack\",\"action\":\"skip\"},{\"id\":51,\"score\":3,\"category\":\"backend\",\"why\":\"Rust compiler optimization, not your stack\",\"action\":\"skip\"},{\"id\":52,\"score\":5,\"category\":\"ai\",\"why\":\"High-level AI scaling philosophy, not actionable\",\"action\":\"skip\"},{\"id\":53,\"score\":3,\"category\":\"ai\",\"why\":\"OpenAI personnel news, no code impact\",\"action\":\"skip\"},{\"id\":54,\"score\":2,\"category\":\"ai\",\"why\":\"Religious scholars meeting, non-technical AI ethics\",\"action\":\"skip\"}]",
+    "[{\"id\":55,\"score\":7,\"category\":\"devops\",\"why\":\"Rootless Podman improves local/CI container security\",\"action\":\"aware\"},{\"id\":56,\"score\":1,\"category\":\"frontend\",\"why\":\"Game demo, irrelevant to your stack\",\"action\":\"skip\"},{\"id\":57,\"score\":1,\"category\":\"backend\",\"why\":\"Gaming announcement, not relevant\",\"action\":\"skip\"},{\"id\":58,\"score\":4,\"category\":\"frontend\",\"why\":\"Personal SSG project, no adoption signal\",\"action\":\"skip\"},{\"id\":59,\"score\":1,\"category\":\"frontend\",\"why\":\"Personal essay, off-topic\",\"action\":\"skip\"}]",
+    "[{\"id\":60,\"score\":2,\"category\":\"backend\",\"why\":\"Logic puzzle post, not relevant to stack\",\"action\":\"skip\"},{\"id\":61,\"score\":2,\"category\":\"backend\",\"why\":\"Go compiler internals, not your runtime\",\"action\":\"skip\"},{\"id\":62,\"score\":4,\"category\":\"devops\",\"why\":\"Cloudflare marketing challenge, no new primitive\",\"action\":\"skip\"},{\"id\":63,\"score\":5,\"category\":\"ai\",\"why\":\"Model usage guide, not a stack change\",\"action\":\"skip\"},{\"id\":64,\"score\":6,\"category\":\"security\",\"why\":\"Apple iCloud spoofing vuln, low direct impact\",\"action\":\"skip\"}]",
+    "[{\"id\":65,\"score\":1,\"category\":\"backend\",\"why\":\"Medical PDF, irrelevant to your stack\",\"action\":\"skip\"},{\"id\":66,\"score\":2,\"category\":\"devops\",\"why\":\"Hardware/IoT topic, not your focus\",\"action\":\"skip\"},{\"id\":67,\"score\":2,\"category\":\"backend\",\"why\":\"Broadcast regulation, no code changes needed\",\"action\":\"skip\"},{\"id\":68,\"score\":1,\"category\":\"security\",\"why\":\"Sensational legal news, zero technical value\",\"action\":\"skip\"},{\"id\":69,\"score\":4,\"category\":\"backend\",\"why\":\"Rust compile-time detail, not your runtime\",\"action\":\"skip\"}]",
+    "[{\"id\":70,\"score\":4,\"category\":\"ai\",\"why\":\"Meta's Muse retrospective; not a new primitive for your stack\",\"action\":\"skip\"},{\"id\":71,\"score\":2,\"category\":\"frontend\",\"why\":\"Design critique of Apple; no code impact for you\",\"action\":\"skip\"},{\"id\":72,\"score\":1,\"category\":\"backend\",\"why\":\"Unclear topic; no relevance to your stack\",\"action\":\"skip\"},{\"id\":73,\"score\":1,\"category\":\"ai\",\"why\":\"Book review; off-topic for engineering work\",\"action\":\"skip\"},{\"id\":74,\"score\":3,\"category\":\"devops\",\"why\":\"Personal film-scanning pipeline; not transferable to your stack\",\"action\":\"skip\"}]",
+    "[{\"id\":75,\"score\":2,\"category\":\"frontend\",\"why\":\"Ruby SSG irrelevant to your stack\",\"action\":\"skip\"},{\"id\":76,\"score\":2,\"category\":\"backend\",\"why\":\"C generics not your language\",\"action\":\"skip\"},{\"id\":77,\"score\":3,\"category\":\"ai\",\"why\":\"Speculative GPT-6 guide, not actionable\",\"action\":\"skip\"},{\"id\":78,\"score\":5,\"category\":\"devops\",\"why\":\"ECS deployment patterns, incremental\",\"action\":\"skip\"},{\"id\":79,\"score\":3,\"category\":\"devops\",\"why\":\"AWS Health catalog, ops noise\",\"action\":\"skip\"}]",
+    "[{\"id\":80,\"score\":3,\"category\":\"backend\",\"why\":\"Aurora DSQL not in your Supabase/Postgres stack\",\"action\":\"skip\"},{\"id\":81,\"score\":5,\"category\":\"devops\",\"why\":\"EKS 1.37 upgrade only matters if you run EKS\",\"action\":\"skip\"},{\"id\":82,\"score\":1,\"category\":\"backend\",\"why\":\"Marketplace licensing automation, no code impact\",\"action\":\"skip\"}]"
+  ]
+}
