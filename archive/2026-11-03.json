@@ -1,0 +1,2878 @@
+{
+  "run_at": "2026-11-03T15:01:47.506643+00:00",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "counts": {
+    "candidates": 106,
+    "scored": 106,
+    "selected": 5
+  },
+  "selected": [
+    {
+      "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
+      "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+      "canonical_url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 571,
+      "published_at": "2026-11-02T18:39:38+00:00",
+      "score": 9,
+      "category": "security",
+      "why": "Unpatched Linux 0day RCE hits your servers",
+      "action": "aware"
+    },
+    {
+      "title": "Projects can now be configured with vercel.toml",
+      "url": "https://vercel.com/changelog/projects-can-now-be-configured-with-vercel-toml",
+      "canonical_url": "https://vercel.com/changelog/projects-can-now-be-configured-with-vercel-toml",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T21:00:00+00:00",
+      "score": 8,
+      "category": "devops",
+      "why": "New config primitive for your Vercel deployments",
+      "action": "learn"
+    },
+    {
+      "title": "Agentic backdoors via pretraining poisoning",
+      "url": "https://arxiv.org/abs/2610.37741",
+      "canonical_url": "https://arxiv.org/abs/2610.37741",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 105,
+      "published_at": "2026-11-02T18:30:58+00:00",
+      "score": 7,
+      "category": "security",
+      "why": "New AI supply-chain attack vector to track",
+      "action": "aware"
+    },
+    {
+      "title": "Evaluate Vercel Flags from another project without sharing SDK keys.",
+      "url": "https://vercel.com/changelog/evaluate-vercel-flags-from-another-project-without-sharing-sdk-keys",
+      "canonical_url": "https://vercel.com/changelog/evaluate-vercel-flags-from-another-project-without-sharing-sdk-keys",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T16:00:00+00:00",
+      "score": 7,
+      "category": "devops",
+      "why": "Cross-project flags without key sharing; adopt.",
+      "action": "learn"
+    },
+    {
+      "title": "Blocking malicious npm packages before and during installation",
+      "url": "https://vercel.com/changelog/blocking-malicious-npm-packages-before-and-during-installation",
+      "canonical_url": "https://vercel.com/changelog/blocking-malicious-npm-packages-before-and-during-installation",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T00:00:00+00:00",
+      "score": 7,
+      "category": "security",
+      "why": "New npm supply-chain primitive; adopt to harden installs",
+      "action": "learn"
+    }
+  ],
+  "scored": [
+    {
+      "title": "Astra can read and write weights to improve Qwen",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "canonical_url": "https://rikiyat.github.io/blog/weight-space-programming",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 2875,
+      "published_at": "2026-11-02T18:21:28+00:00",
+      "score": 5,
+      "category": "ai",
+      "why": "AI model weight research, not a stack primitive",
+      "action": "skip"
+    },
+    {
+      "title": "Scaling Git at OpenAI",
+      "url": "https://openai.com/index/scaling-git-at-openai/",
+      "canonical_url": "https://openai.com/index/scaling-git-at-openai",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "rss:OpenAI"
+      ],
+      "engagement": 251,
+      "published_at": "2026-11-02T15:30:00+00:00",
+      "score": 4,
+      "category": "devops",
+      "why": "Git scaling case study, no new tool to adopt",
+      "action": "skip"
+    },
+    {
+      "title": "My Favourite Laptop",
+      "url": "https://blog.jsbarretto.com/post/laptop",
+      "canonical_url": "https://blog.jsbarretto.com/post/laptop",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 198,
+      "published_at": "2026-11-02T16:59:57+00:00",
+      "score": 1,
+      "category": "devops",
+      "why": "Hardware opinion piece, off-topic for stack",
+      "action": "skip"
+    },
+    {
+      "title": "Moving our warehouse off DuckDB",
+      "url": "https://posthog.com/blog/moving-off-duckdb",
+      "canonical_url": "https://posthog.com/blog/moving-off-duckdb",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 181,
+      "published_at": "2026-11-02T16:02:26+00:00",
+      "score": 5,
+      "category": "backend",
+      "why": "DuckDB migration story, not Postgres/Supabase",
+      "action": "skip"
+    },
+    {
+      "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+      "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+      "canonical_url": "https://honnibal.dev/blog/astra-read-write-misleading",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 383,
+      "published_at": "2026-11-03T12:21:17+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "Meta-discussion rebuttal, no technical signal",
+      "action": "skip"
+    },
+    {
+      "title": "WTF Ubuntu?",
+      "url": "https://chalmovsky.com/posts/wtf-ubuntu",
+      "canonical_url": "https://chalmovsky.com/posts/wtf-ubuntu",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 1577,
+      "published_at": "2026-11-02T14:52:00+00:00",
+      "score": 3,
+      "category": "devops",
+      "why": "Ubuntu drama, no stack impact",
+      "action": "skip"
+    },
+    {
+      "title": "Show HN: Hacker Times, a New York Times-inspired version of Hacker News",
+      "url": "https://hackertimes.ca/",
+      "canonical_url": "https://hackertimes.ca/",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 387,
+      "published_at": "2026-11-03T01:53:34+00:00",
+      "score": 4,
+      "category": "frontend",
+      "why": "Show HN side project, not a tool",
+      "action": "skip"
+    },
+    {
+      "title": "Revolut moves to self-hosted GLM",
+      "url": "https://twitter.com/guilleflorvs/status/2117379073785696395",
+      "canonical_url": "https://twitter.com/guilleflorvs/status/2117379073785696395",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 165,
+      "published_at": "2026-11-03T09:53:59+00:00",
+      "score": 6,
+      "category": "devops",
+      "why": "Fintech self-hosting trend, not a primitive",
+      "action": "skip"
+    },
+    {
+      "title": "Nvidia – open-source auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "canonical_url": "https://github.com/NVIDIA/auto-ontology",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 202,
+      "published_at": "2026-11-03T07:04:50+00:00",
+      "score": 5,
+      "category": "ai",
+      "why": "Nvidia ontology niche, not your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Could a modern chess engine on a Pentium have defeated Kasparov in 1996?",
+      "url": "https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html",
+      "canonical_url": "https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 178,
+      "published_at": "2026-11-03T07:56:21+00:00",
+      "score": 2,
+      "category": "ai",
+      "why": "Retro chess thought experiment, irrelevant",
+      "action": "skip"
+    },
+    {
+      "title": "Show HN: Subvocal – Talk to your computer without making noise",
+      "url": "https://news.ycombinator.com/item?id=50340088",
+      "canonical_url": "https://news.ycombinator.com/item?id=50340088",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 771,
+      "published_at": "2026-11-02T17:16:17+00:00",
+      "score": 4,
+      "category": "ai",
+      "why": "Voice input demo; not a stack primitive",
+      "action": "skip"
+    },
+    {
+      "title": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
+      "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+      "canonical_url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 303,
+      "published_at": "2026-11-03T01:33:43+00:00",
+      "score": 1,
+      "category": "devops",
+      "why": "Retro optical media tool; irrelevant to web stack",
+      "action": "skip"
+    },
+    {
+      "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
+      "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+      "canonical_url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 571,
+      "published_at": "2026-11-02T18:39:38+00:00",
+      "score": 9,
+      "category": "security",
+      "why": "Unpatched Linux 0day RCE hits your servers",
+      "action": "aware"
+    },
+    {
+      "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+      "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+      "canonical_url": "https://techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 376,
+      "published_at": "2026-11-02T22:30:47+00:00",
+      "score": 2,
+      "category": "ai",
+      "why": "Regulatory opinion on Anthropic; no code impact",
+      "action": "skip"
+    },
+    {
+      "title": "Net worth for people aged 30–33 in the U.S.",
+      "url": "https://www.keepingup.com/benchmarks/net-worth/age-30-33",
+      "canonical_url": "https://keepingup.com/benchmarks/net-worth/age-30-33",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 191,
+      "published_at": "2026-11-03T03:28:26+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Demographic finance data; off-topic for engineering",
+      "action": "skip"
+    },
+    {
+      "title": "uBlock Origin filter to block autoplay videos in TechCrunch",
+      "url": "https://cornfieldlabs.github.io/posts/ublock-stop-techcrunch-autoplay-video/post.html",
+      "canonical_url": "https://cornfieldlabs.github.io/posts/ublock-stop-techcrunch-autoplay-video/post.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 119,
+      "published_at": "2026-11-03T07:36:47+00:00",
+      "score": 2,
+      "category": "frontend",
+      "why": "User-level ad-block tip, not a dev primitive",
+      "action": "skip"
+    },
+    {
+      "title": "Intel stock collapse worsens as $3.5T chip rout spreads",
+      "url": "https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-37-trillion-chip-rout-is-spreading-212154947.html",
+      "canonical_url": "https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-37-trillion-chip-rout-is-spreading-212154947.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 219,
+      "published_at": "2026-11-03T00:08:53+00:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Financial/hardware news, no code impact",
+      "action": "skip"
+    },
+    {
+      "title": "If you love a website, back it up",
+      "url": "https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/",
+      "canonical_url": "https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 624,
+      "published_at": "2026-11-02T13:25:35+00:00",
+      "score": 4,
+      "category": "devops",
+      "why": "Backup reminder, good practice but not new tooling",
+      "action": "skip"
+    },
+    {
+      "title": "BYD sold more EVs last month than the US did all quarter",
+      "url": "https://electrek.co/2026/11/02/byd-sold-more-evs-last-month-than-the-us-did-all-quarter/",
+      "canonical_url": "https://electrek.co/2026/11/02/byd-sold-more-evs-last-month-than-the-us-did-all-quarter",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 273,
+      "published_at": "2026-11-02T21:38:49+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Auto industry sales data, irrelevant to stack",
+      "action": "skip"
+    },
+    {
+      "title": "Just a little AI resistance, as a treat",
+      "url": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat/",
+      "canonical_url": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 51,
+      "published_at": "2026-11-03T14:14:12+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "Opinion piece on AI skepticism, no actionable tech",
+      "action": "skip"
+    },
+    {
+      "title": "US boy names that became girl names and vice versa",
+      "url": "https://namedaisy.com/blog/boy-names-that-became-girl-names",
+      "canonical_url": "https://namedaisy.com/blog/boy-names-that-became-girl-names",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 446,
+      "published_at": "2026-11-02T16:34:36+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Off-topic, not relevant to stack",
+      "action": "skip"
+    },
+    {
+      "title": "Anthropic's growth just flattened",
+      "url": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
+      "canonical_url": "https://regenerator1.com/p/anthropics-growth-just-flattened",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 222,
+      "published_at": "2026-11-02T22:33:20+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "Business news, no code impact",
+      "action": "skip"
+    },
+    {
+      "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+      "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+      "canonical_url": "https://businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 338,
+      "published_at": "2026-11-02T16:40:29+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "Cost metric, no actionable change",
+      "action": "skip"
+    },
+    {
+      "title": "Ask HN: Does anyone have a contact with Cleveland-area Ham club?",
+      "url": "https://news.ycombinator.com/item?id=50346164",
+      "canonical_url": "https://news.ycombinator.com/item?id=50346164",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 156,
+      "published_at": "2026-11-03T00:09:36+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Off-topic, ham radio query",
+      "action": "skip"
+    },
+    {
+      "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
+      "url": "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you",
+      "canonical_url": "https://nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 292,
+      "published_at": "2026-11-02T17:47:40+00:00",
+      "score": 4,
+      "category": "security",
+      "why": "NIST guide for solo devs, optional reading",
+      "action": "skip"
+    },
+    {
+      "title": "Show HN: Warsaw in voxels – An interactive 3D map of the city centre",
+      "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
+      "canonical_url": "https://p.migdal.pl/warsaw-vibe-voxel",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 304,
+      "published_at": "2026-11-02T16:25:26+00:00",
+      "score": 2,
+      "category": "frontend",
+      "why": "Cool voxel demo but no stack relevance",
+      "action": "skip"
+    },
+    {
+      "title": "Charles Tandy, the mastermind behind Radio Shack",
+      "url": "https://dfarq.homeip.net/charles-tandy-the-mastermind-behind-radio-shack/",
+      "canonical_url": "https://dfarq.homeip.net/charles-tandy-the-mastermind-behind-radio-shack",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 39,
+      "published_at": "2026-11-03T12:42:30+00:00",
+      "score": 1,
+      "category": "frontend",
+      "why": "Retro history, zero technical value",
+      "action": "skip"
+    },
+    {
+      "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
+      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+      "canonical_url": "https://cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 194,
+      "published_at": "2026-11-02T19:27:37+00:00",
+      "score": 2,
+      "category": "ai",
+      "why": "Oracle funding news, no code impact",
+      "action": "skip"
+    },
+    {
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "url": "https://openai.com/index/heimstaden",
+      "canonical_url": "https://openai.com/index/heimstaden",
+      "source": "rss:OpenAI",
+      "sources": [
+        "rss:OpenAI"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-03T08:00:00+00:00",
+      "score": 2,
+      "category": "ai",
+      "why": "Vendor case study, marketing fluff",
+      "action": "skip"
+    },
+    {
+      "title": "Supermarket freezers across Europe hit by second suspected cyber-attack",
+      "url": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
+      "canonical_url": "https://theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 402,
+      "published_at": "2026-11-02T11:50:13+00:00",
+      "score": 4,
+      "category": "security",
+      "why": "IoT supply-chain attack, not your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Egoless Mathematics in the AI Era",
+      "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
+      "canonical_url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 178,
+      "published_at": "2026-11-02T18:54:44+00:00",
+      "score": 2,
+      "category": "ai",
+      "why": "Philosophy piece, no stack impact",
+      "action": "skip"
+    },
+    {
+      "title": "Ask HN: Who is hiring? (November 2026)",
+      "url": "https://news.ycombinator.com/item?id=50338728",
+      "canonical_url": "https://news.ycombinator.com/item?id=50338728",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 234,
+      "published_at": "2026-11-02T16:01:37+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Monthly hiring thread, pure noise",
+      "action": "skip"
+    },
+    {
+      "title": "Let Me Ch...",
+      "url": "https://blog.alxgsv.com/let-me-check/",
+      "canonical_url": "https://blog.alxgsv.com/let-me-check",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 188,
+      "published_at": "2026-11-02T17:33:20+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "Truncated title, likely discussion not tool",
+      "action": "skip"
+    },
+    {
+      "title": "Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1",
+      "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+      "canonical_url": "https://cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 234,
+      "published_at": "2026-11-02T14:38:45+00:00",
+      "score": 2,
+      "category": "ai",
+      "why": "Funding news, no code change needed",
+      "action": "skip"
+    },
+    {
+      "title": "LLMs are not superhuman at reading and writing neural network weights",
+      "url": "https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/",
+      "canonical_url": "https://seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 104,
+      "published_at": "2026-11-02T22:26:53+00:00",
+      "score": 4,
+      "category": "ai",
+      "why": "Research finding, interesting but not actionable",
+      "action": "skip"
+    },
+    {
+      "title": "Sneaking into the auditorium for the Windows 2000 launch rehearsal",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20261102-00/?p=112818/",
+      "canonical_url": "https://devblogs.microsoft.com/oldnewthing/20261102-00?p=112818%2F",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 145,
+      "published_at": "2026-11-02T18:12:48+00:00",
+      "score": 1,
+      "category": "devops",
+      "why": "Retrocomputing history, irrelevant to stack",
+      "action": "skip"
+    },
+    {
+      "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+      "url": "https://momentic.ai/",
+      "canonical_url": "https://momentic.ai/",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 155,
+      "published_at": "2026-11-02T17:05:25+00:00",
+      "score": 5,
+      "category": "testing",
+      "why": "AI testing tool launch, unproven adoption",
+      "action": "skip"
+    },
+    {
+      "title": "Polyend releases the Tracker firmware source code",
+      "url": "https://polyend.com/whats-up/tracker-the-biggest-update-yet/",
+      "canonical_url": "https://polyend.com/whats-up/tracker-the-biggest-update-yet",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 149,
+      "published_at": "2026-11-02T17:20:13+00:00",
+      "score": 1,
+      "category": "devops",
+      "why": "Hardware firmware release, off-topic",
+      "action": "skip"
+    },
+    {
+      "title": "SLAC researchers find proof of altermagnetism, a new magnetic phase",
+      "url": "https://www6.slac.stanford.edu/news/2026-10-29-slac-researchers-find-proof-altermagnetism-new-magnetic-phase",
+      "canonical_url": "https://www6.slac.stanford.edu/news/2026-10-29-slac-researchers-find-proof-altermagnetism-new-magnetic-phase",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 95,
+      "published_at": "2026-11-02T21:42:25+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Physics research, not software relevant",
+      "action": "skip"
+    },
+    {
+      "title": "Apple reports fourth quarter results",
+      "url": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/",
+      "canonical_url": "https://apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 90,
+      "published_at": "2026-11-02T22:13:42+00:00",
+      "score": 2,
+      "category": "frontend",
+      "why": "Apple earnings, business not tech shift",
+      "action": "skip"
+    },
+    {
+      "title": "We halved DNS build delay and cut memory use by 85%",
+      "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
+      "canonical_url": "https://blog.cloudflare.com/dns-targeted-zone-builds",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 189,
+      "published_at": "2026-11-02T14:47:28+00:00",
+      "score": 6,
+      "category": "devops",
+      "why": "build perf case study, maybe relevant",
+      "action": "skip"
+    },
+    {
+      "title": "Why are Soviet math textbooks so hardcore in comparison to US textbooks? (2017)",
+      "url": "https://www.quora.com/Why-are-Soviet-mathematics-physics-textbooks-so-insanely-hardcore-in-comparison-to-US-textbooks/answer/Scott-Miller-307?share=1",
+      "canonical_url": "https://quora.com/Why-are-Soviet-mathematics-physics-textbooks-so-insanely-hardcore-in-comparison-to-US-textbooks/answer/Scott-Miller-307?share=1",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 176,
+      "published_at": "2026-11-02T15:01:15+00:00",
+      "score": 1,
+      "category": "testing",
+      "why": "off-topic education history",
+      "action": "skip"
+    },
+    {
+      "title": "Jobless tech workers are being left out of San Francisco's AI boom",
+      "url": "https://www.bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near",
+      "canonical_url": "https://bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 181,
+      "published_at": "2026-11-02T14:40:05+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "industry labor news, no code impact",
+      "action": "skip"
+    },
+    {
+      "title": "Ballot Rejections Have Soared in Rural Counties as USPS Reduces Mail Service",
+      "url": "https://www.propublica.org/article/mail-ballot-delays-postal-service-midterms",
+      "canonical_url": "https://propublica.org/article/mail-ballot-delays-postal-service-midterms",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 108,
+      "published_at": "2026-11-02T18:48:00+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "politics/USPS, off-topic",
+      "action": "skip"
+    },
+    {
+      "title": "Skill to Create Product Videos",
+      "url": "https://github.com/aaitor/skill-video-studio",
+      "canonical_url": "https://github.com/aaitor/skill-video-studio",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 111,
+      "published_at": "2026-11-02T18:10:39+00:00",
+      "score": 2,
+      "category": "frontend",
+      "why": "marketing skill, not engineering",
+      "action": "skip"
+    },
+    {
+      "title": "Jailbreaking my car's navigation system just so I can change the time",
+      "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
+      "canonical_url": "https://blog.nns.ee/2026/11/02/renault-hack",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 131,
+      "published_at": "2026-11-02T10:30:58.517000-06:00",
+      "score": 2,
+      "category": "devops",
+      "why": "Car hardware hack, irrelevant to your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Agentic backdoors via pretraining poisoning",
+      "url": "https://arxiv.org/abs/2610.37741",
+      "canonical_url": "https://arxiv.org/abs/2610.37741",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 105,
+      "published_at": "2026-11-02T18:30:58+00:00",
+      "score": 7,
+      "category": "security",
+      "why": "New AI supply-chain attack vector to track",
+      "action": "aware"
+    },
+    {
+      "title": "A Decade of Kill Bugs",
+      "url": "https://alangrow.com/blog/a-decade-of-kill-bugs",
+      "canonical_url": "https://alangrow.com/blog/a-decade-of-kill-bugs",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 76,
+      "published_at": "2026-11-02T15:23:24.764000-06:00",
+      "score": 5,
+      "category": "backend",
+      "why": "Historical kill-bug postmortems, incremental",
+      "action": "skip"
+    },
+    {
+      "title": "Amazon RDS for Oracle now supports M8i and R8i instances in additional AWS Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-m8i-r8i-instances-new-regions/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-m8i-r8i-instances-new-regions",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-03T00:00:00+00:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Oracle RDS instance types, not your Postgres",
+      "action": "skip"
+    },
+    {
+      "title": "Never Complain, Never Explain",
+      "url": "https://en.wikipedia.org/wiki/Never_complain,_never_explain",
+      "canonical_url": "https://en.wikipedia.org/wiki/Never_complain,_never_explain",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 169,
+      "published_at": "2026-11-02T11:55:48+00:00",
+      "score": 2,
+      "category": "devops",
+      "why": "Leadership opinion piece, no technical shift",
+      "action": "skip"
+    },
+    {
+      "title": "Claude Opus 5.5 Can Draw Permit-Level Architectural Drawings",
+      "url": "https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now",
+      "canonical_url": "https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 103,
+      "published_at": "2026-11-02T16:25:33+00:00",
+      "score": 4,
+      "category": "ai",
+      "why": "Model capability demo, not a stack primitive",
+      "action": "skip"
+    },
+    {
+      "title": "Sam Altman: All the RAM Should Belong to Me, So I Can Charge People to Use It",
+      "url": "https://gizmodo.com/sam-altman-all-the-ram-should-belong-to-me-so-i-can-charge-people-to-use-it-2000833412",
+      "canonical_url": "https://gizmodo.com/sam-altman-all-the-ram-should-belong-to-me-so-i-can-charge-people-to-use-it-2000833412",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 127,
+      "published_at": "2026-11-02T13:51:06+00:00",
+      "score": 2,
+      "category": "ai",
+      "why": "Industry opinion piece, no technical substance",
+      "action": "skip"
+    },
+    {
+      "title": "Why did you choose the nix you nix?",
+      "url": "https://lobste.rs/s/7fcuxz/why_did_you_choose_nix_you_nix",
+      "canonical_url": "https://lobste.rs/s/7fcuxz/why_did_you_choose_nix_you_nix",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 30,
+      "published_at": "2026-11-02T21:58:06.895000-06:00",
+      "score": 5,
+      "category": "devops",
+      "why": "Nix discussion thread; useful if evaluating it",
+      "action": "skip"
+    },
+    {
+      "title": "The U.S. Census Bureau and \"Super Intelligence\"",
+      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+      "canonical_url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 124,
+      "published_at": "2026-11-02T13:55:45+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "Government/AI policy talk, no code impact",
+      "action": "skip"
+    },
+    {
+      "title": "Last night an AI agent performed brain surgery on a mouse",
+      "url": "https://twitter.com/OcanaSantero/status/2115442964574908902",
+      "canonical_url": "https://twitter.com/OcanaSantero/status/2115442964574908902",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 138,
+      "published_at": "2026-11-02T12:50:59+00:00",
+      "score": 1,
+      "category": "ai",
+      "why": "Science demo, unrelated to your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Projects can now be configured with vercel.toml",
+      "url": "https://vercel.com/changelog/projects-can-now-be-configured-with-vercel-toml",
+      "canonical_url": "https://vercel.com/changelog/projects-can-now-be-configured-with-vercel-toml",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T21:00:00+00:00",
+      "score": 8,
+      "category": "devops",
+      "why": "New config primitive for your Vercel deployments",
+      "action": "learn"
+    },
+    {
+      "title": "Haiku 5.5 now available on Kiro in AWS GovCloud (US)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-haiku-5-5-aws-govcloud-us/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-haiku-5-5-aws-govcloud-us",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T20:45:00+00:00",
+      "score": 2,
+      "category": "ai",
+      "why": "Niche GovCloud AI model availability",
+      "action": "skip"
+    },
+    {
+      "title": "This background sound leaks your exact location",
+      "url": "https://youtu.be/UytYrhYLOKI",
+      "canonical_url": "https://youtu.be/UytYrhYLOKI",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 59,
+      "published_at": "2026-11-02T13:42:32.458000-06:00",
+      "score": 3,
+      "category": "security",
+      "why": "Acoustic side-channel research, not your stack",
+      "action": "skip"
+    },
+    {
+      "title": "European RISC-V Industrial Computing Initiative",
+      "url": "https://erici.eu",
+      "canonical_url": "https://erici.eu/",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 170,
+      "published_at": "2026-11-02T08:58:33+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Hardware initiative, irrelevant to your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Vercel MCP now supports Client ID Metadata Documents",
+      "url": "https://vercel.com/changelog/vercel-mcp-now-supports-client-id-metadata-documents",
+      "canonical_url": "https://vercel.com/changelog/vercel-mcp-now-supports-client-id-metadata-documents",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T20:09:00+00:00",
+      "score": 6,
+      "category": "ai",
+      "why": "Vercel MCP spec compliance, incremental",
+      "action": "skip"
+    },
+    {
+      "title": "Stop Hardcoding Your Timeouts",
+      "url": "https://alfy.blog/2026/04/23/stop-hardcoding-your-timeouts.html",
+      "canonical_url": "https://alfy.blog/2026/04/23/stop-hardcoding-your-timeouts.html",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 55,
+      "published_at": "2026-11-02T13:22:32.608000-06:00",
+      "score": 5,
+      "category": "backend",
+      "why": "Timeout config best practices; incremental",
+      "action": "skip"
+    },
+    {
+      "title": "LongCat-2.5: Native Multimodality for Agentic Tasks",
+      "url": "https://longcat.ai/blog/longcat-2.5/",
+      "canonical_url": "https://longcat.ai/blog/longcat-2.5",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 85,
+      "published_at": "2026-11-02T15:00:26+00:00",
+      "score": 5,
+      "category": "ai",
+      "why": "New model release; read-only for this stack",
+      "action": "skip"
+    },
+    {
+      "title": "Amazon RDS now supports per snapshot billing",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-per-snapshot-billing/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-per-snapshot-billing",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T18:43:00+00:00",
+      "score": 3,
+      "category": "backend",
+      "why": "RDS billing change; not a technical primitive",
+      "action": "skip"
+    },
+    {
+      "title": "C64 Basic Dungeon Crawler: Stairs, Levels and Levelling Up (Part 11)",
+      "url": "https://retrogamecoders.com/c64-basic-dungeon-part11/",
+      "canonical_url": "https://retrogamecoders.com/c64-basic-dungeon-part11",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 78,
+      "published_at": "2026-11-02T14:56:21+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Retrocomputing hobby project; off-topic",
+      "action": "skip"
+    },
+    {
+      "title": "Amazon Quick on desktop now uses your organization's existing Amazon Quick sign-in",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-quick-desktop-organization-sign-in/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-quick-desktop-organization-sign-in",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T18:36:00+00:00",
+      "score": 3,
+      "category": "devops",
+      "why": "Minor AWS SSO update; not relevant to Supabase stack",
+      "action": "skip"
+    },
+    {
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "canonical_url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "source": "rss:OpenAI",
+      "sources": [
+        "rss:OpenAI"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T18:00:00+00:00",
+      "score": 2,
+      "category": "security",
+      "why": "OpenAI internal process, no stack impact",
+      "action": "skip"
+    },
+    {
+      "title": "Rewarding defenders with bigger bug bounties",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "canonical_url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "source": "rss:OpenAI",
+      "sources": [
+        "rss:OpenAI"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T18:00:00+00:00",
+      "score": 2,
+      "category": "security",
+      "why": "Bug bounty policy change, not actionable",
+      "action": "skip"
+    },
+    {
+      "title": "Vercel MCP now renders deployments as an interactive card",
+      "url": "https://vercel.com/changelog/monitor-vercel-deployments-in-chatgpt",
+      "canonical_url": "https://vercel.com/changelog/monitor-vercel-deployments-in-chatgpt",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T17:05:00+00:00",
+      "score": 6,
+      "category": "devops",
+      "why": "Vercel MCP UI polish, minor workflow nicety",
+      "action": "skip"
+    },
+    {
+      "title": "Amazon Aurora MySQL 8.4.10 is now generally available",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-8410-available/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-8410-available",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T17:00:00+00:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Aurora MySQL minor version, you use Postgres",
+      "action": "skip"
+    },
+    {
+      "title": "AWS Lambda now supports queues for Apache Kafka in self-managed Kafka event sources",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-queue-kafka-esm/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-queue-kafka-esm",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T17:00:00+00:00",
+      "score": 3,
+      "category": "backend",
+      "why": "Lambda Kafka queues, not your event stack",
+      "action": "skip"
+    },
+    {
+      "title": "Amazon Aurora MySQL 3.14 (compatible with MySQL 8.0.46) is generally available",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-314-available/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-314-available",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T17:00:00+00:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Not your Postgres stack; ignore.",
+      "action": "skip"
+    },
+    {
+      "title": "Flags Explorer redesigned for easier override sharing",
+      "url": "https://vercel.com/changelog/flags-explorer-redesigned-for-easier-override-sharing",
+      "canonical_url": "https://vercel.com/changelog/flags-explorer-redesigned-for-easier-override-sharing",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T16:58:00+00:00",
+      "score": 5,
+      "category": "devops",
+      "why": "UI polish for flags; incremental.",
+      "action": "skip"
+    },
+    {
+      "title": "Vercel Sandbox with Drives now starts up to 2.4x faster",
+      "url": "https://vercel.com/changelog/vercel-sandbox-with-drives-now-starts-up-to-2-4x-faster",
+      "canonical_url": "https://vercel.com/changelog/vercel-sandbox-with-drives-now-starts-up-to-2-4x-faster",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T16:39:00+00:00",
+      "score": 6,
+      "category": "devops",
+      "why": "Faster sandbox startup; nice but incremental.",
+      "action": "skip"
+    },
+    {
+      "title": "Evaluate Vercel Flags from another project without sharing SDK keys.",
+      "url": "https://vercel.com/changelog/evaluate-vercel-flags-from-another-project-without-sharing-sdk-keys",
+      "canonical_url": "https://vercel.com/changelog/evaluate-vercel-flags-from-another-project-without-sharing-sdk-keys",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T16:00:00+00:00",
+      "score": 7,
+      "category": "devops",
+      "why": "Cross-project flags without key sharing; adopt.",
+      "action": "learn"
+    },
+    {
+      "title": "Amazon Connect Customer now supports Model Context Protocol (MCP) tools in flows",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-flows-mcp-tools/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-flows-mcp-tools",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T16:00:00+00:00",
+      "score": 2,
+      "category": "ai",
+      "why": "Contact center AI; irrelevant to you.",
+      "action": "skip"
+    },
+    {
+      "title": "Amazon Connect Customer now supports Cases and External Tool events in the Wait block",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-wait-block-cases-tool-events/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-wait-block-cases-tool-events",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T16:00:00+00:00",
+      "score": 2,
+      "category": "backend",
+      "why": "AWS contact center feature, not your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Introducing the Grid Protectors Program",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "canonical_url": "https://openai.com/index/grid-protectors-program",
+      "source": "rss:OpenAI",
+      "sources": [
+        "rss:OpenAI"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T15:00:00+00:00",
+      "score": 1,
+      "category": "devops",
+      "why": "Vendor program announcement, no technical substance",
+      "action": "skip"
+    },
+    {
+      "title": "An Introduction to Bε-trees and Write-Optimization",
+      "url": "https://www.usenix.org/publications/login/oct15/bender",
+      "canonical_url": "https://usenix.org/publications/login/oct15/bender",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 21,
+      "published_at": "2026-11-02T14:26:38.846000-06:00",
+      "score": 5,
+      "category": "backend",
+      "why": "Database internals deep-dive, useful background only",
+      "action": "skip"
+    },
+    {
+      "title": "Polyend releases the Tracker firmware source code",
+      "url": "https://backstage.polyend.com/t/tracker-the-biggest-update-yet/25120",
+      "canonical_url": "https://backstage.polyend.com/t/tracker-the-biggest-update-yet/25120",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 31,
+      "published_at": "2026-11-02T09:22:16.630000-06:00",
+      "score": 1,
+      "category": "devops",
+      "why": "Hardware firmware release, irrelevant to web stack",
+      "action": "skip"
+    },
+    {
+      "title": "Firefox Security & Privacy Newsletter 2026 Q3",
+      "url": "https://attackanddefense.dev/2026/11/02/firefox-security-and-privacy-newsletter-q3.html",
+      "canonical_url": "https://attackanddefense.dev/2026/11/02/firefox-security-and-privacy-newsletter-q3.html",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 5,
+      "published_at": "2026-11-03T02:03:58.461000-06:00",
+      "score": 3,
+      "category": "security",
+      "why": "Browser security newsletter, awareness-level only",
+      "action": "skip"
+    },
+    {
+      "title": "LifeVal",
+      "url": "https://openai.com/index/lifeval",
+      "canonical_url": "https://openai.com/index/lifeval",
+      "source": "rss:OpenAI",
+      "sources": [
+        "rss:OpenAI"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T09:00:00+00:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Unclear relevance to your stack",
+      "action": "skip"
+    },
+    {
+      "title": "EC2 Amazon Machine Images can now be scanned for vulnerabilities through Amazon Inspector",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-amis-scanned-through-inspector/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-amis-scanned-through-inspector",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T08:00:00+00:00",
+      "score": 4,
+      "category": "security",
+      "why": "EC2 AMI scanning; you use Supabase",
+      "action": "skip"
+    },
+    {
+      "title": "Amazon Textract now available in Asia Pacific (Tokyo) and Europe (Zurich)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/textract-tokyo-zurich/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/textract-tokyo-zurich",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T08:00:00+00:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Regional rollout, no new capability",
+      "action": "skip"
+    },
+    {
+      "title": "Announcing AWS for Fluent Bit 3.0.0 based on Fluent Bit 4.1.1",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-fluent-bit-3-0-0-based-4-1-1",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-fluent-bit-3-0-0-based-4-1-1",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T08:00:00+00:00",
+      "score": 5,
+      "category": "devops",
+      "why": "Logging agent update; if you use Fluent Bit",
+      "action": "skip"
+    },
+    {
+      "title": "Katamari Damacy but it's The Met collection",
+      "url": "https://katamari.vaguespac.es/",
+      "canonical_url": "https://katamari.vaguespac.es/",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 88,
+      "published_at": "2026-11-02T02:21:07+00:00",
+      "score": 1,
+      "category": "frontend",
+      "why": "Art game, no technical relevance",
+      "action": "skip"
+    },
+    {
+      "title": "Resisting Cognitive Surrender",
+      "url": "https://knlb.dev/essays/surrender",
+      "canonical_url": "https://knlb.dev/essays/surrender",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 250,
+      "published_at": "2026-11-01T06:13:30+00:00",
+      "score": 3,
+      "category": "ai",
+      "why": "Opinion piece on AI cognition, no code impact",
+      "action": "skip"
+    },
+    {
+      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+      "canonical_url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 21,
+      "published_at": "2026-11-02T14:02:42+00:00",
+      "score": 2,
+      "category": "devops",
+      "why": "Hardware tape storage news, irrelevant to stack",
+      "action": "skip"
+    },
+    {
+      "title": "433MHz TUI scanner: using a FT232H connected to a CC1101",
+      "url": "https://blog.jacq.cc/guides/cc1101-433mhz-scanner-ft232h/",
+      "canonical_url": "https://blog.jacq.cc/guides/cc1101-433mhz-scanner-ft232h",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 22,
+      "published_at": "2026-11-02T13:28:14+00:00",
+      "score": 2,
+      "category": "devops",
+      "why": "Radio hardware hacking, not web-relevant",
+      "action": "skip"
+    },
+    {
+      "title": "the lost malloc()",
+      "url": "https://napcakes.nekoweb.org/posts/malloc/",
+      "canonical_url": "https://napcakes.nekoweb.org/posts/malloc",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 34,
+      "published_at": "2026-11-02T02:46:48.752000-06:00",
+      "score": 4,
+      "category": "backend",
+      "why": "Deep malloc internals, interesting but not applicable",
+      "action": "skip"
+    },
+    {
+      "title": "What are you doing this week?",
+      "url": "https://lobste.rs/s/maqsgl/what_are_you_doing_this_week",
+      "canonical_url": "https://lobste.rs/s/maqsgl/what_are_you_doing_this_week",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 18,
+      "published_at": "2026-11-02T07:53:32.064000-06:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Weekly discussion thread, no technical substance",
+      "action": "skip"
+    },
+    {
+      "title": "My reflex of assuming our servers need ever-growing amounts of RAM",
+      "url": "https://utcc.utoronto.ca/~cks/space/blog/sysadmin/ServerRAMGrowthReflex",
+      "canonical_url": "https://utcc.utoronto.ca/~cks/space/blog/sysadmin/ServerRAMGrowthReflex",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 25,
+      "published_at": "2026-11-02T04:33:02.386000-06:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Opinion on RAM sizing, not actionable",
+      "action": "skip"
+    },
+    {
+      "title": "Toit v2.0.0",
+      "url": "https://toit.io/blog/toit-v2-0-0/",
+      "canonical_url": "https://toit.io/blog/toit-v2-0-0",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 168,
+      "published_at": "2026-11-01T00:25:04+00:00",
+      "score": 3,
+      "category": "backend",
+      "why": "Embedded language release, irrelevant to stack",
+      "action": "skip"
+    },
+    {
+      "title": "Work on GEFS (the Good Enough File System) for OpenBSD progresses",
+      "url": "https://www.undeadly.org/cgi?action=article;sid=20261101115637",
+      "canonical_url": "https://undeadly.org/cgi?action=article%3Bsid%3D20261101115637",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 97,
+      "published_at": "2026-11-01T14:13:29.256000-06:00",
+      "score": 2,
+      "category": "backend",
+      "why": "OpenBSD filesystem progress, not your environment",
+      "action": "skip"
+    },
+    {
+      "title": "Postgres 19 is late, and it's AI's fault",
+      "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+      "canonical_url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 49,
+      "published_at": "2026-11-01T20:19:02.905000-06:00",
+      "score": 3,
+      "category": "backend",
+      "why": "Postgres delay discussion, no technical change",
+      "action": "skip"
+    },
+    {
+      "title": "An outsider's perspective on Scion and Mononoke",
+      "url": "https://typesanitizer.com/blog/scion.html",
+      "canonical_url": "https://typesanitizer.com/blog/scion.html",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 148,
+      "published_at": "2026-11-01T09:22:36.441000-06:00",
+      "score": 3,
+      "category": "devops",
+      "why": "Git server analysis, not your tooling",
+      "action": "skip"
+    },
+    {
+      "title": "Why Don't We Live in an Art Nouveau World?",
+      "url": "https://asteriskmag.com/issues/16/why-don-t-we-life-in-an-art-nouveau-world",
+      "canonical_url": "https://asteriskmag.com/issues/16/why-don-t-we-life-in-an-art-nouveau-world",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 35,
+      "published_at": "2026-11-02T05:05:11+00:00",
+      "score": 1,
+      "category": "frontend",
+      "why": "Architecture history, zero relevance to stack",
+      "action": "skip"
+    },
+    {
+      "title": "LongCat 2.5 now available on AI Gateway",
+      "url": "https://vercel.com/changelog/longcat-2-5-now-available-on-ai-gateway",
+      "canonical_url": "https://vercel.com/changelog/longcat-2-5-now-available-on-ai-gateway",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T00:00:00+00:00",
+      "score": 4,
+      "category": "ai",
+      "why": "Model release on gateway; incremental, not a primitive",
+      "action": "skip"
+    },
+    {
+      "title": "Blocking malicious npm packages before and during installation",
+      "url": "https://vercel.com/changelog/blocking-malicious-npm-packages-before-and-during-installation",
+      "canonical_url": "https://vercel.com/changelog/blocking-malicious-npm-packages-before-and-during-installation",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T00:00:00+00:00",
+      "score": 7,
+      "category": "security",
+      "why": "New npm supply-chain primitive; adopt to harden installs",
+      "action": "learn"
+    },
+    {
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "canonical_url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "source": "rss:OpenAI",
+      "sources": [
+        "rss:OpenAI"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T00:00:00+00:00",
+      "score": 2,
+      "category": "ai",
+      "why": "Personnel announcement; no code impact",
+      "action": "skip"
+    },
+    {
+      "title": "Qodo builds context into AI code review with Codex",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "canonical_url": "https://openai.com/index/qodo-codex-plugin",
+      "source": "rss:OpenAI",
+      "sources": [
+        "rss:OpenAI"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T00:00:00+00:00",
+      "score": 6,
+      "category": "testing",
+      "why": "AI code-review feature bump; useful but incremental",
+      "action": "skip"
+    },
+    {
+      "title": "Recognizing Keystrokes Using WiFi Devices",
+      "url": "https://ieeexplore.ieee.org/document/7875144",
+      "canonical_url": "https://ieeexplore.ieee.org/document/7875144",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 11,
+      "published_at": "2026-11-02T08:43:13.576000-06:00",
+      "score": 3,
+      "category": "security",
+      "why": "WiFi side-channel research; not actionable for your stack",
+      "action": "skip"
+    },
+    {
+      "title": "Virtual Art Museum built with Three js",
+      "url": "https://dostoynikov.bearblog.dev/virtual-museum-for-my-wifes-artworks/",
+      "canonical_url": "https://dostoynikov.bearblog.dev/virtual-museum-for-my-wifes-artworks",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 9,
+      "published_at": "2026-11-02T09:51:17.980000-06:00",
+      "score": 3,
+      "category": "frontend",
+      "why": "Three.js demo showcase; no new primitives to adopt",
+      "action": "skip"
+    },
+    {
+      "title": "Game Off 2026: The theme is SHIFT",
+      "url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
+      "canonical_url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift",
+      "source": "rss:GitHub",
+      "sources": [
+        "rss:GitHub"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-01T21:36:00+00:00",
+      "score": 1,
+      "category": "frontend",
+      "why": "Game jam announcement; pure marketing noise",
+      "action": "skip"
+    },
+    {
+      "title": "Life with Down Syndrome",
+      "url": "https://www.esquire.com/news-politics/a74031571/life-with-down-syndrome/",
+      "canonical_url": "https://esquire.com/news-politics/a74031571/life-with-down-syndrome",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 81,
+      "published_at": "2026-11-01T16:26:21+00:00",
+      "score": 1,
+      "category": "backend",
+      "why": "Personal story; zero technical relevance",
+      "action": "skip"
+    },
+    {
+      "title": "Program",
+      "url": "https://schmud.de/posts/2026-11-02-program.html",
+      "canonical_url": "https://schmud.de/posts/2026-11-02-program.html",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 11,
+      "published_at": "2026-11-02T05:18:07.110000-06:00",
+      "score": 2,
+      "category": "backend",
+      "why": "Vague title, no context; likely minor discussion",
+      "action": "skip"
+    },
+    {
+      "title": "Optical Circuit Switch Technology Built on Low-Loss Silicon Photonics Platform",
+      "url": "https://www.psiquantum.com/news-import/psiquantum-unveils-optical-circuit-switch-technology-built-on-advanced-low-loss-silicon-photonics-platform",
+      "canonical_url": "https://psiquantum.com/news-import/psiquantum-unveils-optical-circuit-switch-technology-built-on-advanced-low-loss-silicon-photonics-platform",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 27,
+      "published_at": "2026-11-02T01:34:16+00:00",
+      "score": 1,
+      "category": "devops",
+      "why": "Hardware research, not your stack",
+      "action": "skip"
+    }
+  ],
+  "candidates": [
+    {
+      "title": "Astra can read and write weights to improve Qwen",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "canonical_url": "https://rikiyat.github.io/blog/weight-space-programming",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 2875,
+      "published_at": "2026-11-02T18:21:28+00:00"
+    },
+    {
+      "title": "Scaling Git at OpenAI",
+      "url": "https://openai.com/index/scaling-git-at-openai/",
+      "canonical_url": "https://openai.com/index/scaling-git-at-openai",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "rss:OpenAI"
+      ],
+      "engagement": 251,
+      "published_at": "2026-11-02T15:30:00+00:00"
+    },
+    {
+      "title": "My Favourite Laptop",
+      "url": "https://blog.jsbarretto.com/post/laptop",
+      "canonical_url": "https://blog.jsbarretto.com/post/laptop",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 198,
+      "published_at": "2026-11-02T16:59:57+00:00"
+    },
+    {
+      "title": "Moving our warehouse off DuckDB",
+      "url": "https://posthog.com/blog/moving-off-duckdb",
+      "canonical_url": "https://posthog.com/blog/moving-off-duckdb",
+      "source": "hn",
+      "sources": [
+        "hn",
+        "lobsters"
+      ],
+      "engagement": 181,
+      "published_at": "2026-11-02T16:02:26+00:00"
+    },
+    {
+      "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+      "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+      "canonical_url": "https://honnibal.dev/blog/astra-read-write-misleading",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 383,
+      "published_at": "2026-11-03T12:21:17+00:00"
+    },
+    {
+      "title": "WTF Ubuntu?",
+      "url": "https://chalmovsky.com/posts/wtf-ubuntu",
+      "canonical_url": "https://chalmovsky.com/posts/wtf-ubuntu",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 1577,
+      "published_at": "2026-11-02T14:52:00+00:00"
+    },
+    {
+      "title": "Show HN: Hacker Times, a New York Times-inspired version of Hacker News",
+      "url": "https://hackertimes.ca/",
+      "canonical_url": "https://hackertimes.ca/",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 387,
+      "published_at": "2026-11-03T01:53:34+00:00"
+    },
+    {
+      "title": "Revolut moves to self-hosted GLM",
+      "url": "https://twitter.com/guilleflorvs/status/2117379073785696395",
+      "canonical_url": "https://twitter.com/guilleflorvs/status/2117379073785696395",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 165,
+      "published_at": "2026-11-03T09:53:59+00:00"
+    },
+    {
+      "title": "Nvidia – open-source auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "canonical_url": "https://github.com/NVIDIA/auto-ontology",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 202,
+      "published_at": "2026-11-03T07:04:50+00:00"
+    },
+    {
+      "title": "Could a modern chess engine on a Pentium have defeated Kasparov in 1996?",
+      "url": "https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html",
+      "canonical_url": "https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 178,
+      "published_at": "2026-11-03T07:56:21+00:00"
+    },
+    {
+      "title": "Show HN: Subvocal – Talk to your computer without making noise",
+      "url": "https://news.ycombinator.com/item?id=50340088",
+      "canonical_url": "https://news.ycombinator.com/item?id=50340088",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 771,
+      "published_at": "2026-11-02T17:16:17+00:00"
+    },
+    {
+      "title": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
+      "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+      "canonical_url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 303,
+      "published_at": "2026-11-03T01:33:43+00:00"
+    },
+    {
+      "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
+      "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+      "canonical_url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 571,
+      "published_at": "2026-11-02T18:39:38+00:00"
+    },
+    {
+      "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+      "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+      "canonical_url": "https://techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 376,
+      "published_at": "2026-11-02T22:30:47+00:00"
+    },
+    {
+      "title": "Net worth for people aged 30–33 in the U.S.",
+      "url": "https://www.keepingup.com/benchmarks/net-worth/age-30-33",
+      "canonical_url": "https://keepingup.com/benchmarks/net-worth/age-30-33",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 191,
+      "published_at": "2026-11-03T03:28:26+00:00"
+    },
+    {
+      "title": "uBlock Origin filter to block autoplay videos in TechCrunch",
+      "url": "https://cornfieldlabs.github.io/posts/ublock-stop-techcrunch-autoplay-video/post.html",
+      "canonical_url": "https://cornfieldlabs.github.io/posts/ublock-stop-techcrunch-autoplay-video/post.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 119,
+      "published_at": "2026-11-03T07:36:47+00:00"
+    },
+    {
+      "title": "Intel stock collapse worsens as $3.5T chip rout spreads",
+      "url": "https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-37-trillion-chip-rout-is-spreading-212154947.html",
+      "canonical_url": "https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-37-trillion-chip-rout-is-spreading-212154947.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 219,
+      "published_at": "2026-11-03T00:08:53+00:00"
+    },
+    {
+      "title": "If you love a website, back it up",
+      "url": "https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/",
+      "canonical_url": "https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 624,
+      "published_at": "2026-11-02T13:25:35+00:00"
+    },
+    {
+      "title": "BYD sold more EVs last month than the US did all quarter",
+      "url": "https://electrek.co/2026/11/02/byd-sold-more-evs-last-month-than-the-us-did-all-quarter/",
+      "canonical_url": "https://electrek.co/2026/11/02/byd-sold-more-evs-last-month-than-the-us-did-all-quarter",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 273,
+      "published_at": "2026-11-02T21:38:49+00:00"
+    },
+    {
+      "title": "Just a little AI resistance, as a treat",
+      "url": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat/",
+      "canonical_url": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 51,
+      "published_at": "2026-11-03T14:14:12+00:00"
+    },
+    {
+      "title": "US boy names that became girl names and vice versa",
+      "url": "https://namedaisy.com/blog/boy-names-that-became-girl-names",
+      "canonical_url": "https://namedaisy.com/blog/boy-names-that-became-girl-names",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 446,
+      "published_at": "2026-11-02T16:34:36+00:00"
+    },
+    {
+      "title": "Anthropic's growth just flattened",
+      "url": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
+      "canonical_url": "https://regenerator1.com/p/anthropics-growth-just-flattened",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 222,
+      "published_at": "2026-11-02T22:33:20+00:00"
+    },
+    {
+      "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+      "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+      "canonical_url": "https://businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 338,
+      "published_at": "2026-11-02T16:40:29+00:00"
+    },
+    {
+      "title": "Ask HN: Does anyone have a contact with Cleveland-area Ham club?",
+      "url": "https://news.ycombinator.com/item?id=50346164",
+      "canonical_url": "https://news.ycombinator.com/item?id=50346164",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 156,
+      "published_at": "2026-11-03T00:09:36+00:00"
+    },
+    {
+      "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
+      "url": "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you",
+      "canonical_url": "https://nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 292,
+      "published_at": "2026-11-02T17:47:40+00:00"
+    },
+    {
+      "title": "Show HN: Warsaw in voxels – An interactive 3D map of the city centre",
+      "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
+      "canonical_url": "https://p.migdal.pl/warsaw-vibe-voxel",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 304,
+      "published_at": "2026-11-02T16:25:26+00:00"
+    },
+    {
+      "title": "Charles Tandy, the mastermind behind Radio Shack",
+      "url": "https://dfarq.homeip.net/charles-tandy-the-mastermind-behind-radio-shack/",
+      "canonical_url": "https://dfarq.homeip.net/charles-tandy-the-mastermind-behind-radio-shack",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 39,
+      "published_at": "2026-11-03T12:42:30+00:00"
+    },
+    {
+      "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
+      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+      "canonical_url": "https://cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 194,
+      "published_at": "2026-11-02T19:27:37+00:00"
+    },
+    {
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "url": "https://openai.com/index/heimstaden",
+      "canonical_url": "https://openai.com/index/heimstaden",
+      "source": "rss:OpenAI",
+      "sources": [
+        "rss:OpenAI"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-03T08:00:00+00:00"
+    },
+    {
+      "title": "Supermarket freezers across Europe hit by second suspected cyber-attack",
+      "url": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
+      "canonical_url": "https://theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 402,
+      "published_at": "2026-11-02T11:50:13+00:00"
+    },
+    {
+      "title": "Egoless Mathematics in the AI Era",
+      "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
+      "canonical_url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 178,
+      "published_at": "2026-11-02T18:54:44+00:00"
+    },
+    {
+      "title": "Ask HN: Who is hiring? (November 2026)",
+      "url": "https://news.ycombinator.com/item?id=50338728",
+      "canonical_url": "https://news.ycombinator.com/item?id=50338728",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 234,
+      "published_at": "2026-11-02T16:01:37+00:00"
+    },
+    {
+      "title": "Let Me Ch...",
+      "url": "https://blog.alxgsv.com/let-me-check/",
+      "canonical_url": "https://blog.alxgsv.com/let-me-check",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 188,
+      "published_at": "2026-11-02T17:33:20+00:00"
+    },
+    {
+      "title": "Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1",
+      "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+      "canonical_url": "https://cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 234,
+      "published_at": "2026-11-02T14:38:45+00:00"
+    },
+    {
+      "title": "LLMs are not superhuman at reading and writing neural network weights",
+      "url": "https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/",
+      "canonical_url": "https://seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 104,
+      "published_at": "2026-11-02T22:26:53+00:00"
+    },
+    {
+      "title": "Sneaking into the auditorium for the Windows 2000 launch rehearsal",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20261102-00/?p=112818/",
+      "canonical_url": "https://devblogs.microsoft.com/oldnewthing/20261102-00?p=112818%2F",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 145,
+      "published_at": "2026-11-02T18:12:48+00:00"
+    },
+    {
+      "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+      "url": "https://momentic.ai/",
+      "canonical_url": "https://momentic.ai/",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 155,
+      "published_at": "2026-11-02T17:05:25+00:00"
+    },
+    {
+      "title": "Polyend releases the Tracker firmware source code",
+      "url": "https://polyend.com/whats-up/tracker-the-biggest-update-yet/",
+      "canonical_url": "https://polyend.com/whats-up/tracker-the-biggest-update-yet",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 149,
+      "published_at": "2026-11-02T17:20:13+00:00"
+    },
+    {
+      "title": "SLAC researchers find proof of altermagnetism, a new magnetic phase",
+      "url": "https://www6.slac.stanford.edu/news/2026-10-29-slac-researchers-find-proof-altermagnetism-new-magnetic-phase",
+      "canonical_url": "https://www6.slac.stanford.edu/news/2026-10-29-slac-researchers-find-proof-altermagnetism-new-magnetic-phase",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 95,
+      "published_at": "2026-11-02T21:42:25+00:00"
+    },
+    {
+      "title": "Apple reports fourth quarter results",
+      "url": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/",
+      "canonical_url": "https://apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 90,
+      "published_at": "2026-11-02T22:13:42+00:00"
+    },
+    {
+      "title": "We halved DNS build delay and cut memory use by 85%",
+      "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
+      "canonical_url": "https://blog.cloudflare.com/dns-targeted-zone-builds",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 189,
+      "published_at": "2026-11-02T14:47:28+00:00"
+    },
+    {
+      "title": "Why are Soviet math textbooks so hardcore in comparison to US textbooks? (2017)",
+      "url": "https://www.quora.com/Why-are-Soviet-mathematics-physics-textbooks-so-insanely-hardcore-in-comparison-to-US-textbooks/answer/Scott-Miller-307?share=1",
+      "canonical_url": "https://quora.com/Why-are-Soviet-mathematics-physics-textbooks-so-insanely-hardcore-in-comparison-to-US-textbooks/answer/Scott-Miller-307?share=1",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 176,
+      "published_at": "2026-11-02T15:01:15+00:00"
+    },
+    {
+      "title": "Jobless tech workers are being left out of San Francisco's AI boom",
+      "url": "https://www.bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near",
+      "canonical_url": "https://bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 181,
+      "published_at": "2026-11-02T14:40:05+00:00"
+    },
+    {
+      "title": "Ballot Rejections Have Soared in Rural Counties as USPS Reduces Mail Service",
+      "url": "https://www.propublica.org/article/mail-ballot-delays-postal-service-midterms",
+      "canonical_url": "https://propublica.org/article/mail-ballot-delays-postal-service-midterms",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 108,
+      "published_at": "2026-11-02T18:48:00+00:00"
+    },
+    {
+      "title": "Skill to Create Product Videos",
+      "url": "https://github.com/aaitor/skill-video-studio",
+      "canonical_url": "https://github.com/aaitor/skill-video-studio",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 111,
+      "published_at": "2026-11-02T18:10:39+00:00"
+    },
+    {
+      "title": "Jailbreaking my car's navigation system just so I can change the time",
+      "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
+      "canonical_url": "https://blog.nns.ee/2026/11/02/renault-hack",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 131,
+      "published_at": "2026-11-02T10:30:58.517000-06:00"
+    },
+    {
+      "title": "Agentic backdoors via pretraining poisoning",
+      "url": "https://arxiv.org/abs/2610.37741",
+      "canonical_url": "https://arxiv.org/abs/2610.37741",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 105,
+      "published_at": "2026-11-02T18:30:58+00:00"
+    },
+    {
+      "title": "A Decade of Kill Bugs",
+      "url": "https://alangrow.com/blog/a-decade-of-kill-bugs",
+      "canonical_url": "https://alangrow.com/blog/a-decade-of-kill-bugs",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 76,
+      "published_at": "2026-11-02T15:23:24.764000-06:00"
+    },
+    {
+      "title": "Amazon RDS for Oracle now supports M8i and R8i instances in additional AWS Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-m8i-r8i-instances-new-regions/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-m8i-r8i-instances-new-regions",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-03T00:00:00+00:00"
+    },
+    {
+      "title": "Never Complain, Never Explain",
+      "url": "https://en.wikipedia.org/wiki/Never_complain,_never_explain",
+      "canonical_url": "https://en.wikipedia.org/wiki/Never_complain,_never_explain",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 169,
+      "published_at": "2026-11-02T11:55:48+00:00"
+    },
+    {
+      "title": "Claude Opus 5.5 Can Draw Permit-Level Architectural Drawings",
+      "url": "https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now",
+      "canonical_url": "https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 103,
+      "published_at": "2026-11-02T16:25:33+00:00"
+    },
+    {
+      "title": "Sam Altman: All the RAM Should Belong to Me, So I Can Charge People to Use It",
+      "url": "https://gizmodo.com/sam-altman-all-the-ram-should-belong-to-me-so-i-can-charge-people-to-use-it-2000833412",
+      "canonical_url": "https://gizmodo.com/sam-altman-all-the-ram-should-belong-to-me-so-i-can-charge-people-to-use-it-2000833412",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 127,
+      "published_at": "2026-11-02T13:51:06+00:00"
+    },
+    {
+      "title": "Why did you choose the nix you nix?",
+      "url": "https://lobste.rs/s/7fcuxz/why_did_you_choose_nix_you_nix",
+      "canonical_url": "https://lobste.rs/s/7fcuxz/why_did_you_choose_nix_you_nix",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 30,
+      "published_at": "2026-11-02T21:58:06.895000-06:00"
+    },
+    {
+      "title": "The U.S. Census Bureau and \"Super Intelligence\"",
+      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+      "canonical_url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 124,
+      "published_at": "2026-11-02T13:55:45+00:00"
+    },
+    {
+      "title": "Last night an AI agent performed brain surgery on a mouse",
+      "url": "https://twitter.com/OcanaSantero/status/2115442964574908902",
+      "canonical_url": "https://twitter.com/OcanaSantero/status/2115442964574908902",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 138,
+      "published_at": "2026-11-02T12:50:59+00:00"
+    },
+    {
+      "title": "Projects can now be configured with vercel.toml",
+      "url": "https://vercel.com/changelog/projects-can-now-be-configured-with-vercel-toml",
+      "canonical_url": "https://vercel.com/changelog/projects-can-now-be-configured-with-vercel-toml",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T21:00:00+00:00"
+    },
+    {
+      "title": "Haiku 5.5 now available on Kiro in AWS GovCloud (US)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-haiku-5-5-aws-govcloud-us/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-haiku-5-5-aws-govcloud-us",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T20:45:00+00:00"
+    },
+    {
+      "title": "This background sound leaks your exact location",
+      "url": "https://youtu.be/UytYrhYLOKI",
+      "canonical_url": "https://youtu.be/UytYrhYLOKI",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 59,
+      "published_at": "2026-11-02T13:42:32.458000-06:00"
+    },
+    {
+      "title": "European RISC-V Industrial Computing Initiative",
+      "url": "https://erici.eu",
+      "canonical_url": "https://erici.eu/",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 170,
+      "published_at": "2026-11-02T08:58:33+00:00"
+    },
+    {
+      "title": "Vercel MCP now supports Client ID Metadata Documents",
+      "url": "https://vercel.com/changelog/vercel-mcp-now-supports-client-id-metadata-documents",
+      "canonical_url": "https://vercel.com/changelog/vercel-mcp-now-supports-client-id-metadata-documents",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T20:09:00+00:00"
+    },
+    {
+      "title": "Stop Hardcoding Your Timeouts",
+      "url": "https://alfy.blog/2026/04/23/stop-hardcoding-your-timeouts.html",
+      "canonical_url": "https://alfy.blog/2026/04/23/stop-hardcoding-your-timeouts.html",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 55,
+      "published_at": "2026-11-02T13:22:32.608000-06:00"
+    },
+    {
+      "title": "LongCat-2.5: Native Multimodality for Agentic Tasks",
+      "url": "https://longcat.ai/blog/longcat-2.5/",
+      "canonical_url": "https://longcat.ai/blog/longcat-2.5",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 85,
+      "published_at": "2026-11-02T15:00:26+00:00"
+    },
+    {
+      "title": "Amazon RDS now supports per snapshot billing",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-per-snapshot-billing/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-per-snapshot-billing",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T18:43:00+00:00"
+    },
+    {
+      "title": "C64 Basic Dungeon Crawler: Stairs, Levels and Levelling Up (Part 11)",
+      "url": "https://retrogamecoders.com/c64-basic-dungeon-part11/",
+      "canonical_url": "https://retrogamecoders.com/c64-basic-dungeon-part11",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 78,
+      "published_at": "2026-11-02T14:56:21+00:00"
+    },
+    {
+      "title": "Amazon Quick on desktop now uses your organization's existing Amazon Quick sign-in",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-quick-desktop-organization-sign-in/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-quick-desktop-organization-sign-in",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T18:36:00+00:00"
+    },
+    {
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "canonical_url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "source": "rss:OpenAI",
+      "sources": [
+        "rss:OpenAI"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T18:00:00+00:00"
+    },
+    {
+      "title": "Rewarding defenders with bigger bug bounties",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "canonical_url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "source": "rss:OpenAI",
+      "sources": [
+        "rss:OpenAI"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T18:00:00+00:00"
+    },
+    {
+      "title": "Vercel MCP now renders deployments as an interactive card",
+      "url": "https://vercel.com/changelog/monitor-vercel-deployments-in-chatgpt",
+      "canonical_url": "https://vercel.com/changelog/monitor-vercel-deployments-in-chatgpt",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T17:05:00+00:00"
+    },
+    {
+      "title": "Amazon Aurora MySQL 8.4.10 is now generally available",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-8410-available/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-8410-available",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T17:00:00+00:00"
+    },
+    {
+      "title": "AWS Lambda now supports queues for Apache Kafka in self-managed Kafka event sources",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-queue-kafka-esm/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-queue-kafka-esm",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T17:00:00+00:00"
+    },
+    {
+      "title": "Amazon Aurora MySQL 3.14 (compatible with MySQL 8.0.46) is generally available",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-314-available/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-314-available",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T17:00:00+00:00"
+    },
+    {
+      "title": "Flags Explorer redesigned for easier override sharing",
+      "url": "https://vercel.com/changelog/flags-explorer-redesigned-for-easier-override-sharing",
+      "canonical_url": "https://vercel.com/changelog/flags-explorer-redesigned-for-easier-override-sharing",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T16:58:00+00:00"
+    },
+    {
+      "title": "Vercel Sandbox with Drives now starts up to 2.4x faster",
+      "url": "https://vercel.com/changelog/vercel-sandbox-with-drives-now-starts-up-to-2-4x-faster",
+      "canonical_url": "https://vercel.com/changelog/vercel-sandbox-with-drives-now-starts-up-to-2-4x-faster",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T16:39:00+00:00"
+    },
+    {
+      "title": "Evaluate Vercel Flags from another project without sharing SDK keys.",
+      "url": "https://vercel.com/changelog/evaluate-vercel-flags-from-another-project-without-sharing-sdk-keys",
+      "canonical_url": "https://vercel.com/changelog/evaluate-vercel-flags-from-another-project-without-sharing-sdk-keys",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T16:00:00+00:00"
+    },
+    {
+      "title": "Amazon Connect Customer now supports Model Context Protocol (MCP) tools in flows",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-flows-mcp-tools/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-flows-mcp-tools",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T16:00:00+00:00"
+    },
+    {
+      "title": "Amazon Connect Customer now supports Cases and External Tool events in the Wait block",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-wait-block-cases-tool-events/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-wait-block-cases-tool-events",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T16:00:00+00:00"
+    },
+    {
+      "title": "Introducing the Grid Protectors Program",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "canonical_url": "https://openai.com/index/grid-protectors-program",
+      "source": "rss:OpenAI",
+      "sources": [
+        "rss:OpenAI"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T15:00:00+00:00"
+    },
+    {
+      "title": "An Introduction to Bε-trees and Write-Optimization",
+      "url": "https://www.usenix.org/publications/login/oct15/bender",
+      "canonical_url": "https://usenix.org/publications/login/oct15/bender",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 21,
+      "published_at": "2026-11-02T14:26:38.846000-06:00"
+    },
+    {
+      "title": "Polyend releases the Tracker firmware source code",
+      "url": "https://backstage.polyend.com/t/tracker-the-biggest-update-yet/25120",
+      "canonical_url": "https://backstage.polyend.com/t/tracker-the-biggest-update-yet/25120",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 31,
+      "published_at": "2026-11-02T09:22:16.630000-06:00"
+    },
+    {
+      "title": "Firefox Security & Privacy Newsletter 2026 Q3",
+      "url": "https://attackanddefense.dev/2026/11/02/firefox-security-and-privacy-newsletter-q3.html",
+      "canonical_url": "https://attackanddefense.dev/2026/11/02/firefox-security-and-privacy-newsletter-q3.html",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 5,
+      "published_at": "2026-11-03T02:03:58.461000-06:00"
+    },
+    {
+      "title": "LifeVal",
+      "url": "https://openai.com/index/lifeval",
+      "canonical_url": "https://openai.com/index/lifeval",
+      "source": "rss:OpenAI",
+      "sources": [
+        "rss:OpenAI"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T09:00:00+00:00"
+    },
+    {
+      "title": "EC2 Amazon Machine Images can now be scanned for vulnerabilities through Amazon Inspector",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-amis-scanned-through-inspector/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-amis-scanned-through-inspector",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T08:00:00+00:00"
+    },
+    {
+      "title": "Amazon Textract now available in Asia Pacific (Tokyo) and Europe (Zurich)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/textract-tokyo-zurich/",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/textract-tokyo-zurich",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T08:00:00+00:00"
+    },
+    {
+      "title": "Announcing AWS for Fluent Bit 3.0.0 based on Fluent Bit 4.1.1",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-fluent-bit-3-0-0-based-4-1-1",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-fluent-bit-3-0-0-based-4-1-1",
+      "source": "rss:AWS What's New",
+      "sources": [
+        "rss:AWS What's New"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T08:00:00+00:00"
+    },
+    {
+      "title": "Katamari Damacy but it's The Met collection",
+      "url": "https://katamari.vaguespac.es/",
+      "canonical_url": "https://katamari.vaguespac.es/",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 88,
+      "published_at": "2026-11-02T02:21:07+00:00"
+    },
+    {
+      "title": "Resisting Cognitive Surrender",
+      "url": "https://knlb.dev/essays/surrender",
+      "canonical_url": "https://knlb.dev/essays/surrender",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 250,
+      "published_at": "2026-11-01T06:13:30+00:00"
+    },
+    {
+      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+      "canonical_url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 21,
+      "published_at": "2026-11-02T14:02:42+00:00"
+    },
+    {
+      "title": "433MHz TUI scanner: using a FT232H connected to a CC1101",
+      "url": "https://blog.jacq.cc/guides/cc1101-433mhz-scanner-ft232h/",
+      "canonical_url": "https://blog.jacq.cc/guides/cc1101-433mhz-scanner-ft232h",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 22,
+      "published_at": "2026-11-02T13:28:14+00:00"
+    },
+    {
+      "title": "the lost malloc()",
+      "url": "https://napcakes.nekoweb.org/posts/malloc/",
+      "canonical_url": "https://napcakes.nekoweb.org/posts/malloc",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 34,
+      "published_at": "2026-11-02T02:46:48.752000-06:00"
+    },
+    {
+      "title": "What are you doing this week?",
+      "url": "https://lobste.rs/s/maqsgl/what_are_you_doing_this_week",
+      "canonical_url": "https://lobste.rs/s/maqsgl/what_are_you_doing_this_week",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 18,
+      "published_at": "2026-11-02T07:53:32.064000-06:00"
+    },
+    {
+      "title": "My reflex of assuming our servers need ever-growing amounts of RAM",
+      "url": "https://utcc.utoronto.ca/~cks/space/blog/sysadmin/ServerRAMGrowthReflex",
+      "canonical_url": "https://utcc.utoronto.ca/~cks/space/blog/sysadmin/ServerRAMGrowthReflex",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 25,
+      "published_at": "2026-11-02T04:33:02.386000-06:00"
+    },
+    {
+      "title": "Toit v2.0.0",
+      "url": "https://toit.io/blog/toit-v2-0-0/",
+      "canonical_url": "https://toit.io/blog/toit-v2-0-0",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 168,
+      "published_at": "2026-11-01T00:25:04+00:00"
+    },
+    {
+      "title": "Work on GEFS (the Good Enough File System) for OpenBSD progresses",
+      "url": "https://www.undeadly.org/cgi?action=article;sid=20261101115637",
+      "canonical_url": "https://undeadly.org/cgi?action=article%3Bsid%3D20261101115637",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 97,
+      "published_at": "2026-11-01T14:13:29.256000-06:00"
+    },
+    {
+      "title": "Postgres 19 is late, and it's AI's fault",
+      "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+      "canonical_url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 49,
+      "published_at": "2026-11-01T20:19:02.905000-06:00"
+    },
+    {
+      "title": "An outsider's perspective on Scion and Mononoke",
+      "url": "https://typesanitizer.com/blog/scion.html",
+      "canonical_url": "https://typesanitizer.com/blog/scion.html",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 148,
+      "published_at": "2026-11-01T09:22:36.441000-06:00"
+    },
+    {
+      "title": "Why Don't We Live in an Art Nouveau World?",
+      "url": "https://asteriskmag.com/issues/16/why-don-t-we-life-in-an-art-nouveau-world",
+      "canonical_url": "https://asteriskmag.com/issues/16/why-don-t-we-life-in-an-art-nouveau-world",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 35,
+      "published_at": "2026-11-02T05:05:11+00:00"
+    },
+    {
+      "title": "LongCat 2.5 now available on AI Gateway",
+      "url": "https://vercel.com/changelog/longcat-2-5-now-available-on-ai-gateway",
+      "canonical_url": "https://vercel.com/changelog/longcat-2-5-now-available-on-ai-gateway",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T00:00:00+00:00"
+    },
+    {
+      "title": "Blocking malicious npm packages before and during installation",
+      "url": "https://vercel.com/changelog/blocking-malicious-npm-packages-before-and-during-installation",
+      "canonical_url": "https://vercel.com/changelog/blocking-malicious-npm-packages-before-and-during-installation",
+      "source": "rss:Vercel",
+      "sources": [
+        "rss:Vercel"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T00:00:00+00:00"
+    },
+    {
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "canonical_url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "source": "rss:OpenAI",
+      "sources": [
+        "rss:OpenAI"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T00:00:00+00:00"
+    },
+    {
+      "title": "Qodo builds context into AI code review with Codex",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "canonical_url": "https://openai.com/index/qodo-codex-plugin",
+      "source": "rss:OpenAI",
+      "sources": [
+        "rss:OpenAI"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-02T00:00:00+00:00"
+    },
+    {
+      "title": "Recognizing Keystrokes Using WiFi Devices",
+      "url": "https://ieeexplore.ieee.org/document/7875144",
+      "canonical_url": "https://ieeexplore.ieee.org/document/7875144",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 11,
+      "published_at": "2026-11-02T08:43:13.576000-06:00"
+    },
+    {
+      "title": "Virtual Art Museum built with Three js",
+      "url": "https://dostoynikov.bearblog.dev/virtual-museum-for-my-wifes-artworks/",
+      "canonical_url": "https://dostoynikov.bearblog.dev/virtual-museum-for-my-wifes-artworks",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 9,
+      "published_at": "2026-11-02T09:51:17.980000-06:00"
+    },
+    {
+      "title": "Game Off 2026: The theme is SHIFT",
+      "url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
+      "canonical_url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift",
+      "source": "rss:GitHub",
+      "sources": [
+        "rss:GitHub"
+      ],
+      "engagement": 0,
+      "published_at": "2026-11-01T21:36:00+00:00"
+    },
+    {
+      "title": "Life with Down Syndrome",
+      "url": "https://www.esquire.com/news-politics/a74031571/life-with-down-syndrome/",
+      "canonical_url": "https://esquire.com/news-politics/a74031571/life-with-down-syndrome",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 81,
+      "published_at": "2026-11-01T16:26:21+00:00"
+    },
+    {
+      "title": "Program",
+      "url": "https://schmud.de/posts/2026-11-02-program.html",
+      "canonical_url": "https://schmud.de/posts/2026-11-02-program.html",
+      "source": "lobsters",
+      "sources": [
+        "lobsters"
+      ],
+      "engagement": 11,
+      "published_at": "2026-11-02T05:18:07.110000-06:00"
+    },
+    {
+      "title": "Optical Circuit Switch Technology Built on Low-Loss Silicon Photonics Platform",
+      "url": "https://www.psiquantum.com/news-import/psiquantum-unveils-optical-circuit-switch-technology-built-on-advanced-low-loss-silicon-photonics-platform",
+      "canonical_url": "https://psiquantum.com/news-import/psiquantum-unveils-optical-circuit-switch-technology-built-on-advanced-low-loss-silicon-photonics-platform",
+      "source": "hn",
+      "sources": [
+        "hn"
+      ],
+      "engagement": 27,
+      "published_at": "2026-11-02T01:34:16+00:00"
+    }
+  ],
+  "raw_responses": [
+    "[{\"id\":0,\"score\":5,\"category\":\"ai\",\"why\":\"AI model weight research, not a stack primitive\",\"action\":\"skip\"},{\"id\":1,\"score\":4,\"category\":\"devops\",\"why\":\"Git scaling case study, no new tool to adopt\",\"action\":\"skip\"},{\"id\":2,\"score\":1,\"category\":\"devops\",\"why\":\"Hardware opinion piece, off-topic for stack\",\"action\":\"skip\"},{\"id\":3,\"score\":5,\"category\":\"backend\",\"why\":\"DuckDB migration story, not Postgres/Supabase\",\"action\":\"skip\"},{\"id\":4,\"score\":3,\"category\":\"ai\",\"why\":\"Meta-discussion rebuttal, no technical signal\",\"action\":\"skip\"}]",
+    "[{\"id\":5,\"score\":3,\"category\":\"devops\",\"why\":\"Ubuntu drama, no stack impact\",\"action\":\"skip\"},{\"id\":6,\"score\":4,\"category\":\"frontend\",\"why\":\"Show HN side project, not a tool\",\"action\":\"skip\"},{\"id\":7,\"score\":6,\"category\":\"devops\",\"why\":\"Fintech self-hosting trend, not a primitive\",\"action\":\"skip\"},{\"id\":8,\"score\":5,\"category\":\"ai\",\"why\":\"Nvidia ontology niche, not your stack\",\"action\":\"skip\"},{\"id\":9,\"score\":2,\"category\":\"ai\",\"why\":\"Retro chess thought experiment, irrelevant\",\"action\":\"skip\"}]",
+    "[{\"id\":10,\"score\":4,\"category\":\"ai\",\"why\":\"Voice input demo; not a stack primitive\",\"action\":\"skip\"},{\"id\":11,\"score\":1,\"category\":\"devops\",\"why\":\"Retro optical media tool; irrelevant to web stack\",\"action\":\"skip\"},{\"id\":12,\"score\":9,\"category\":\"security\",\"why\":\"Unpatched Linux 0day RCE hits your servers\",\"action\":\"aware\"},{\"id\":13,\"score\":2,\"category\":\"ai\",\"why\":\"Regulatory opinion on Anthropic; no code impact\",\"action\":\"skip\"},{\"id\":14,\"score\":1,\"category\":\"backend\",\"why\":\"Demographic finance data; off-topic for engineering\",\"action\":\"skip\"}]",
+    "[{\"id\":15,\"score\":2,\"category\":\"frontend\",\"why\":\"User-level ad-block tip, not a dev primitive\",\"action\":\"skip\"},{\"id\":16,\"score\":2,\"category\":\"backend\",\"why\":\"Financial/hardware news, no code impact\",\"action\":\"skip\"},{\"id\":17,\"score\":4,\"category\":\"devops\",\"why\":\"Backup reminder, good practice but not new tooling\",\"action\":\"skip\"},{\"id\":18,\"score\":1,\"category\":\"backend\",\"why\":\"Auto industry sales data, irrelevant to stack\",\"action\":\"skip\"},{\"id\":19,\"score\":3,\"category\":\"ai\",\"why\":\"Opinion piece on AI skepticism, no actionable tech\",\"action\":\"skip\"}]",
+    "[{\"id\":20,\"score\":1,\"category\":\"backend\",\"why\":\"Off-topic, not relevant to stack\",\"action\":\"skip\"},{\"id\":21,\"score\":3,\"category\":\"ai\",\"why\":\"Business news, no code impact\",\"action\":\"skip\"},{\"id\":22,\"score\":3,\"category\":\"ai\",\"why\":\"Cost metric, no actionable change\",\"action\":\"skip\"},{\"id\":23,\"score\":1,\"category\":\"backend\",\"why\":\"Off-topic, ham radio query\",\"action\":\"skip\"},{\"id\":24,\"score\":4,\"category\":\"security\",\"why\":\"NIST guide for solo devs, optional reading\",\"action\":\"skip\"}]",
+    "[{\"id\":25,\"score\":2,\"category\":\"frontend\",\"why\":\"Cool voxel demo but no stack relevance\",\"action\":\"skip\"},{\"id\":26,\"score\":1,\"category\":\"frontend\",\"why\":\"Retro history, zero technical value\",\"action\":\"skip\"},{\"id\":27,\"score\":2,\"category\":\"ai\",\"why\":\"Oracle funding news, no code impact\",\"action\":\"skip\"},{\"id\":28,\"score\":2,\"category\":\"ai\",\"why\":\"Vendor case study, marketing fluff\",\"action\":\"skip\"},{\"id\":29,\"score\":4,\"category\":\"security\",\"why\":\"IoT supply-chain attack, not your stack\",\"action\":\"skip\"}]",
+    "[{\"id\":30,\"score\":2,\"category\":\"ai\",\"why\":\"Philosophy piece, no stack impact\",\"action\":\"skip\"},{\"id\":31,\"score\":1,\"category\":\"backend\",\"why\":\"Monthly hiring thread, pure noise\",\"action\":\"skip\"},{\"id\":32,\"score\":3,\"category\":\"ai\",\"why\":\"Truncated title, likely discussion not tool\",\"action\":\"skip\"},{\"id\":33,\"score\":2,\"category\":\"ai\",\"why\":\"Funding news, no code change needed\",\"action\":\"skip\"},{\"id\":34,\"score\":4,\"category\":\"ai\",\"why\":\"Research finding, interesting but not actionable\",\"action\":\"skip\"}]",
+    "[{\"id\":35,\"score\":1,\"category\":\"devops\",\"why\":\"Retrocomputing history, irrelevant to stack\",\"action\":\"skip\"},{\"id\":36,\"score\":5,\"category\":\"testing\",\"why\":\"AI testing tool launch, unproven adoption\",\"action\":\"skip\"},{\"id\":37,\"score\":1,\"category\":\"devops\",\"why\":\"Hardware firmware release, off-topic\",\"action\":\"skip\"},{\"id\":38,\"score\":1,\"category\":\"backend\",\"why\":\"Physics research, not software relevant\",\"action\":\"skip\"},{\"id\":39,\"score\":2,\"category\":\"frontend\",\"why\":\"Apple earnings, business not tech shift\",\"action\":\"skip\"}]",
+    "[{\"id\":40,\"score\":6,\"category\":\"devops\",\"why\":\"build perf case study, maybe relevant\",\"action\":\"skip\"},{\"id\":41,\"score\":1,\"category\":\"testing\",\"why\":\"off-topic education history\",\"action\":\"skip\"},{\"id\":42,\"score\":3,\"category\":\"ai\",\"why\":\"industry labor news, no code impact\",\"action\":\"skip\"},{\"id\":43,\"score\":1,\"category\":\"backend\",\"why\":\"politics/USPS, off-topic\",\"action\":\"skip\"},{\"id\":44,\"score\":2,\"category\":\"frontend\",\"why\":\"marketing skill, not engineering\",\"action\":\"skip\"}]",
+    "[{\"id\":45,\"score\":2,\"category\":\"devops\",\"why\":\"Car hardware hack, irrelevant to your stack\",\"action\":\"skip\"},{\"id\":46,\"score\":7,\"category\":\"security\",\"why\":\"New AI supply-chain attack vector to track\",\"action\":\"aware\"},{\"id\":47,\"score\":5,\"category\":\"backend\",\"why\":\"Historical kill-bug postmortems, incremental\",\"action\":\"skip\"},{\"id\":48,\"score\":2,\"category\":\"backend\",\"why\":\"Oracle RDS instance types, not your Postgres\",\"action\":\"skip\"},{\"id\":49,\"score\":2,\"category\":\"devops\",\"why\":\"Leadership opinion piece, no technical shift\",\"action\":\"skip\"}]",
+    "[{\"id\":50,\"score\":4,\"category\":\"ai\",\"why\":\"Model capability demo, not a stack primitive\",\"action\":\"skip\"},{\"id\":51,\"score\":2,\"category\":\"ai\",\"why\":\"Industry opinion piece, no technical substance\",\"action\":\"skip\"},{\"id\":52,\"score\":5,\"category\":\"devops\",\"why\":\"Nix discussion thread; useful if evaluating it\",\"action\":\"skip\"},{\"id\":53,\"score\":3,\"category\":\"ai\",\"why\":\"Government/AI policy talk, no code impact\",\"action\":\"skip\"},{\"id\":54,\"score\":1,\"category\":\"ai\",\"why\":\"Science demo, unrelated to your stack\",\"action\":\"skip\"}]",
+    "[{\"id\":55,\"score\":8,\"category\":\"devops\",\"why\":\"New config primitive for your Vercel deployments\",\"action\":\"learn\"},{\"id\":56,\"score\":2,\"category\":\"ai\",\"why\":\"Niche GovCloud AI model availability\",\"action\":\"skip\"},{\"id\":57,\"score\":3,\"category\":\"security\",\"why\":\"Acoustic side-channel research, not your stack\",\"action\":\"skip\"},{\"id\":58,\"score\":1,\"category\":\"backend\",\"why\":\"Hardware initiative, irrelevant to your stack\",\"action\":\"skip\"},{\"id\":59,\"score\":6,\"category\":\"ai\",\"why\":\"Vercel MCP spec compliance, incremental\",\"action\":\"skip\"}]",
+    "[{\"id\":60,\"score\":5,\"category\":\"backend\",\"why\":\"Timeout config best practices; incremental\",\"action\":\"skip\"},{\"id\":61,\"score\":5,\"category\":\"ai\",\"why\":\"New model release; read-only for this stack\",\"action\":\"skip\"},{\"id\":62,\"score\":3,\"category\":\"backend\",\"why\":\"RDS billing change; not a technical primitive\",\"action\":\"skip\"},{\"id\":63,\"score\":1,\"category\":\"backend\",\"why\":\"Retrocomputing hobby project; off-topic\",\"action\":\"skip\"},{\"id\":64,\"score\":3,\"category\":\"devops\",\"why\":\"Minor AWS SSO update; not relevant to Supabase stack\",\"action\":\"skip\"}]",
+    "[{\"id\":65,\"score\":2,\"category\":\"security\",\"why\":\"OpenAI internal process, no stack impact\",\"action\":\"skip\"},{\"id\":66,\"score\":2,\"category\":\"security\",\"why\":\"Bug bounty policy change, not actionable\",\"action\":\"skip\"},{\"id\":67,\"score\":6,\"category\":\"devops\",\"why\":\"Vercel MCP UI polish, minor workflow nicety\",\"action\":\"skip\"},{\"id\":68,\"score\":2,\"category\":\"backend\",\"why\":\"Aurora MySQL minor version, you use Postgres\",\"action\":\"skip\"},{\"id\":69,\"score\":3,\"category\":\"backend\",\"why\":\"Lambda Kafka queues, not your event stack\",\"action\":\"skip\"}]",
+    "[{\"id\":70,\"score\":2,\"category\":\"backend\",\"why\":\"Not your Postgres stack; ignore.\",\"action\":\"skip\"},{\"id\":71,\"score\":5,\"category\":\"devops\",\"why\":\"UI polish for flags; incremental.\",\"action\":\"skip\"},{\"id\":72,\"score\":6,\"category\":\"devops\",\"why\":\"Faster sandbox startup; nice but incremental.\",\"action\":\"skip\"},{\"id\":73,\"score\":7,\"category\":\"devops\",\"why\":\"Cross-project flags without key sharing; adopt.\",\"action\":\"learn\"},{\"id\":74,\"score\":2,\"category\":\"ai\",\"why\":\"Contact center AI; irrelevant to you.\",\"action\":\"skip\"}]",
+    "[{\"id\":75,\"score\":2,\"category\":\"backend\",\"why\":\"AWS contact center feature, not your stack\",\"action\":\"skip\"},{\"id\":76,\"score\":1,\"category\":\"devops\",\"why\":\"Vendor program announcement, no technical substance\",\"action\":\"skip\"},{\"id\":77,\"score\":5,\"category\":\"backend\",\"why\":\"Database internals deep-dive, useful background only\",\"action\":\"skip\"},{\"id\":78,\"score\":1,\"category\":\"devops\",\"why\":\"Hardware firmware release, irrelevant to web stack\",\"action\":\"skip\"},{\"id\":79,\"score\":3,\"category\":\"security\",\"why\":\"Browser security newsletter, awareness-level only\",\"action\":\"skip\"}]",
+    "[{\"id\":80,\"score\":2,\"category\":\"backend\",\"why\":\"Unclear relevance to your stack\",\"action\":\"skip\"},{\"id\":81,\"score\":4,\"category\":\"security\",\"why\":\"EC2 AMI scanning; you use Supabase\",\"action\":\"skip\"},{\"id\":82,\"score\":2,\"category\":\"backend\",\"why\":\"Regional rollout, no new capability\",\"action\":\"skip\"},{\"id\":83,\"score\":5,\"category\":\"devops\",\"why\":\"Logging agent update; if you use Fluent Bit\",\"action\":\"skip\"},{\"id\":84,\"score\":1,\"category\":\"frontend\",\"why\":\"Art game, no technical relevance\",\"action\":\"skip\"}]",
+    "[{\"id\":85,\"score\":3,\"category\":\"ai\",\"why\":\"Opinion piece on AI cognition, no code impact\",\"action\":\"skip\"},{\"id\":86,\"score\":2,\"category\":\"devops\",\"why\":\"Hardware tape storage news, irrelevant to stack\",\"action\":\"skip\"},{\"id\":87,\"score\":2,\"category\":\"devops\",\"why\":\"Radio hardware hacking, not web-relevant\",\"action\":\"skip\"},{\"id\":88,\"score\":4,\"category\":\"backend\",\"why\":\"Deep malloc internals, interesting but not applicable\",\"action\":\"skip\"},{\"id\":89,\"score\":1,\"category\":\"backend\",\"why\":\"Weekly discussion thread, no technical substance\",\"action\":\"skip\"}]",
+    "[{\"id\":90,\"score\":2,\"category\":\"backend\",\"why\":\"Opinion on RAM sizing, not actionable\",\"action\":\"skip\"},{\"id\":91,\"score\":3,\"category\":\"backend\",\"why\":\"Embedded language release, irrelevant to stack\",\"action\":\"skip\"},{\"id\":92,\"score\":2,\"category\":\"backend\",\"why\":\"OpenBSD filesystem progress, not your environment\",\"action\":\"skip\"},{\"id\":93,\"score\":3,\"category\":\"backend\",\"why\":\"Postgres delay discussion, no technical change\",\"action\":\"skip\"},{\"id\":94,\"score\":3,\"category\":\"devops\",\"why\":\"Git server analysis, not your tooling\",\"action\":\"skip\"}]",
+    "[{\"id\":95,\"score\":1,\"category\":\"frontend\",\"why\":\"Architecture history, zero relevance to stack\",\"action\":\"skip\"},{\"id\":96,\"score\":4,\"category\":\"ai\",\"why\":\"Model release on gateway; incremental, not a primitive\",\"action\":\"skip\"},{\"id\":97,\"score\":7,\"category\":\"security\",\"why\":\"New npm supply-chain primitive; adopt to harden installs\",\"action\":\"learn\"},{\"id\":98,\"score\":2,\"category\":\"ai\",\"why\":\"Personnel announcement; no code impact\",\"action\":\"skip\"},{\"id\":99,\"score\":6,\"category\":\"testing\",\"why\":\"AI code-review feature bump; useful but incremental\",\"action\":\"skip\"}]",
+    "[{\"id\":100,\"score\":3,\"category\":\"security\",\"why\":\"WiFi side-channel research; not actionable for your stack\",\"action\":\"skip\"},{\"id\":101,\"score\":3,\"category\":\"frontend\",\"why\":\"Three.js demo showcase; no new primitives to adopt\",\"action\":\"skip\"},{\"id\":102,\"score\":1,\"category\":\"frontend\",\"why\":\"Game jam announcement; pure marketing noise\",\"action\":\"skip\"},{\"id\":103,\"score\":1,\"category\":\"backend\",\"why\":\"Personal story; zero technical relevance\",\"action\":\"skip\"},{\"id\":104,\"score\":2,\"category\":\"backend\",\"why\":\"Vague title, no context; likely minor discussion\",\"action\":\"skip\"}]",
+    "[{\"id\": 105, \"score\": 1, \"category\": \"devops\", \"why\": \"Hardware research, not your stack\", \"action\": \"skip\"}]"
+  ]
+}
